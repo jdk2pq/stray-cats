@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DC Kitten Finder</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --ink: #1a1a1a;
+    --paper: #f5f2eb;
+    --card: #ffffff;
+    --accent: #e05c2a;
+    --accent2: #2a6db5;
+    --muted: #888;
+    --border: #e0ddd6;
+    --mono: 'DM Mono', monospace;
+    --sans: 'DM Sans', sans-serif;
+  }
+
+  html, body { height: 100%; overflow: hidden; }
+
+  body {
+    font-family: var(--sans);
+    background: var(--paper);
+    color: var(--ink);
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 50px;
+    flex-shrink: 0;
+  }
+
+  header h1 {
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .header-meta {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: #888;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .header-count { color: var(--accent); }
+
+  .refresh-btn {
+    font-family: var(--mono);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    background: none;
+    border: 1px solid #444;
+    color: #aaa;
+    padding: 4px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .refresh-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  .progress {
+    height: 2px;
+    background: var(--paper);
+    flex-shrink: 0;
+  }
+  .progress-bar {
+    height: 100%;
+    background: var(--accent);
+    width: 0%;
+    transition: width 0.3s ease;
+  }
+
+  .main {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  /* ── SIDEBAR ── */
+  .sidebar {
+    width: 280px;
+    flex-shrink: 0;
+    background: var(--card);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .filters {
+    overflow-y: auto;
+    flex-shrink: 0;
+    max-height: 55%;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .fs {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .fs:last-child { border-bottom: none; }
+
+  .fl {
+    font-family: var(--mono);
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .fl button {
+    font-family: var(--mono);
+    font-size: 9px;
+    background: none;
+    border: none;
+    color: var(--accent);
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0;
+  }
+
+  input[type="text"],
+  input[type="date"],
+  select {
+    width: 100%;
+    font-family: var(--mono);
+    font-size: 11px;
+    padding: 6px 9px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    background: var(--paper);
+    color: var(--ink);
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  input:focus, select:focus { border-color: var(--accent); }
+
+  select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='5'%3E%3Cpath d='M0 0l4 5 4-5z' fill='%23999'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 9px center;
+    padding-right: 24px;
+  }
+
+  .date-row { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
+
+  .pills { display: flex; flex-wrap: wrap; gap: 4px; }
+  .pill {
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 3px 9px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    cursor: pointer;
+    background: var(--paper);
+    color: var(--ink);
+    transition: all 0.1s;
+    user-select: none;
+  }
+  .pill.active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .pill:hover:not(.active) { border-color: var(--accent); color: var(--accent); }
+
+  /* ── RESULTS LIST ── */
+  .results-header {
+    padding: 8px 14px;
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--muted);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+
+  .results-list {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  .ri {
+    padding: 9px 14px;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    transition: background 0.1s;
+  }
+  .ri:hover { background: var(--paper); }
+  .ri.active { background: #fff8f5; border-left: 3px solid var(--accent); padding-left: 11px; }
+
+  .ri-name { font-weight: 500; font-size: 13px; margin-bottom: 1px; }
+  .ri-meta { font-family: var(--mono); font-size: 10px; color: var(--muted); line-height: 1.7; }
+  .ri-addr { font-size: 11px; color: var(--accent2); margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .ri-nogeo { font-size: 10px; color: #bbb; font-style: italic; }
+  .mother-badge {
+    display: inline-block;
+    font-size: 9px;
+    font-family: var(--mono);
+    padding: 1px 6px;
+    border-radius: 20px;
+    background: #fef3ee;
+    color: #c0582a;
+    border: 1px solid #f5c4a8;
+    vertical-align: middle;
+    letter-spacing: 0.03em;
+  }
+  .ri-mom {
+    font-size: 10px;
+    color: #c0582a;
+    margin-top: 3px;
+    font-style: italic;
+  }
+
+  .no-results {
+    padding: 30px 14px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    text-align: center;
+    line-height: 1.8;
+  }
+
+  /* ── MAP ── */
+  #map { flex: 1; }
+
+  /* ── NOTIFICATION ── */
+  .toast {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%) translateY(60px);
+    background: var(--ink);
+    color: var(--paper);
+    font-family: var(--mono);
+    font-size: 11px;
+    padding: 8px 16px;
+    border-radius: 3px;
+    transition: transform 0.2s ease;
+    z-index: 999;
+    pointer-events: none;
+  }
+  .toast.show { transform: translateX(-50%) translateY(0); }
+
+  .attribution {
+    position: fixed;
+    bottom: 6px;
+    right: 8px;
+    font-size: 10px;
+    color: #555;
+    background: rgba(255,255,255,0.85);
+    padding: 2px 6px;
+    border-radius: 3px;
+    z-index: 999;
+    pointer-events: none;
+  }
+  .attribution a { color: #2a6db5; pointer-events: all; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🐱 DC Kitten Finder</h1>
+  <div class="header-meta">
+    <span id="headerCount" class="header-count">Loading...</span>
+    <span id="headerUpdated"></span>
+    <button class="refresh-btn" onclick="reload()">↺ Refresh</button>
+    <button class="refresh-btn" onclick="downloadCSV()">↓ CSV</button>
+  </div>
+</header>
+
+<div class="progress"><div class="progress-bar" id="progressBar"></div></div>
+
+<div class="main">
+  <div class="sidebar">
+    <div class="filters">
+
+      <div class="fs">
+        <div class="fl">Search</div>
+        <input type="text" id="q" placeholder="Name, breed, color, address…" oninput="filter()">
+      </div>
+
+      <div class="fs">
+        <div class="fl">Year <button onclick="clearPills()">Clear</button></div>
+        <div class="pills" id="yearPills"></div>
+      </div>
+
+      <div class="fs">
+        <div class="fl">Date found</div>
+        <div class="date-row">
+          <input type="date" id="dateFrom" onchange="filter()" placeholder="From">
+          <input type="date" id="dateTo" onchange="filter()" placeholder="To">
+        </div>
+      </div>
+
+      <div class="fs">
+        <div class="fl">Sex <button onclick="reset('sexSel')">Clear</button></div>
+        <select id="sexSel" onchange="filter()">
+          <option value="">All</option>
+          <option value="M">Male</option>
+          <option value="F">Female</option>
+          <option value="U">Unknown</option>
+        </select>
+      </div>
+
+      <div class="fs">
+        <div class="fl">DC quadrant <button onclick="reset('jurisdSel')">Clear</button></div>
+        <select id="jurisdSel" onchange="filter()">
+          <option value="">All quadrants</option>
+          <option value="Washington, D.C. - NW">Northwest (NW)</option>
+          <option value="Washington, D.C. - NE">Northeast (NE)</option>
+          <option value="Washington, D.C. - SE">Southeast (SE)</option>
+          <option value="Washington, D.C. - SW">Southwest (SW)</option>
+        </select>
+      </div>
+
+      <div class="fs">
+        <div class="fl">Breed <button onclick="reset('breedSel')">Clear</button></div>
+        <select id="breedSel" onchange="filter()"></select>
+      </div>
+
+      <div class="fs">
+        <div class="fl">Color <button onclick="reset('colorSel')">Clear</button></div>
+        <select id="colorSel" onchange="filter()"></select>
+      </div>
+
+      <div class="fs">
+        <div class="fl">Holding location <button onclick="reset('locationSel')">Clear</button></div>
+        <select id="locationSel" onchange="filter()"></select>
+      </div>
+
+      <div class="fs">
+        <div class="fl">Possible mother <button onclick="reset('motherSel')">Clear</button></div>
+        <select id="motherSel" onchange="filter()">
+          <option value="">All</option>
+          <option value="yes">With likely mother</option>
+          <option value="no">Without mother match</option>
+        </select>
+      </div>
+
+      <div class="fs">
+        <div class="fl">Spayed / neutered <button onclick="reset('snSel')">Clear</button></div>
+        <select id="snSel" onchange="filter()">
+          <option value="">All</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+      </div>
+
+    </div>
+
+    <div class="results-header" id="resultsHeader"></div>
+    <div class="results-list" id="resultsList"></div>
+  </div>
+
+  <div id="map"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+<div class="attribution">Geocoding by <a href="https://nominatim.openstreetmap.org" target="_blank">Nominatim</a> / <a href="https://www.openstreetmap.org/copyright" target="_blank">© OpenStreetMap contributors</a></div>
+
+<script>
+let allRecords = [], filtered = [], coords = {};
+let map, markers = [], infoWindow, activeIdx = null;
+let selectedYears = new Set();
+
+// ── PROGRESS ──
+function setProgress(pct) {
+  document.getElementById('progressBar').style.width = pct + '%';
+  if (pct >= 100) setTimeout(() => document.getElementById('progressBar').style.width = '0', 500);
+}
+
+// ── TOAST ──
+function toast(msg, ms = 2500) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  setTimeout(() => el.classList.remove('show'), ms);
+}
+
+// ── LOAD ──
+async function reload() {
+  setProgress(10);
+  document.getElementById('headerCount').textContent = 'Loading…';
+  try {
+    const v = Date.now();
+    const [animalsRes, coordsRes] = await Promise.all([
+      fetch('animals.json?v=' + v),
+      fetch('coords.json?v=' + v),
+    ]);
+
+    setProgress(60);
+    const animalsMap = await animalsRes.json(); // { id: record, ... }
+    coords = await coordsRes.json();
+    setProgress(85);
+
+    allRecords = Object.values(animalsMap).map((r, i) => ({
+      ...r,
+      i,
+      year: (r.foundDate || '').slice(0, 4),
+      latlng: coords[r.fullAddr] || null,
+    }));
+
+    buildFilterOptions();
+    filter();
+    setProgress(100);
+
+    const ts = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    document.getElementById('headerUpdated').textContent = 'Updated ' + ts;
+    toast(`Loaded ${allRecords.length} DC kittens`);
+  } catch(e) {
+    document.getElementById('headerCount').textContent = 'Error';
+    toast('Failed to load: ' + e.message, 5000);
+    setProgress(0);
+  }
+}
+
+// ── FILTER OPTIONS ──
+function buildFilterOptions() {
+  const years = [...new Set(allRecords.map(r => r.year).filter(Boolean))].sort().reverse();
+  document.getElementById('yearPills').innerHTML = years.map(y =>
+    `<span class="pill${selectedYears.has(y) ? ' active' : ''}" data-y="${y}" onclick="toggleYear('${y}')">${y}</span>`
+  ).join('');
+  fillSel('jurisdSel', uniq(allRecords, 'jurisdiction'));
+  fillSel('breedSel', uniq(allRecords, 'breed'));
+  fillSel('colorSel', uniq(allRecords, 'color'));
+  fillSel('locationSel', uniq(allRecords, 'location'));
+}
+
+function uniq(records, key) {
+  return [...new Set(records.map(r => r[key]).filter(Boolean))].sort();
+}
+
+function fillSel(id, options) {
+  const s = document.getElementById(id);
+  const cur = s.value;
+  s.innerHTML = '<option value="">All</option>' + options.map(o =>
+    `<option value="${o}"${o === cur ? ' selected' : ''}>${o}</option>`
+  ).join('');
+}
+
+// ── YEAR PILLS ──
+function toggleYear(y) {
+  selectedYears.has(y) ? selectedYears.delete(y) : selectedYears.add(y);
+  document.querySelectorAll('.pill').forEach(p =>
+    p.classList.toggle('active', selectedYears.has(p.dataset.y))
+  );
+  filter();
+}
+function clearPills() { selectedYears.clear(); document.querySelectorAll('.pill').forEach(p => p.classList.remove('active')); filter(); }
+function reset(id) { document.getElementById(id).value = ''; filter(); }
+
+// ── FILTER ──
+function filter() {
+  const q = document.getElementById('q').value.toLowerCase();
+  const df = document.getElementById('dateFrom').value;
+  const dt = document.getElementById('dateTo').value;
+  const sex = document.getElementById('sexSel').value;
+  const juris = document.getElementById('jurisdSel').value;
+  const breed = document.getElementById('breedSel').value;
+  const color = document.getElementById('colorSel').value;
+  const loc = document.getElementById('locationSel').value;
+  const sn = document.getElementById('snSel').value;
+  const motherFilter = document.getElementById('motherSel').value;
+
+  filtered = allRecords.filter(r => {
+    if (selectedYears.size && !selectedYears.has(r.year)) return false;
+    if (df && r.foundDate < df) return false;
+    if (dt && r.foundDate > dt) return false;
+    if (sex && r.sex !== sex) return false;
+    if (juris && r.jurisdiction !== juris) return false;
+    if (breed && r.breed !== breed) return false;
+    if (color && r.color !== color) return false;
+    if (loc && r.location !== loc) return false;
+    if (sn && r.spayedNeutered !== sn) return false;
+    if (motherFilter === 'yes' && !r.possibleMother) return false;
+    if (motherFilter === 'no' && r.possibleMother) return false;
+    if (q) {
+      const hay = [r.name, r.breed, r.color, r.foundAddr, r.location, r.jurisdiction, r.city, r.state].join(' ').toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  }).sort((a, b) => (b.foundDate || '').localeCompare(a.foundDate || ''));
+
+  const withGeo = filtered.filter(r => r.latlng).length;
+  document.getElementById('headerCount').textContent = `${filtered.length} of ${allRecords.length}`;
+  document.getElementById('resultsHeader').textContent =
+    `${filtered.length} result${filtered.length !== 1 ? 's' : ''} · ${withGeo} mapped`;
+
+  renderList();
+  renderMarkers();
+}
+
+// ── LIST ──
+function renderList() {
+  const el = document.getElementById('resultsList');
+  if (!filtered.length) {
+    el.innerHTML = '<div class="no-results">No cats match<br>your filters.</div>';
+    return;
+  }
+  el.innerHTML = filtered.map(r => `
+    <div class="ri${r.i === activeIdx ? ' active' : ''}" id="ri${r.i}" onclick="focusRecord(${r.i})">
+      <div class="ri-name">${r.name}${r.possibleMother ? ' <span class="mother-badge">w/ mom?</span>' : ''}</div>
+      <div class="ri-meta">
+        ${r.foundDate} · ${sexLabel(r.sex)} · ${r.color || '—'}<br>
+        ${r.breed || '—'}
+      </div>
+      ${r.foundAddr
+        ? `<div class="ri-addr" title="${r.fullAddr}">📍 ${r.foundAddr}</div>`
+        : `<div class="ri-nogeo">no address on record</div>`}
+      ${r.possibleMother ? `<div class="ri-mom">Possible mom: ${r.possibleMother.name} · ${r.possibleMother.color} · ${r.possibleMother.ageMonths}mo</div>` : ''}
+    </div>
+  `).join('');
+}
+
+function sexLabel(s) { return s === 'M' ? 'Male' : s === 'F' ? 'Female' : 'Unknown'; }
+
+// ── MARKERS ──
+function renderMarkers() {
+  // markers array stores raw google.maps.Marker objects — clear them correctly
+  markers.forEach(m => m.marker.setMap(null));
+  markers = [];
+  if (!map) return;
+
+  const bounds = new google.maps.LatLngBounds();
+  let any = false;
+
+  filtered.forEach(r => {
+    if (!r.latlng) return;
+    const pos = { lat: r.latlng.lat, lng: r.latlng.lng };
+    bounds.extend(pos);
+    any = true;
+    const marker = new google.maps.Marker({
+      position: pos,
+      map,
+      title: r.name,
+      icon: {
+        path: google.maps.SymbolPath.CIRCLE,
+        scale: r.i === activeIdx ? 9 : 7,
+        fillColor: r.i === activeIdx ? '#e05c2a' : '#e07a55',
+        fillOpacity: 0.92,
+        strokeColor: '#fff',
+        strokeWeight: 1.5,
+      },
+      zIndex: r.i === activeIdx ? 10 : 1,
+    });
+    marker.addListener('click', () => activateRecord(r.i, marker));
+    markers.push({ marker, record: r });
+  });
+
+  if (any) map.fitBounds(bounds, { padding: 60 });
+}
+
+// ── FOCUS / ACTIVATE ──
+function focusRecord(idx) {
+  const r = allRecords[idx];
+  if (!r) return;
+  const entry = markers.find(m => m.record.i === idx);
+  activateRecord(idx, entry?.marker ?? null);
+  if (r.latlng) {
+    map.panTo({ lat: r.latlng.lat, lng: r.latlng.lng });
+    map.setZoom(14);
+  }
+}
+
+function activateRecord(idx, marker) {
+  activeIdx = idx;
+  const r = allRecords[idx];
+
+  // Highlight list item
+  document.querySelectorAll('.ri').forEach(el => el.classList.remove('active'));
+  const li = document.getElementById('ri' + idx);
+  if (li) { li.classList.add('active'); li.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
+
+  // Update all marker icons in-place (highlight active, dim others)
+  markers.forEach(({ marker: m, record: rec }) => {
+    const isActive = rec.i === idx;
+    m.setIcon({
+      path: google.maps.SymbolPath.CIRCLE,
+      scale: isActive ? 9 : 7,
+      fillColor: isActive ? '#e05c2a' : '#e07a55',
+      fillOpacity: 0.92,
+      strokeColor: '#fff',
+      strokeWeight: 1.5,
+    });
+    m.setZIndex(isActive ? 10 : 1);
+  });
+
+  // Info window
+  if (marker && infoWindow) {
+    const m = r.possibleMother;
+    const motherHtml = m ? `
+      <div style="margin-top:8px;padding-top:8px;border-top:1px solid #eee">
+        <div style="font-size:11px;font-weight:500;color:#888;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.05em">Possible mother <span style="font-weight:400;text-transform:none">(inferred)</span></div>
+        <div style="font-size:12px;color:#333;margin-bottom:1px">🐱 ${m.name} · ${m.color} · ${m.ageMonths}mo</div>
+        <div style="font-size:12px;color:#555;margin-bottom:1px">${m.breed}</div>
+        <div style="font-size:12px;color:#555;">🏠 ${m.location || '—'}</div>
+        <div style="font-size:10px;color:#aaa;margin-top:4px;font-style:italic">${m.note}</div>
+      </div>
+    ` : '';
+    infoWindow.setContent(`
+      <div style="font-family:'DM Sans',sans-serif;max-width:230px;padding:2px">
+        <div style="font-weight:500;font-size:14px;margin-bottom:5px">${r.name}</div>
+        <div style="font-size:12px;color:#555;margin-bottom:2px">📅 ${r.foundDate}</div>
+        <div style="font-size:12px;color:#555;margin-bottom:2px">🐱 ${r.breed}${r.breedSec ? ' / ' + r.breedSec : ''}</div>
+        <div style="font-size:12px;color:#555;margin-bottom:2px">🎨 ${r.color}${r.colorSec ? ' & ' + r.colorSec : ''}</div>
+        <div style="font-size:12px;color:#555;margin-bottom:2px">⚥ ${sexLabel(r.sex)} · Age ${r.ageMonths} mo</div>
+        <div style="font-size:12px;color:#555;margin-bottom:2px">✂️ S/N: ${r.spayedNeutered || '?'}</div>
+        <div style="font-size:12px;color:#555;margin-bottom:6px">🏠 ${r.location || '—'}</div>
+        <div style="font-size:11px;color:#2a6db5;word-break:break-word">📍 ${r.fullAddr || '—'}</div>
+        ${motherHtml}
+      </div>
+    `);
+    infoWindow.open(map, marker);
+  }
+}
+
+// ── DOWNLOAD CSV ──
+function downloadCSV() {
+  if (!filtered.length) { toast('No records to download.'); return; }
+
+  const headers = [
+    'id', 'name', 'foundDate', 'foundAddr', 'city', 'state', 'jurisdiction',
+    'breed', 'breedSec', 'sex', 'ageMonths', 'color', 'colorSec',
+    'spayedNeutered', 'location', 'photo',
+    'firstSeenDate', 'lastSeenDate',
+    'possibleMotherName', 'possibleMotherBreed', 'possibleMotherColor',
+    'possibleMotherAgeMo', 'possibleMotherLocation', 'possibleMotherNote',
+  ];
+
+  const esc = v => `"${String(v ?? '').replace(/"/g, '""')}"`;
+
+  const rows = filtered.map(r => [
+    r.id, r.name, r.foundDate, r.foundAddr, r.city, r.state, r.jurisdiction,
+    r.breed, r.breedSec, r.sex, r.ageMonths, r.color, r.colorSec,
+    r.spayedNeutered, r.location, r.photo,
+    r.firstSeenDate, r.lastSeenDate,
+    r.possibleMother?.name        ?? '',
+    r.possibleMother?.breed       ?? '',
+    r.possibleMother?.color       ?? '',
+    r.possibleMother?.ageMonths   ?? '',
+    r.possibleMother?.location    ?? '',
+    r.possibleMother?.note        ?? '',
+  ].map(esc).join(','));
+
+  const csv = [headers.join(','), ...rows].join('\n');
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `dc-kittens-${new Date().toISOString().slice(0, 10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+  toast(`Downloaded ${filtered.length} records`);
+}
+
+// ── GOOGLE MAPS INIT ──
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: { lat: 39.5, lng: -76.5 },
+    zoom: 8,
+    mapTypeControl: false,
+    streetViewControl: false,
+    fullscreenControl: true,
+    styles: [
+      { featureType: 'poi', elementType: 'labels', stylers: [{ visibility: 'off' }] },
+      { featureType: 'transit', stylers: [{ visibility: 'off' }] },
+    ]
+  });
+  infoWindow = new google.maps.InfoWindow();
+  map.addListener('click', () => { infoWindow.close(); });
+  reload();
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1v-8S_8YK14StAV_qS6OlHu5kRf-O5pk&callback=initMap" async defer></script>
+</body>
+</html>
