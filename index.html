@@ -549,36 +549,62 @@ function renderList() {
 function sexLabel(s) { return s === 'M' ? 'Male' : s === 'F' ? 'Female' : 'Unknown'; }
 
 // ── MARKERS ──
+function makePin(isActive) {
+  const el = document.createElement('div');
+  const size = isActive ? 18 : 14;
+  el.style.cssText = `width:${size}px;height:${size}px;border-radius:50%;background:${isActive ? '#e05c2a' : '#e07a55'};border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,0.35);cursor:pointer;`;
+  return el;
+}
+
 function renderMarkers() {
-  // markers array stores raw google.maps.Marker objects — clear them correctly
-  markers.forEach(m => m.marker.setMap(null));
+  markers.forEach(m => { m.marker.map = null; });
   markers = [];
   if (!map) return;
+
+  // Spread co-located markers in a small circle so each is individually clickable.
+  // ~9m radius — visually imperceptible at city zoom, but enough separation to click.
+  const JITTER_RADIUS = 0.00008;
+  const groups = {};
+  filtered.forEach(r => {
+    if (!r.latlng) return;
+    const key = `${r.latlng.lat},${r.latlng.lng}`;
+    if (!groups[key]) groups[key] = [];
+    groups[key].push(r);
+  });
+  const jitterPos = {};
+  for (const group of Object.values(groups)) {
+    group.forEach((r, i) => {
+      if (group.length === 1) {
+        jitterPos[r.id] = { lat: r.latlng.lat, lng: r.latlng.lng };
+      } else {
+        const angle = (2 * Math.PI * i) / group.length;
+        jitterPos[r.id] = {
+          lat: r.latlng.lat + JITTER_RADIUS * Math.cos(angle),
+          lng: r.latlng.lng + JITTER_RADIUS * Math.sin(angle),
+        };
+      }
+    });
+  }
 
   const bounds = new google.maps.LatLngBounds();
   let any = false;
 
   filtered.forEach(r => {
     if (!r.latlng) return;
-    const pos = { lat: r.latlng.lat, lng: r.latlng.lng };
-    bounds.extend(pos);
+    const pos = jitterPos[r.id];
+    bounds.extend(r.latlng); // extend bounds to real address, not jittered pos
     any = true;
-    const marker = new google.maps.Marker({
+    const isActive = r.i === activeIdx;
+    const pinEl = makePin(isActive);
+    const marker = new google.maps.marker.AdvancedMarkerElement({
       position: pos,
       map,
       title: r.name,
-      icon: {
-        path: google.maps.SymbolPath.CIRCLE,
-        scale: r.i === activeIdx ? 9 : 7,
-        fillColor: r.i === activeIdx ? '#e05c2a' : '#e07a55',
-        fillOpacity: 0.92,
-        strokeColor: '#fff',
-        strokeWeight: 1.5,
-      },
-      zIndex: r.i === activeIdx ? 10 : 1,
+      content: pinEl,
+      zIndex: isActive ? 10 : 1,
     });
-    marker.addListener('click', () => activateRecord(r.i, marker));
-    markers.push({ marker, record: r });
+    marker.addListener('gmp-click', () => activateRecord(r.i, marker));
+    markers.push({ marker, record: r, pinEl });
   });
 
   if (any) map.fitBounds(bounds, { padding: 60 });
@@ -605,34 +631,36 @@ function activateRecord(idx, marker) {
   const li = document.getElementById('ri' + idx);
   if (li) { li.classList.add('active'); li.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
 
-  // Update all marker icons in-place (highlight active, dim others)
-  markers.forEach(({ marker: m, record: rec }) => {
+  // Update all marker pins in-place (highlight active, dim others)
+  markers.forEach(({ marker: m, record: rec, pinEl }) => {
     const isActive = rec.i === idx;
-    m.setIcon({
-      path: google.maps.SymbolPath.CIRCLE,
-      scale: isActive ? 9 : 7,
-      fillColor: isActive ? '#e05c2a' : '#e07a55',
-      fillOpacity: 0.92,
-      strokeColor: '#fff',
-      strokeWeight: 1.5,
-    });
-    m.setZIndex(isActive ? 10 : 1);
+    const size = isActive ? 18 : 14;
+    pinEl.style.width = size + 'px';
+    pinEl.style.height = size + 'px';
+    pinEl.style.background = isActive ? '#e05c2a' : '#e07a55';
+    m.zIndex = isActive ? 10 : 1;
   });
 
   // Info window
   if (marker && infoWindow) {
     const m = r.possibleMother;
+    const hasPhoto = r.photo && !r.photo.includes('Not-Available');
+    const photoHtml = hasPhoto ? `
+      <img src="${r.photo}" alt="${r.name}" style="width:100%;border-radius:4px;margin-bottom:8px;display:block;object-fit:cover;max-height:140px;">
+    ` : '';
     const motherHtml = m ? `
       <div style="margin-top:8px;padding-top:8px;border-top:1px solid #eee">
         <div style="font-size:11px;font-weight:500;color:#888;margin-bottom:3px;text-transform:uppercase;letter-spacing:0.05em">Possible mother <span style="font-weight:400;text-transform:none">(inferred)</span></div>
         <div style="font-size:12px;color:#333;margin-bottom:1px">🐱 ${m.name} · ${m.color} · ${m.ageMonths}mo</div>
         <div style="font-size:12px;color:#555;margin-bottom:1px">${m.breed}</div>
-        <div style="font-size:12px;color:#555;">🏠 ${m.location || '—'}</div>
-        <div style="font-size:10px;color:#aaa;margin-top:4px;font-style:italic">${m.note}</div>
+        <div style="font-size:12px;color:#555;margin-bottom:6px">🏠 ${m.location || '—'}</div>
+        <a href="https://ws.petango.com/webservices/adoptablesearch/wsFoundAnimalDetails.aspx?id=${m.id}&css=http://ws.petango.com/WebServices/adoptablesearch/css/styles.css&authkey=5e2qhdg1s6kqsdf8s3asnwo3ttgyxai0slvr17vdj7oq5qoiwx" target="_blank" rel="noopener" style="font-size:11px;color:#888;text-decoration:none;border:1px solid #ddd;border-radius:3px;padding:3px 8px;display:inline-block;">View live record ↗</a>
+        <div style="font-size:10px;color:#aaa;margin-top:6px;font-style:italic">${m.note}</div>
       </div>
     ` : '';
     infoWindow.setContent(`
-      <div style="font-family:'DM Sans',sans-serif;max-width:230px;padding:2px">
+      <div style="font-family:'DM Sans',sans-serif;width:220px;padding:2px">
+        ${photoHtml}
         <div style="font-weight:500;font-size:14px;margin-bottom:5px">${r.name}</div>
         <div style="font-size:12px;color:#555;margin-bottom:2px">📅 ${r.foundDate}</div>
         <div style="font-size:12px;color:#555;margin-bottom:2px">🐱 ${r.breed}${r.breedSec ? ' / ' + r.breedSec : ''}</div>
@@ -640,7 +668,8 @@ function activateRecord(idx, marker) {
         <div style="font-size:12px;color:#555;margin-bottom:2px">⚥ ${sexLabel(r.sex)} · Age ${r.ageMonths} mo</div>
         <div style="font-size:12px;color:#555;margin-bottom:2px">✂️ S/N: ${r.spayedNeutered || '?'}</div>
         <div style="font-size:12px;color:#555;margin-bottom:6px">🏠 ${r.location || '—'}</div>
-        <div style="font-size:11px;color:#2a6db5;word-break:break-word">📍 ${r.fullAddr || '—'}</div>
+        <div style="font-size:11px;color:#2a6db5;word-break:break-word;margin-bottom:8px">📍 ${r.fullAddr || '—'}</div>
+        <a href="https://ws.petango.com/webservices/adoptablesearch/wsFoundAnimalDetails.aspx?id=${r.id}&css=http://ws.petango.com/WebServices/adoptablesearch/css/styles.css&authkey=5e2qhdg1s6kqsdf8s3asnwo3ttgyxai0slvr17vdj7oq5qoiwx" target="_blank" rel="noopener" style="font-size:11px;color:#888;text-decoration:none;border:1px solid #ddd;border-radius:3px;padding:3px 8px;display:inline-block;">View live record ↗</a>
         ${motherHtml}
       </div>
     `);
@@ -686,19 +715,54 @@ function downloadCSV() {
   toast(`Downloaded ${filtered.length} records`);
 }
 
+async function addDCMask() {
+  try {
+    const res = await fetch('https://raw.githubusercontent.com/benbalter/dc-maps/refs/heads/master/maps/dc-boundary.geojson');
+    const geojson = await res.json();
+
+    const feature = geojson.type === 'FeatureCollection' ? geojson.features[0] : geojson;
+    const geometry = feature.geometry;
+    const ringCoords = geometry.type === 'MultiPolygon'
+      ? geometry.coordinates[0][0]
+      : geometry.coordinates[0];
+
+    const worldRing = [[-179, 85], [-179, -85], [179, -85], [179, 85], [-179, 85]];
+    const dcHole = [...ringCoords].reverse();
+
+    map.data.addGeoJson({
+      type: 'FeatureCollection',
+      features: [{
+        type: 'Feature',
+        geometry: { type: 'Polygon', coordinates: [worldRing, dcHole] },
+        properties: {},
+      }],
+    });
+
+    map.data.setStyle({
+      fillColor: '#1a1a1a',
+      fillOpacity: 0.45,
+      strokeColor: '#e05c2a',
+      strokeWeight: 1.5,
+      strokeOpacity: 0.6,
+      clickable: false,
+    });
+  } catch (e) {
+    console.warn('DC boundary fetch failed:', e.message);
+  }
+}
+
 // ── GOOGLE MAPS INIT ──
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: 39.5, lng: -76.5 },
-    zoom: 8,
+    center: { lat: 38.9072, lng: -77.0369 },
+    zoom: 12,
+    minZoom: 10,
+    mapId: 'dc_kitten_finder',
     mapTypeControl: false,
     streetViewControl: false,
     fullscreenControl: true,
-    styles: [
-      { featureType: 'poi', elementType: 'labels', stylers: [{ visibility: 'off' }] },
-      { featureType: 'transit', stylers: [{ visibility: 'off' }] },
-    ]
   });
+  addDCMask();
   infoWindow = new google.maps.InfoWindow();
   map.addListener('click', () => { infoWindow.close(); });
   reload();
