@@ -2,3 +2,4 @@
 .DS_Store
 SETUP.md
 CLAUDE.md
+.claude/settings.local.json
