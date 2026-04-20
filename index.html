@@ -323,6 +323,18 @@
       </div>
 
       <div class="fs">
+        <div class="fl">Max age <button onclick="reset('ageSel')">Clear</button></div>
+        <select id="ageSel" onchange="filter()">
+          <option value="">All ages</option>
+          <option value="1">≤ 1 month</option>
+          <option value="2">≤ 2 months</option>
+          <option value="3" selected>≤ 3 months</option>
+          <option value="4">≤ 4 months</option>
+          <option value="5">≤ 5 months</option>
+        </select>
+      </div>
+
+      <div class="fs">
         <div class="fl">DC quadrant <button onclick="reset('jurisdSel')">Clear</button></div>
         <select id="jurisdSel" onchange="filter()">
           <option value="">All quadrants</option>
@@ -475,6 +487,7 @@ function filter() {
   const df = document.getElementById('dateFrom').value;
   const dt = document.getElementById('dateTo').value;
   const sex = document.getElementById('sexSel').value;
+  const maxAge = document.getElementById('ageSel').value;
   const juris = document.getElementById('jurisdSel').value;
   const breed = document.getElementById('breedSel').value;
   const color = document.getElementById('colorSel').value;
@@ -487,6 +500,7 @@ function filter() {
     if (df && r.foundDate < df) return false;
     if (dt && r.foundDate > dt) return false;
     if (sex && r.sex !== sex) return false;
+    if (maxAge && !isNaN(r.ageMonths) && r.ageMonths > parseInt(maxAge, 10)) return false;
     if (juris && r.jurisdiction !== juris) return false;
     if (breed && r.breed !== breed) return false;
     if (color && r.color !== color) return false;

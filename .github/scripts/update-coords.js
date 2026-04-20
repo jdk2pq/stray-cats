@@ -73,6 +73,24 @@ function addrKey(r) {
   return `${r.foundDate}|${r.foundAddr.toLowerCase().trim()}|${r.city.toLowerCase().trim()}`;
 }
 
+// Merge fresh API data into an existing record without losing previously-good values.
+// - alwaysUpdate fields: reflect current shelter state (location changes, S/N status added, etc.)
+// - neverUpdate fields: immutable once set (firstSeenDate, id)
+// - everything else: take the fresh value only if it's meaningful; keep existing if fresh is blank/NaN
+function mergeRecord(existing, fresh) {
+  const alwaysUpdate = new Set(['lastSeenDate', 'location', 'possibleMother', 'spayedNeutered', 'photo']);
+  const neverUpdate  = new Set(['firstSeenDate', 'id']);
+
+  const merged = { ...existing };
+  for (const [key, val] of Object.entries(fresh)) {
+    if (neverUpdate.has(key)) continue;
+    if (alwaysUpdate.has(key)) { merged[key] = val; continue; }
+    const isMeaningful = val !== null && val !== undefined && val !== '' && !Number.isNaN(val);
+    if (isMeaningful) merged[key] = val;
+  }
+  return merged;
+}
+
 async function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
 }
@@ -185,10 +203,7 @@ async function main() {
     };
 
     if (animals[r.id]) {
-      animals[r.id] = {
-        ...record,
-        firstSeenDate: animals[r.id].firstSeenDate,
-      };
+      animals[r.id] = mergeRecord(animals[r.id], record);
       updatedCount++;
     } else {
       animals[r.id] = { ...record, firstSeenDate: today };
