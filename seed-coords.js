@@ -20,6 +20,7 @@ if (!GOOGLE_KEY) {
 const AUTHKEY = '5e2qhdg1s6kqsdf8s3asnwo3ttgyxai0slvr17vdj7oq5qoiwx';
 const BASE = 'https://ws.petango.com/webservices/wsAdoption.asmx';
 const ANIMALS_FILE = 'animals.json';
+const DC_CATS_FILE = 'dc-cats.json';
 const COORDS_FILE = 'coords.json';
 const GEOCODE_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
 const TARGET_STATE = 'DC';
@@ -107,6 +108,14 @@ async function main() {
       animals = JSON.parse(fs.readFileSync(ANIMALS_FILE, 'utf8'));
       console.log(`Loaded ${Object.keys(animals).length} existing animals.`);
     } catch { console.warn('Could not parse animals.json — starting fresh.'); }
+  }
+
+  let dcCats = {};
+  if (fs.existsSync(DC_CATS_FILE)) {
+    try {
+      dcCats = JSON.parse(fs.readFileSync(DC_CATS_FILE, 'utf8'));
+      console.log(`Loaded ${Object.keys(dcCats).length} existing DC cats.`);
+    } catch { console.warn('Could not parse dc-cats.json — starting fresh.'); }
   }
 
   let coords = {};
@@ -229,6 +238,29 @@ async function main() {
 
   fs.writeFileSync(ANIMALS_FILE, JSON.stringify(animals, null, 2));
   console.log(`Wrote ${ANIMALS_FILE}\n`);
+
+  // ── Update DC cats log (all DC cats ever seen, regardless of age) ──
+  const dcAllCats = all.filter(r => r.state === TARGET_STATE);
+  let dcNewCount = 0, dcUpdatedCount = 0;
+  for (const r of dcAllCats) {
+    if (dcCats[r.id]) {
+      dcCats[r.id] = {
+        ...dcCats[r.id],
+        ageMonths:      r.ageMonths || dcCats[r.id].ageMonths,
+        location:       r.location,
+        spayedNeutered: r.spayedNeutered,
+        photo:          r.photo,
+        lastSeenDate:   today,
+      };
+      dcUpdatedCount++;
+    } else {
+      dcCats[r.id] = { ...r, firstSeenDate: today, lastSeenDate: today };
+      dcNewCount++;
+    }
+  }
+  console.log(`DC cats log: ${dcNewCount} new, ${dcUpdatedCount} updated (${Object.keys(dcCats).length} total)`);
+  fs.writeFileSync(DC_CATS_FILE, JSON.stringify(dcCats, null, 2));
+  console.log(`Wrote ${DC_CATS_FILE}\n`);
 
   const addressSet = new Set(Object.values(animals).map(a => a.fullAddr).filter(Boolean));
   const newAddresses = [...addressSet].filter(a => !(a in coords));
