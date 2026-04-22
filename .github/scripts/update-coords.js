@@ -22,6 +22,7 @@ import fs from 'fs';
 const AUTHKEY = '5e2qhdg1s6kqsdf8s3asnwo3ttgyxai0slvr17vdj7oq5qoiwx';
 const BASE = 'https://ws.petango.com/webservices/wsAdoption.asmx';
 const ANIMALS_FILE = 'animals.json';
+const DC_CATS_FILE = 'dc-cats.json';
 const COORDS_FILE = 'coords.json';
 const NOMINATIM = 'https://nominatim.openstreetmap.org/search';
 const USER_AGENT = 'dc-kitten-finder/1.0 (github-actions nightly update; geocodes new kitten addresses only)';
@@ -132,6 +133,15 @@ async function main() {
     } catch { console.warn('Could not parse animals.json — starting fresh.'); }
   } else {
     console.log('No existing animals.json — will create one.');
+  }
+
+  // ── Load existing DC cats log ──
+  let dcCats = {};
+  if (fs.existsSync(DC_CATS_FILE)) {
+    try {
+      dcCats = JSON.parse(fs.readFileSync(DC_CATS_FILE, 'utf8'));
+      console.log(`Loaded ${Object.keys(dcCats).length} existing DC cats from ${DC_CATS_FILE}`);
+    } catch { console.warn('Could not parse dc-cats.json — starting fresh.'); }
   }
 
   // ── Load existing coords ──
@@ -256,6 +266,29 @@ async function main() {
 
   fs.writeFileSync(ANIMALS_FILE, JSON.stringify(animals, null, 2));
   console.log(`Wrote ${ANIMALS_FILE}`);
+
+  // ── Update DC cats log (all DC cats ever seen, regardless of age) ──
+  const dcAllCats = all.filter(r => r.state === TARGET_STATE);
+  let dcNewCount = 0, dcUpdatedCount = 0;
+  for (const r of dcAllCats) {
+    if (dcCats[r.id]) {
+      dcCats[r.id] = {
+        ...dcCats[r.id],
+        ageMonths:      r.ageMonths || dcCats[r.id].ageMonths,
+        location:       r.location,
+        spayedNeutered: r.spayedNeutered,
+        photo:          r.photo,
+        lastSeenDate:   today,
+      };
+      dcUpdatedCount++;
+    } else {
+      dcCats[r.id] = { ...r, firstSeenDate: today, lastSeenDate: today };
+      dcNewCount++;
+    }
+  }
+  console.log(`\nDC cats log: ${dcNewCount} new, ${dcUpdatedCount} updated (${Object.keys(dcCats).length} total)`);
+  fs.writeFileSync(DC_CATS_FILE, JSON.stringify(dcCats, null, 2));
+  console.log(`Wrote ${DC_CATS_FILE}`);
 
   // ── Geocode new addresses ──
   const addressSet = new Set(Object.values(animals).map(a => a.fullAddr).filter(Boolean));
