@@ -473,7 +473,14 @@ function buildFilterOptions() {
   fillSel('breedSel', uniq(allRecords, 'breed'));
   fillSel('colorSel', uniq(allRecords, 'color'));
   fillSel('locationSel', uniq(allRecords, 'location'));
-  fillSel('sizeSel', uniq(allRecords, 'size'));
+  // Size filter: preserve selection across rebuilds, default to 'small_or_unknown' on first load
+  const sizeSel = document.getElementById('sizeSel');
+  const curSize = sizeSel.value || 'small_or_unknown';
+  sizeSel.innerHTML =
+    '<option value="">All</option>' +
+    '<option value="small_or_unknown">Small / unknown</option>' +
+    uniq(allRecords, 'size').map(s => `<option value="${s}"${s === curSize ? ' selected' : ''}>${s}</option>`).join(''); // eslint-disable-line
+  sizeSel.value = curSize;
 }
 
 function uniq(records, key) {
@@ -524,7 +531,8 @@ function filter() {
     if (breed && r.breed !== breed) return false;
     if (color && r.color !== color) return false;
     if (loc && r.location !== loc) return false;
-    if (size && r.size !== size) return false;
+    if (size === 'small_or_unknown') { if (r.size && r.size.toLowerCase() !== 'small') return false; }
+    else if (size && r.size !== size) return false;
     if (sn && r.spayedNeutered !== sn) return false;
     if (motherFilter === 'yes' && !r.possibleMother) return false;
     if (motherFilter === 'no' && r.possibleMother) return false;
