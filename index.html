@@ -224,6 +224,18 @@
     vertical-align: middle;
     letter-spacing: 0.03em;
   }
+  .possible-kitten-badge {
+    display: inline-block;
+    font-size: 9px;
+    font-family: var(--mono);
+    padding: 1px 6px;
+    border-radius: 20px;
+    background: #f5f0fe;
+    color: #7c3aed;
+    border: 1px solid #d8b4fe;
+    vertical-align: middle;
+    letter-spacing: 0.03em;
+  }
   .ri-mom {
     font-size: 10px;
     color: #c0582a;
@@ -370,6 +382,11 @@
       </div>
 
       <div class="fs">
+        <div class="fl">Size <button onclick="reset('sizeSel')">Clear</button></div>
+        <select id="sizeSel" onchange="filter()"></select>
+      </div>
+
+      <div class="fs">
         <div class="fl">Spayed / neutered <button onclick="reset('snSel')">Clear</button></div>
         <select id="snSel" onchange="filter()">
           <option value="">All</option>
@@ -456,6 +473,7 @@ function buildFilterOptions() {
   fillSel('breedSel', uniq(allRecords, 'breed'));
   fillSel('colorSel', uniq(allRecords, 'color'));
   fillSel('locationSel', uniq(allRecords, 'location'));
+  fillSel('sizeSel', uniq(allRecords, 'size'));
 }
 
 function uniq(records, key) {
@@ -492,6 +510,7 @@ function filter() {
   const breed = document.getElementById('breedSel').value;
   const color = document.getElementById('colorSel').value;
   const loc = document.getElementById('locationSel').value;
+  const size = document.getElementById('sizeSel').value;
   const sn = document.getElementById('snSel').value;
   const motherFilter = document.getElementById('motherSel').value;
 
@@ -505,6 +524,7 @@ function filter() {
     if (breed && r.breed !== breed) return false;
     if (color && r.color !== color) return false;
     if (loc && r.location !== loc) return false;
+    if (size && r.size !== size) return false;
     if (sn && r.spayedNeutered !== sn) return false;
     if (motherFilter === 'yes' && !r.possibleMother) return false;
     if (motherFilter === 'no' && r.possibleMother) return false;
@@ -533,7 +553,7 @@ function renderList() {
   }
   el.innerHTML = filtered.map(r => `
     <div class="ri${r.i === activeIdx ? ' active' : ''}" id="ri${r.i}" onclick="focusRecord(${r.i})">
-      <div class="ri-name">${r.name}${r.possibleMother ? ' <span class="mother-badge">w/ mom?</span>' : ''}</div>
+      <div class="ri-name">${r.name}${r.possibleMother ? ' <span class="mother-badge">w/ mom?</span>' : ''}${r.possibleKitten ? ' <span class="possible-kitten-badge">possible kitten?</span>' : ''}</div>
       <div class="ri-meta">
         ${r.foundDate} · ${sexLabel(r.sex)} · ${r.color || '—'}<br>
         ${r.breed || '—'}
@@ -665,7 +685,8 @@ function activateRecord(idx, marker) {
         <div style="font-size:12px;color:#555;margin-bottom:2px">📅 ${r.foundDate}</div>
         <div style="font-size:12px;color:#555;margin-bottom:2px">🐱 ${r.breed}${r.breedSec ? ' / ' + r.breedSec : ''}</div>
         <div style="font-size:12px;color:#555;margin-bottom:2px">🎨 ${r.color}${r.colorSec ? ' & ' + r.colorSec : ''}</div>
-        <div style="font-size:12px;color:#555;margin-bottom:2px">⚥ ${sexLabel(r.sex)} · Age ${r.ageMonths} mo</div>
+        <div style="font-size:12px;color:#555;margin-bottom:2px">⚥ ${sexLabel(r.sex)} · ${isNaN(r.ageMonths) ? 'Age unknown' : `Age ${r.ageMonths} mo`}${r.size ? ` · ${r.size}` : ''}</div>
+        ${r.possibleKitten ? `<div style="font-size:11px;color:#7c3aed;margin-bottom:4px;font-style:italic">⚠ Possible kitten — no age recorded${r.size ? '' : ', no size data'}</div>` : ''}
         <div style="font-size:12px;color:#555;margin-bottom:2px">✂️ S/N: ${r.spayedNeutered || '?'}</div>
         <div style="font-size:12px;color:#555;margin-bottom:6px">🏠 ${r.location || '—'}</div>
         <div style="font-size:11px;color:#2a6db5;word-break:break-word;margin-bottom:8px">📍 ${r.fullAddr || '—'}</div>
@@ -683,7 +704,7 @@ function downloadCSV() {
 
   const headers = [
     'id', 'name', 'foundDate', 'foundAddr', 'city', 'state', 'jurisdiction',
-    'breed', 'breedSec', 'sex', 'ageMonths', 'color', 'colorSec',
+    'breed', 'breedSec', 'sex', 'ageMonths', 'size', 'possibleKitten', 'color', 'colorSec',
     'spayedNeutered', 'location', 'photo',
     'firstSeenDate', 'lastSeenDate',
     'possibleMotherName', 'possibleMotherBreed', 'possibleMotherColor',
@@ -694,7 +715,7 @@ function downloadCSV() {
 
   const rows = filtered.map(r => [
     r.id, r.name, r.foundDate, r.foundAddr, r.city, r.state, r.jurisdiction,
-    r.breed, r.breedSec, r.sex, r.ageMonths, r.color, r.colorSec,
+    r.breed, r.breedSec, r.sex, r.ageMonths, r.size ?? '', r.possibleKitten ?? false, r.color, r.colorSec,
     r.spayedNeutered, r.location, r.photo,
     r.firstSeenDate, r.lastSeenDate,
     r.possibleMother?.name        ?? '',

@@ -72,6 +72,18 @@ async function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
 }
 
+async function fetchFoundDetails(id) {
+  const url = `${BASE}/foundDetails?animalID=${id}&authkey=${AUTHKEY}`;
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return getTag(await res.text(), 'Size');
+  } catch (e) {
+    console.warn(`  foundDetails failed for ${id}: ${e.message}`);
+    return '';
+  }
+}
+
 async function geocode(address) {
   const url = `${GEOCODE_URL}?address=${encodeURIComponent(address)}&key=${GOOGLE_KEY}`;
   try {
@@ -114,7 +126,7 @@ async function main() {
   const all = splitBlocks(xml).map(parseRaw);
   console.log(`Got ${all.length} total cats.\n`);
 
-  const dcKittens = all.filter(r => r.state === TARGET_STATE && r.ageMonths <= MAX_KITTEN_AGE_MONTHS);
+  const dcKittens = all.filter(r => r.state === TARGET_STATE && (isNaN(r.ageMonths) || r.ageMonths <= MAX_KITTEN_AGE_MONTHS));
   const adultFemales = all.filter(r => r.sex === 'F' && r.ageMonths > MAX_KITTEN_AGE_MONTHS);
   console.log(`DC kittens: ${dcKittens.length}, adult females: ${adultFemales.length}`);
 
@@ -128,7 +140,9 @@ async function main() {
   const today = new Date().toISOString().slice(0, 10);
   let newCount = 0, updatedCount = 0, motherMatchCount = 0;
 
-  for (const r of dcKittens) {
+  console.log('\nFetching size details for DC kittens...');
+  for (let i = 0; i < dcKittens.length; i++) {
+    const r = dcKittens[i];
     const mothers = adultByKey[addrKey(r)] || [];
     const mother = mothers.sort((a, b) => a.ageMonths - b.ageMonths)[0] || null;
     if (mother) motherMatchCount++;
@@ -145,6 +159,12 @@ async function main() {
       confidence: 'likely',
       note: 'Same-day same-address adult female. Inferred, not confirmed.',
     } : null;
+
+    process.stdout.write(`  [${i + 1}/${dcKittens.length}] ${r.name} ... `);
+    const size = await fetchFoundDetails(r.id);
+    await sleep(200);
+    const possibleKitten = isNaN(r.ageMonths) && (!size || size.toLowerCase() !== 'small');
+    console.log(size ? `size: ${size}${possibleKitten ? ' [possible kitten]' : ''}` : 'no size');
 
     const record = {
       id:             r.id,
@@ -164,7 +184,9 @@ async function main() {
       jurisdiction:   r.jurisdiction,
       spayedNeutered: r.spayedNeutered,
       photo:          r.photo,
+      size,
       possibleMother,
+      possibleKitten,
       lastSeenDate:   today,
     };
 

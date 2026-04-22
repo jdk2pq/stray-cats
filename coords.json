@@ -78,5 +78,9 @@
   "2321 Lincoln Road NE, Washington, DC": {
     "lat": 38.92097,
     "lng": -77.0041183
+  },
+  "42nd street nw, Washington, DC": {
+    "lat": 38.9425213,
+    "lng": -77.0819729
   }
 }
