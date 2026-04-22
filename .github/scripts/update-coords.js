@@ -153,7 +153,7 @@ async function main() {
   const all = splitBlocks(xml).map(parseRaw);
   console.log(`Got ${all.length} total cats from Petango.`);
 
-  const dcKittens = all.filter(r => r.state === TARGET_STATE && (isNaN(r.ageMonths) || r.ageMonths <= MAX_KITTEN_AGE_MONTHS));
+  const dcKittens = all.filter(r => r.state === TARGET_STATE && r.ageMonths <= MAX_KITTEN_AGE_MONTHS);
   const adultFemales = all.filter(r => r.sex === 'F' && r.ageMonths > MAX_KITTEN_AGE_MONTHS);
 
   console.log(`DC kittens: ${dcKittens.length}, adult females in dataset: ${adultFemales.length}`);
@@ -198,7 +198,7 @@ async function main() {
       size = await fetchFoundDetails(r.id);
       await sleep(300);
     }
-    const possibleKitten = isNaN(r.ageMonths) && (!size || size.toLowerCase() !== 'small');
+    const possibleKitten = r.ageMonths === 0 && (!size || size.toLowerCase() !== 'small');
 
     const record = {
       id:             r.id,
