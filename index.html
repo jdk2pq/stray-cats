@@ -561,7 +561,7 @@ function renderList() {
   }
   el.innerHTML = filtered.map(r => `
     <div class="ri${r.i === activeIdx ? ' active' : ''}" id="ri${r.i}" onclick="focusRecord(${r.i})">
-      <div class="ri-name">${r.name}${r.possibleMother ? ' <span class="mother-badge">w/ mom?</span>' : ''}${r.possibleKitten ? ' <span class="possible-kitten-badge">possible kitten?</span>' : ''}</div>
+      <div class="ri-name">${r.name}${r.possibleMother ? ' <span class="mother-badge">w/ mom?</span>' : ''}${r.noAgeProvided && r.size?.toLowerCase() !== 'small' ? ' <span class="possible-kitten-badge">no age provided</span>' : ''}</div>
       <div class="ri-meta">
         ${r.foundDate} · ${sexLabel(r.sex)} · ${r.color || '—'}<br>
         ${r.breed || '—'}
@@ -694,7 +694,7 @@ function activateRecord(idx, marker) {
         <div style="font-size:12px;color:#555;margin-bottom:2px">🐱 ${r.breed}${r.breedSec ? ' / ' + r.breedSec : ''}</div>
         <div style="font-size:12px;color:#555;margin-bottom:2px">🎨 ${r.color}${r.colorSec ? ' & ' + r.colorSec : ''}</div>
         <div style="font-size:12px;color:#555;margin-bottom:2px">⚥ ${sexLabel(r.sex)} · Age ${r.ageMonths} mo${r.size ? ` · ${r.size}` : ''}</div>
-        ${r.possibleKitten ? `<div style="font-size:11px;color:#7c3aed;margin-bottom:4px;font-style:italic">⚠ Possible kitten — age recorded as 0${r.size ? '' : ', no size data'}</div>` : ''}
+        ${r.noAgeProvided && r.size?.toLowerCase() !== 'small' ? `<div style="font-size:11px;color:#7c3aed;margin-bottom:4px;font-style:italic">No age provided${r.size ? '' : ' · no size data'}</div>` : ''}
         <div style="font-size:12px;color:#555;margin-bottom:2px">✂️ S/N: ${r.spayedNeutered || '?'}</div>
         <div style="font-size:12px;color:#555;margin-bottom:6px">🏠 ${r.location || '—'}</div>
         <div style="font-size:11px;color:#2a6db5;word-break:break-word;margin-bottom:8px">📍 ${r.fullAddr || '—'}</div>
@@ -712,7 +712,7 @@ function downloadCSV() {
 
   const headers = [
     'id', 'name', 'foundDate', 'foundAddr', 'city', 'state', 'jurisdiction',
-    'breed', 'breedSec', 'sex', 'ageMonths', 'size', 'possibleKitten', 'color', 'colorSec',
+    'breed', 'breedSec', 'sex', 'ageMonths', 'size', 'noAgeProvided', 'color', 'colorSec',
     'spayedNeutered', 'location', 'photo',
     'firstSeenDate', 'lastSeenDate',
     'possibleMotherName', 'possibleMotherBreed', 'possibleMotherColor',
@@ -723,7 +723,7 @@ function downloadCSV() {
 
   const rows = filtered.map(r => [
     r.id, r.name, r.foundDate, r.foundAddr, r.city, r.state, r.jurisdiction,
-    r.breed, r.breedSec, r.sex, r.ageMonths, r.size ?? '', r.possibleKitten ?? false, r.color, r.colorSec,
+    r.breed, r.breedSec, r.sex, r.ageMonths, r.size ?? '', r.noAgeProvided ?? false, r.color, r.colorSec,
     r.spayedNeutered, r.location, r.photo,
     r.firstSeenDate, r.lastSeenDate,
     r.possibleMother?.name        ?? '',

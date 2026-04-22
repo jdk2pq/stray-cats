@@ -79,7 +79,7 @@ function addrKey(r) {
 // - neverUpdate fields: immutable once set (firstSeenDate, id)
 // - everything else: take the fresh value only if it's meaningful; keep existing if fresh is blank/NaN
 function mergeRecord(existing, fresh) {
-  const alwaysUpdate = new Set(['lastSeenDate', 'location', 'possibleMother', 'spayedNeutered', 'photo', 'possibleKitten']);
+  const alwaysUpdate = new Set(['lastSeenDate', 'location', 'possibleMother', 'spayedNeutered', 'photo', 'noAgeProvided']);
   const neverUpdate  = new Set(['firstSeenDate', 'id']);
 
   const merged = { ...existing };
@@ -208,7 +208,7 @@ async function main() {
       size = await fetchFoundDetails(r.id);
       await sleep(300);
     }
-    const possibleKitten = r.ageMonths === 0 && (!size || size.toLowerCase() !== 'small');
+    const noAgeProvided = r.ageMonths === 0;
 
     const record = {
       id:             r.id,
@@ -230,7 +230,7 @@ async function main() {
       photo:          r.photo,
       size,
       possibleMother,
-      possibleKitten,
+      noAgeProvided,
       lastSeenDate:   today,
     };
 
@@ -240,7 +240,7 @@ async function main() {
     } else {
       animals[r.id] = { ...record, firstSeenDate: today };
       newCount++;
-      console.log(`  New kitten: [${r.id}] ${r.name}${mother ? ` (mother: ${mother.name})` : ''}${possibleKitten ? ' [possible kitten]' : ''}`);
+      console.log(`  New kitten: [${r.id}] ${r.name}${mother ? ` (mother: ${mother.name})` : ''}${noAgeProvided ? ' [no age provided]' : ''}`);
     }
   }
 
@@ -254,8 +254,8 @@ async function main() {
     if (processedIds.has(id) || !allById[id]) continue;
     const fresh = allById[id];
     const size = animals[id].size || '';
-    const possibleKitten = fresh.ageMonths === 0 && (!size || size.toLowerCase() !== 'small');
-    animals[id] = mergeRecord(animals[id], { ...fresh, size, possibleKitten, lastSeenDate: today });
+    const noAgeProvided = fresh.ageMonths === 0;
+    animals[id] = mergeRecord(animals[id], { ...fresh, size, noAgeProvided, lastSeenDate: today });
     refreshedCount++;
     console.log(`  Refreshed: [${id}] ${animals[id].name} (age now ${fresh.ageMonths}mo)`);
   }

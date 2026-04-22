@@ -172,8 +172,8 @@ async function main() {
     process.stdout.write(`  [${i + 1}/${dcKittens.length}] ${r.name} ... `);
     const size = await fetchFoundDetails(r.id);
     await sleep(200);
-    const possibleKitten = r.ageMonths === 0 && (!size || size.toLowerCase() !== 'small');
-    console.log(size ? `size: ${size}${possibleKitten ? ' [possible kitten]' : ''}` : 'no size');
+    const noAgeProvided = r.ageMonths === 0;
+    console.log(size ? `size: ${size}${noAgeProvided ? ' [no age provided]' : ''}` : 'no size');
 
     const record = {
       id:             r.id,
@@ -195,7 +195,7 @@ async function main() {
       photo:          r.photo,
       size,
       possibleMother,
-      possibleKitten,
+      noAgeProvided,
       lastSeenDate:   today,
     };
 
@@ -217,7 +217,7 @@ async function main() {
     if (processedIds.has(id) || !allById[id]) continue;
     const fresh = allById[id];
     const size = animals[id].size || '';
-    const possibleKitten = fresh.ageMonths === 0 && (!size || size.toLowerCase() !== 'small');
+    const noAgeProvided = fresh.ageMonths === 0 && (!size || size.toLowerCase() !== 'small');
     animals[id] = {
       ...animals[id],
       ageMonths:      fresh.ageMonths || animals[id].ageMonths,
@@ -225,7 +225,7 @@ async function main() {
       spayedNeutered: fresh.spayedNeutered,
       photo:          fresh.photo,
       size,
-      possibleKitten,
+      noAgeProvided,
       lastSeenDate:   today,
     };
     refreshedCount++;
