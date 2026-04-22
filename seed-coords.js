@@ -199,7 +199,31 @@ async function main() {
     }
   }
 
-  console.log(`Animals: ${newCount} new, ${updatedCount} updated`);
+  // ── Refresh existing records that are still in Petango but aged out of the kitten filter ──
+  const allById = Object.fromEntries(all.map(r => [r.id, r]));
+  const processedIds = new Set(dcKittens.map(r => r.id));
+  let refreshedCount = 0;
+
+  for (const id of Object.keys(animals)) {
+    if (processedIds.has(id) || !allById[id]) continue;
+    const fresh = allById[id];
+    const size = animals[id].size || '';
+    const possibleKitten = fresh.ageMonths === 0 && (!size || size.toLowerCase() !== 'small');
+    animals[id] = {
+      ...animals[id],
+      ageMonths:      fresh.ageMonths || animals[id].ageMonths,
+      location:       fresh.location,
+      spayedNeutered: fresh.spayedNeutered,
+      photo:          fresh.photo,
+      size,
+      possibleKitten,
+      lastSeenDate:   today,
+    };
+    refreshedCount++;
+    console.log(`  Refreshed: [${id}] ${animals[id].name} (age now ${fresh.ageMonths}mo)`);
+  }
+
+  console.log(`Animals: ${newCount} new, ${updatedCount} updated, ${refreshedCount} refreshed`);
   console.log(`Mother matches: ${motherMatchCount} of ${dcKittens.length} kittens`);
   console.log(`Total in animals.json: ${Object.keys(animals).length}`);
 
