@@ -78,7 +78,7 @@ function addrKey(r) {
 // - neverUpdate fields: immutable once set (firstSeenDate, id)
 // - everything else: take the fresh value only if it's meaningful; keep existing if fresh is blank/NaN
 function mergeRecord(existing, fresh) {
-  const alwaysUpdate = new Set(['lastSeenDate', 'location', 'possibleMother', 'spayedNeutered', 'photo']);
+  const alwaysUpdate = new Set(['lastSeenDate', 'location', 'possibleMother', 'spayedNeutered', 'photo', 'possibleKitten']);
   const neverUpdate  = new Set(['firstSeenDate', 'id']);
 
   const merged = { ...existing };
@@ -93,6 +93,18 @@ function mergeRecord(existing, fresh) {
 
 async function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
+}
+
+async function fetchFoundDetails(id) {
+  const url = `${BASE}/foundDetails?animalID=${id}&authkey=${AUTHKEY}`;
+  try {
+    const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return getTag(await res.text(), 'Size');
+  } catch (e) {
+    console.warn(`  foundDetails failed for ${id}: ${e.message}`);
+    return '';
+  }
 }
 
 async function geocode(address) {
@@ -141,7 +153,7 @@ async function main() {
   const all = splitBlocks(xml).map(parseRaw);
   console.log(`Got ${all.length} total cats from Petango.`);
 
-  const dcKittens = all.filter(r => r.state === TARGET_STATE && r.ageMonths <= MAX_KITTEN_AGE_MONTHS);
+  const dcKittens = all.filter(r => r.state === TARGET_STATE && (isNaN(r.ageMonths) || r.ageMonths <= MAX_KITTEN_AGE_MONTHS));
   const adultFemales = all.filter(r => r.sex === 'F' && r.ageMonths > MAX_KITTEN_AGE_MONTHS);
 
   console.log(`DC kittens: ${dcKittens.length}, adult females in dataset: ${adultFemales.length}`);
@@ -180,6 +192,14 @@ async function main() {
 
     if (mother) motherMatchCount++;
 
+    // Reuse stored size for existing animals; fetch foundDetails for new ones (size doesn't change)
+    let size = animals[r.id]?.size || '';
+    if (!animals[r.id]) {
+      size = await fetchFoundDetails(r.id);
+      await sleep(300);
+    }
+    const possibleKitten = isNaN(r.ageMonths) && (!size || size.toLowerCase() !== 'small');
+
     const record = {
       id:             r.id,
       name:           r.name,
@@ -198,7 +218,9 @@ async function main() {
       jurisdiction:   r.jurisdiction,
       spayedNeutered: r.spayedNeutered,
       photo:          r.photo,
+      size,
       possibleMother,
+      possibleKitten,
       lastSeenDate:   today,
     };
 
@@ -208,7 +230,7 @@ async function main() {
     } else {
       animals[r.id] = { ...record, firstSeenDate: today };
       newCount++;
-      console.log(`  New kitten: [${r.id}] ${r.name}${mother ? ` (mother: ${mother.name})` : ''}`);
+      console.log(`  New kitten: [${r.id}] ${r.name}${mother ? ` (mother: ${mother.name})` : ''}${possibleKitten ? ' [possible kitten]' : ''}`);
     }
   }
 
