@@ -85,7 +85,7 @@
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -109,7 +109,7 @@
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -133,7 +133,7 @@
     "photo": "https://g.petango.com/photos/2620/5bee4a46-9b88-4765-942c-198e81ab6e95.jpg",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -157,7 +157,7 @@
     "photo": "https://g.petango.com/photos/2620/ba0e2b10-4b27-4403-9abb-52b811dd661f.jpg",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -181,7 +181,7 @@
     "photo": "https://g.petango.com/photos/2620/9e6ee825-6b10-4891-bfb9-3dad3d272402.jpg",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -205,7 +205,7 @@
     "photo": "https://g.petango.com/photos/2620/292f5281-3a00-4da3-914b-83fd87473398.jpg",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -229,7 +229,7 @@
     "photo": "https://g.petango.com/photos/2620/0e784509-b73a-47e7-933a-a56e12afa458.jpg",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -253,7 +253,7 @@
     "photo": "https://g.petango.com/photos/2620/2a04e94a-0418-4953-b97a-ec124aef7cb5.jpg",
     "size": "Medium",
     "possibleMother": null,
-    "possibleKitten": true,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -277,7 +277,7 @@
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -301,7 +301,7 @@
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -325,7 +325,7 @@
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -349,7 +349,7 @@
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -373,7 +373,7 @@
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -397,7 +397,7 @@
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -421,7 +421,7 @@
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -445,7 +445,7 @@
     "photo": "https://g.petango.com/photos/2620/6fcbbd3d-8201-4357-823d-05e66ef32b08.jpg",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -480,7 +480,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -515,7 +515,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -550,7 +550,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -585,7 +585,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -620,7 +620,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -644,7 +644,7 @@
     "photo": "https://g.petango.com/photos/2620/ef256b7f-16f4-47b7-b253-56a3a235bbe6.jpg",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -679,7 +679,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -714,7 +714,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -749,7 +749,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -784,7 +784,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -819,7 +819,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -854,7 +854,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -889,7 +889,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -924,7 +924,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -959,7 +959,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -983,7 +983,7 @@
     "photo": "https://g.petango.com/photos/2620/327c2f72-867e-4961-9cd2-422ca3f11a0e.jpg",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -1007,7 +1007,7 @@
     "photo": "https://g.petango.com/photos/2620/7f296122-b4ae-4e09-a0dc-5ccbc04b8313.jpg",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -1031,7 +1031,7 @@
     "photo": "https://g.petango.com/photos/2620/2f278010-3f06-49c1-8d8d-5e27cb057b98.jpg",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -1055,7 +1055,7 @@
     "photo": "https://g.petango.com/photos/2620/1ce1fc51-91f6-4ffe-aeab-a9ffd6efdccc.jpg",
     "size": "Medium",
     "possibleMother": null,
-    "possibleKitten": true,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -1090,7 +1090,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -1125,7 +1125,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -1160,7 +1160,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -1195,7 +1195,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -1219,7 +1219,7 @@
     "photo": "https://g.petango.com/photos/2620/a3602ec4-94ff-4795-b7d6-f64cc11e39e1.jpg",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -1243,7 +1243,7 @@
     "photo": "https://g.petango.com/photos/2620/2bf3fdbd-226c-455c-9b7d-a526f1b22256.jpg",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": false,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -1278,7 +1278,7 @@
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20"
   },
@@ -1304,7 +1304,8 @@
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-20",
     "size": "",
-    "possibleKitten": false
+    "possibleKitten": false,
+    "noAgeProvided": false
   },
   "60833913": {
     "id": "60833913",
@@ -1326,7 +1327,7 @@
     "photo": "https://g.petango.com/photos/2620/49588048-77e0-4d68-9637-b6885115a65b.jpg",
     "size": "Medium",
     "possibleMother": null,
-    "possibleKitten": true,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-21"
   },
@@ -1350,7 +1351,7 @@
     "photo": "https://g.petango.com/photos/2620/68ddbd87-0579-47aa-82a3-d7c8474c11e3.jpg",
     "size": "Small",
     "possibleMother": null,
-    "possibleKitten": false,
+    "noAgeProvided": true,
     "lastSeenDate": "2026-04-22",
     "firstSeenDate": "2026-04-22"
   }
