@@ -217,7 +217,7 @@ async function main() {
     if (processedIds.has(id) || !allById[id]) continue;
     const fresh = allById[id];
     const size = animals[id].size || '';
-    const noAgeProvided = fresh.ageMonths === 0 && (!size || size.toLowerCase() !== 'small');
+    const noAgeProvided = fresh.ageMonths === 0;
     animals[id] = {
       ...animals[id],
       ageMonths:      fresh.ageMonths || animals[id].ageMonths,
