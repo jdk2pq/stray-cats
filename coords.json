@@ -82,5 +82,29 @@
   "42nd street nw, Washington, DC": {
     "lat": 38.9425213,
     "lng": -77.0819729
+  },
+  "3322 14th Place SE, Washington, DC": {
+    "lat": 38.8432127,
+    "lng": -76.9842015
+  },
+  "2004 Maryland Ave NE, Washington, DC 20002, Washington, DC": {
+    "lat": 38.9036538,
+    "lng": -76.9756492
+  },
+  "3413 Ordway St NW, Washington, DC": {
+    "lat": 38.9365146,
+    "lng": -77.0673432
+  },
+  "1916 Savannah Place SE, Washington, DC": {
+    "lat": 38.8491979,
+    "lng": -76.9766572
+  },
+  "4201 7th St, Washington, DC": {
+    "lat": 38.8289186,
+    "lng": -76.9966588
+  },
+  "342 13th St, Washington, DC": {
+    "lat": 38.894669,
+    "lng": -76.9885652
   }
 }
