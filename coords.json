@@ -119,5 +119,13 @@
   "717 Euclid street, Washington, DC": {
     "lat": 38.9243924,
     "lng": -77.0232084
+  },
+  "726 Burns St, Washington, DC": {
+    "lat": 38.8796686,
+    "lng": -76.9425786
+  },
+  "71 Oglethorpe Street NW, Washington, DC": {
+    "lat": 38.9613643,
+    "lng": -77.008389
   }
 }
