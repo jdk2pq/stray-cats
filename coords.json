@@ -127,5 +127,17 @@
   "71 Oglethorpe Street NW, Washington, DC": {
     "lat": 38.9613643,
     "lng": -77.008389
+  },
+  "6101 Blair Rd NW, Washington, DC": {
+    "lat": 38.9642381,
+    "lng": -77.011393
+  },
+  "3528 Highwood Drive SE, Washington, DC": {
+    "lat": 38.8699911,
+    "lng": -76.9539815
+  },
+  "142 42nd Street NE, Washington, DC": {
+    "lat": 38.8916754,
+    "lng": -76.9439518
   }
 }
