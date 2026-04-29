@@ -139,5 +139,22 @@
   "142 42nd Street NE, Washington, DC": {
     "lat": 38.8916754,
     "lng": -76.9439518
+  },
+  "666 G St NE, Washington, DC": {
+    "lat": 38.89905,
+    "lng": -76.996387
+  },
+  "1400 Jefferson Dr, Washington, DC": {
+    "lat": 38.8881246,
+    "lng": -77.0299741
+  },
+  "Kennilworth Ave, Washington, DC": null,
+  "4330 Dubois Place SE, Washington, DC": {
+    "lat": 38.8858843,
+    "lng": -76.9434292
+  },
+  "New York Ave. NE, Washington, DC": {
+    "lat": 38.9184408,
+    "lng": -76.9544711
   }
 }
