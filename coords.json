@@ -156,5 +156,17 @@
   "New York Ave. NE, Washington, DC": {
     "lat": 38.9184408,
     "lng": -76.9544711
+  },
+  "6370 South ave ne, Washington, DC": {
+    "lat": 38.9499956,
+    "lng": -76.9926661
+  },
+  "1102 varney street se, Washington, DC": {
+    "lat": 38.8362149,
+    "lng": -76.9897056
+  },
+  "1700 Bay Street SE, Washington, DC": {
+    "lat": 38.8868226,
+    "lng": -76.9805551
   }
 }
