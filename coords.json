@@ -168,5 +168,29 @@
   "1700 Bay Street SE, Washington, DC": {
     "lat": 38.8868226,
     "lng": -76.9805551
+  },
+  "1311 Allison Street NW, Washington, DC": {
+    "lat": 38.9452306,
+    "lng": -77.0303814
+  },
+  "5446 B Street SE, Washington, DC": {
+    "lat": 38.8858264,
+    "lng": -76.9220898
+  },
+  "301 G Street SW, Washington, DC": {
+    "lat": 38.8816896,
+    "lng": -77.0168993
+  },
+  "555 11th St, Washington, DC": {
+    "lat": 38.8962937,
+    "lng": -77.0264438
+  },
+  "2701 Naylor Rd SE, Washington, DC": {
+    "lat": 38.8592718,
+    "lng": -76.9684902
+  },
+  "83 Danbury St, Washington, DC": {
+    "lat": 38.8279341,
+    "lng": -77.0097386
   }
 }
