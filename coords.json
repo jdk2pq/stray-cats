@@ -200,5 +200,9 @@
   "2754 16th St, Washington, DC": {
     "lat": 38.9251247,
     "lng": -77.0365903
+  },
+  "116 Rittenhouse Street Ne, Washington, DC": {
+    "lat": 38.9657077,
+    "lng": -77.0054997
   }
 }
