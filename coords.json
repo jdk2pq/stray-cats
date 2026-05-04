@@ -204,5 +204,25 @@
   "116 Rittenhouse Street Ne, Washington, DC": {
     "lat": 38.9657077,
     "lng": -77.0054997
+  },
+  "2243 Prout St SE, Washington, DC 20020, Washington, DC": {
+    "lat": 38.8731554,
+    "lng": -76.9735735
+  },
+  "142 42nd St NE, Washington, DC 20019, Washington, DC": {
+    "lat": 38.8916754,
+    "lng": -76.9439518
+  },
+  "1925 Gallaudet Street, Washington, DC": {
+    "lat": 38.9135003,
+    "lng": -76.9853282
+  },
+  "320 Riggs Rd NE, Washington, DC": {
+    "lat": 38.9589042,
+    "lng": -77.0020612
+  },
+  "4530 40th St NW, DC": {
+    "lat": 38.9491081,
+    "lng": -77.0791834
   }
 }
