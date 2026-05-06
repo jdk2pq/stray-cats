@@ -228,5 +228,9 @@
   "1405 18th Street SE, Washington, DC": {
     "lat": 38.8725653,
     "lng": -76.979247
+  },
+  "20018 10th St NE, Washington, DC": {
+    "lat": 38.9365418,
+    "lng": -76.9939276
   }
 }
