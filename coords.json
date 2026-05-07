@@ -232,5 +232,17 @@
   "20018 10th St NE, Washington, DC": {
     "lat": 38.9365418,
     "lng": -76.9939276
+  },
+  "616 Raleigh Place SE, Washington, DC": {
+    "lat": 38.8444614,
+    "lng": -76.9969547
+  },
+  "616 Raleigh Place Southeast, Washington, DC": {
+    "lat": 38.8444614,
+    "lng": -76.9969547
+  },
+  "918 10th street ne, Washington, DC": {
+    "lat": 38.9018596,
+    "lng": -76.9928468
   }
 }
