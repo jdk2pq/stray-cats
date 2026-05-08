@@ -244,5 +244,14 @@
   "918 10th street ne, Washington, DC": {
     "lat": 38.9018596,
     "lng": -76.9928468
-  }
+  },
+  "5316 East Capitol Street SE, Washington, DC": {
+    "lat": 38.8896091,
+    "lng": -76.9254191
+  },
+  "1360 Congress St SE, Washington, DC": {
+    "lat": 38.8432062,
+    "lng": -76.9857671
+  },
+  "1140 North Capital Street Nw, Washington, DC": null
 }
