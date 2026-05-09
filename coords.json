@@ -253,5 +253,17 @@
     "lat": 38.8432062,
     "lng": -76.9857671
   },
-  "1140 North Capital Street Nw, Washington, DC": null
+  "1140 North Capital Street Nw, Washington, DC": null,
+  "4625 Benning Road NE, Washington, DC": {
+    "lat": 38.897373,
+    "lng": -76.96488
+  },
+  "6509 N Capitol St, Washington, DC": {
+    "lat": 38.9685887,
+    "lng": -77.0088192
+  },
+  "1140 North Capitol Street, Washington, DC": {
+    "lat": 38.9024917,
+    "lng": -77.0113999
+  }
 }
