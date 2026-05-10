@@ -265,5 +265,21 @@
   "1140 North Capitol Street, Washington, DC": {
     "lat": 38.9024917,
     "lng": -77.0113999
+  },
+  "4027 13th St, Washington, DC": {
+    "lat": 38.9405854,
+    "lng": -77.0293081
+  },
+  "5221 Chillum Place, Washington, DC": {
+    "lat": 38.9674474,
+    "lng": -77.0116817
+  },
+  "2801 Upton Street Nw, Washington, DC": {
+    "lat": 38.9430112,
+    "lng": -77.0562833
+  },
+  "5312 E Street SE, Washington, DC": {
+    "lat": 38.882035,
+    "lng": -76.9261257
   }
 }
