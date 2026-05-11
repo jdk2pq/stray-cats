@@ -281,5 +281,13 @@
   "5312 E Street SE, Washington, DC": {
     "lat": 38.882035,
     "lng": -76.9261257
+  },
+  "1422 Shepherd street nw, Washington, DC": {
+    "lat": 38.9395614,
+    "lng": -77.0338257
+  },
+  "1218 Missouri Ave, Washington, DC": {
+    "lat": 38.9611932,
+    "lng": -77.02906
   }
 }
