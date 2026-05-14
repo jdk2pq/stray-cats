@@ -293,5 +293,13 @@
   "2838 Hartford Street SE, Washington, DC": {
     "lat": 38.8546443,
     "lng": -76.9672868
+  },
+  "1219 Alabama, Washington, DC": {
+    "lat": 38.8442285,
+    "lng": -76.9894572
+  },
+  "2586 Naylor Rd SE, Washington, DC 20020, Washington, DC": {
+    "lat": 38.8640258,
+    "lng": -76.96902
   }
 }
