@@ -301,5 +301,18 @@
   "2586 Naylor Rd SE, Washington, DC 20020, Washington, DC": {
     "lat": 38.8640258,
     "lng": -76.96902
+  },
+  "1021 Florida Avenue, Washington, DC": {
+    "lat": 38.9207088,
+    "lng": -77.0262542
+  },
+  "2857 28th street SE, Washington, DC": {
+    "lat": 38.8553723,
+    "lng": -76.9693206
+  },
+  "4660 MLK Jr Ave, Washington, DC": null,
+  "1711 bay street se, Washington, DC": {
+    "lat": 38.8864614,
+    "lng": -76.9802022
   }
 }
