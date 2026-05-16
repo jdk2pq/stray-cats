@@ -21,6 +21,8 @@ jobs:
           node-version: '20'
 
       - name: Fetch kittens and geocode new addresses
+        env:
+          GOOGLE_GEOCODING_KEY: ${{ secrets.GOOGLE_GEOCODING_KEY }}
         run: node .github/scripts/update-coords.js
 
       - name: Commit updated data if changed
@@ -34,3 +36,26 @@ jobs:
             git commit -m "Auto-update kitten data $(date -u '+%Y-%m-%d')"
             git push
           fi
+
+      - name: Check for geocode failures
+        id: check_failures
+        run: |
+          if [ -s geocode-failures.txt ]; then
+            echo "has_failures=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_failures=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Send geocode failure alert
+        if: steps.check_failures.outputs.has_failures == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.ALERT_EMAIL }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          subject: "DC Kitten Finder — geocoding failure on ${{ github.run_id }}"
+          to: ${{ secrets.ALERT_EMAIL }}
+          from: DC Kitten Finder <${{ secrets.ALERT_EMAIL }}>
+          body: file://geocode-failures.txt

@@ -3,3 +3,4 @@
 SETUP.md
 CLAUDE.md
 .claude/settings.local.json
+geocode-failures.txt

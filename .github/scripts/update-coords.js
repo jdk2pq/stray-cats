@@ -108,7 +108,7 @@ async function fetchFoundDetails(id) {
   }
 }
 
-async function geocode(address) {
+async function geocodeNominatim(address) {
   const url = `${NOMINATIM}?q=${encodeURIComponent(address)}&format=json&limit=1&countrycodes=us`;
   try {
     const res = await fetch(url, {
@@ -118,9 +118,33 @@ async function geocode(address) {
     const data = await res.json();
     if (data && data[0]) return { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) };
   } catch (e) {
-    console.warn(`  Geocode failed for "${address}": ${e.message}`);
+    console.warn(`  Nominatim failed for "${address}": ${e.message}`);
   }
   return null;
+}
+
+async function geocodeGoogle(address) {
+  const key = process.env.GOOGLE_GEOCODING_KEY;
+  if (!key) return null;
+  const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent(address)}&key=${key}`;
+  try {
+    const res = await fetch(url);
+    const data = await res.json();
+    if (data.status === 'OK' && data.results[0]) {
+      const loc = data.results[0].geometry.location;
+      return { lat: loc.lat, lng: loc.lng };
+    }
+    if (data.status !== 'ZERO_RESULTS') console.warn(`  Google status: ${data.status}`);
+  } catch (e) {
+    console.warn(`  Google geocode failed for "${address}": ${e.message}`);
+  }
+  return null;
+}
+
+async function geocode(address) {
+  const result = await geocodeNominatim(address);
+  if (result) return result;
+  return geocodeGoogle(address);
 }
 
 async function main() {
@@ -303,25 +327,54 @@ async function main() {
     process.exit(1);
   }
 
+  const googleFallbackAvailable = !!process.env.GOOGLE_GEOCODING_KEY;
+  const failedAddresses = [];
   let succeeded = 0, failed = 0;
   for (const address of newAddresses) {
     console.log(`  Geocoding: ${address}`);
-    const result = await geocode(address);
+    const nominatimResult = await geocodeNominatim(address);
+    await sleep(1100);
+    let result = nominatimResult;
+    if (!result && googleFallbackAvailable) {
+      console.log(`    → Nominatim miss, trying Google...`);
+      result = await geocodeGoogle(address);
+    }
     if (result) {
       coords[address] = result;
       succeeded++;
-      console.log(`    → ${result.lat}, ${result.lng}`);
+      console.log(`    → ${result.lat}, ${result.lng}${!nominatimResult ? ' (Google)' : ''}`);
     } else {
       coords[address] = null;
+      failedAddresses.push(address);
       failed++;
       console.log(`    → not found (cached as null)`);
     }
-    await sleep(1100);
   }
 
   fs.writeFileSync(COORDS_FILE, JSON.stringify(coords, null, 2));
   console.log(`\nDone.`);
   console.log(`  coords.json: ${Object.keys(coords).length} total, ${succeeded} newly geocoded, ${failed} failed`);
+
+  if (failedAddresses.length > 0) {
+    const body = [
+      `DC Kitten Finder — geocoding failures on ${today}`,
+      '',
+      `${failedAddresses.length} address(es) could not be geocoded by Nominatim or Google Maps and are stored as null in coords.json.`,
+      'Run geocode-nulls.js locally to retry them manually.',
+      '',
+      'Failed addresses:',
+      ...failedAddresses.map(a => `  - ${a}`),
+      '',
+      'Steps to fix:',
+      '  1. git pull',
+      '  2. GOOGLE_GEOCODING_KEY=AIza... node geocode-nulls.js',
+      '  3. git add coords.json && git commit -m "fix: geocode previously-null addresses" && git push',
+    ].join('\n');
+    fs.writeFileSync('geocode-failures.txt', body);
+    console.log(`\nWrote geocode-failures.txt (${failedAddresses.length} failed address(es)).`);
+  } else if (fs.existsSync('geocode-failures.txt')) {
+    fs.unlinkSync('geocode-failures.txt');
+  }
 }
 
 main().catch(e => {
