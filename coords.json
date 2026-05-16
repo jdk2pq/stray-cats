@@ -338,5 +338,9 @@
   "930 Longfellow st nw, Washington, DC": {
     "lat": 38.9571257,
     "lng": -77.02711339999999
+  },
+  "7621 19th Street NE, Washington, DC": {
+    "lat": 38.8909266,
+    "lng": -76.9772433
   }
 }
