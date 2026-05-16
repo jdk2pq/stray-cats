@@ -314,5 +314,14 @@
   "1711 bay street se, Washington, DC": {
     "lat": 38.8864614,
     "lng": -76.9802022
-  }
+  },
+  "1140 N Capitol St NW": {
+    "lat": 38.904776,
+    "lng": -77.009512
+  },
+  "1638 Trinidad Avenue NE, Washington, DC": {
+    "lat": 38.9069747,
+    "lng": -76.9839929
+  },
+  "930 Longfellow st nw, Washington, DC": null
 }
