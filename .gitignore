@@ -2,3 +2,4 @@
 .DS_Store
 SETUP.md
 .claude/settings.local.json
+geocode-failures.txt
