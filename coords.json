@@ -342,5 +342,13 @@
   "7621 19th Street NE, Washington, DC": {
     "lat": 38.8909266,
     "lng": -76.9772433
+  },
+  "1351 perry pl, Washington, DC": {
+    "lat": 38.9361093,
+    "lng": -77.0314913
+  },
+  "5425 cetral ave se, Washington, DC": {
+    "lat": 38.8862241,
+    "lng": -76.9225623
   }
 }
