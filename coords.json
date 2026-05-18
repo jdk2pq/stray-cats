@@ -350,5 +350,9 @@
   "5425 cetral ave se, Washington, DC": {
     "lat": 38.8862241,
     "lng": -76.9225623
+  },
+  "2625 Bowen Road SE, Washington, DC": {
+    "lat": 38.8593401,
+    "lng": -76.9905382
   }
 }
