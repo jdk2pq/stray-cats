@@ -358,5 +358,25 @@
   "1338 niuton st, Washington, DC": {
     "lat": 38.9339397,
     "lng": -76.9874502
+  },
+  "5900 3rd St NE, Washington, DC": {
+    "lat": 38.9615577,
+    "lng": -77.0029983
+  },
+  "1234 Meigs Pl NE, Washington, DC": {
+    "lat": 38.9079839,
+    "lng": -76.9849332
+  },
+  "101 Constitution Ave NW, Washington, DC": {
+    "lat": 38.8927787,
+    "lng": -77.0130872
+  },
+  "4414 Illinois Avenue NW, Washington, DC": {
+    "lat": 38.9449592,
+    "lng": -77.0207045
+  },
+  "33 K St NW, Washington, DC": {
+    "lat": 38.9025974,
+    "lng": -77.0104818
   }
 }
