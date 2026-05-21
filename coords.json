@@ -378,5 +378,21 @@
   "33 K St NW, Washington, DC": {
     "lat": 38.9025974,
     "lng": -77.0104818
+  },
+  "1218 Missouri ave nw, Washington, DC": {
+    "lat": 38.9611932,
+    "lng": -77.02906
+  },
+  "1754 P St NW, Washington, DC 20036, Washington, DC": {
+    "lat": 38.9094245,
+    "lng": -77.0409239
+  },
+  "2811 Pomeroy Road SE, Washington, DC": {
+    "lat": 38.8559433,
+    "lng": -76.9953324
+  },
+  "3400 Banneker Drive NE, Washington, DC": {
+    "lat": 38.9274475,
+    "lng": -76.9606678
   }
 }
