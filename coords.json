@@ -394,5 +394,21 @@
   "3400 Banneker Drive NE, Washington, DC": {
     "lat": 38.9274475,
     "lng": -76.9606678
+  },
+  "5844 Southern Avenue SE, Washington, DC": {
+    "lat": 38.8879823,
+    "lng": -76.9164612
+  },
+  "901 6th street sw, Washington, DC": {
+    "lat": 38.8782723,
+    "lng": -77.0203076
+  },
+  "628 I St, Washington, DC": {
+    "lat": 38.9015955,
+    "lng": -77.0288873
+  },
+  "1210 Delafield street, Washington, DC": {
+    "lat": 38.9497543,
+    "lng": -76.9934684
   }
 }
