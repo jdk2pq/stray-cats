@@ -410,5 +410,9 @@
   "1210 Delafield street, Washington, DC": {
     "lat": 38.9497543,
     "lng": -76.9934684
+  },
+  "4818 Fort Totten Dr NE, Washington, DC": {
+    "lat": 38.948915,
+    "lng": -77.0066807
   }
 }
