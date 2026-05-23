@@ -11,7 +11,7 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "5900 3rd St NE, Washington, DC",
-    "location": "DC - Stray Cat",
+    "location": "DC - Foster Home",
     "color": "Black",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NE",
@@ -20,7 +20,7 @@
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-20"
   },
   "60559136": {
@@ -35,7 +35,7 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "1422 Shepherd street nw, Washington, DC",
-    "location": "DC - Kitty Cove",
+    "location": "Cat Retreat",
     "color": "Grey",
     "colorSec": "White",
     "jurisdiction": "Washington, D.C. - NW",
@@ -44,7 +44,7 @@
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-11"
   },
   "60754055": {
@@ -4278,7 +4278,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-11"
   },
   "60973824": {
@@ -4302,7 +4302,7 @@
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-13"
   },
   "60973839": {
@@ -4326,7 +4326,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-13"
   },
   "60973853": {
@@ -4350,7 +4350,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-13"
   },
   "60982190": {
@@ -4374,7 +4374,7 @@
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-14"
   },
   "60983093": {
@@ -4398,7 +4398,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-14"
   },
   "60983113": {
@@ -4422,7 +4422,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-14"
   },
   "60983129": {
@@ -4446,7 +4446,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-14"
   },
   "60983148": {
@@ -4470,7 +4470,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-14"
   },
   "60989299": {
@@ -4494,7 +4494,7 @@
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-15"
   },
   "60989407": {
@@ -4518,12 +4518,12 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-15"
   },
   "60989432": {
     "id": "60989432",
-    "name": "Pippin Took",
+    "name": "Marchello",
     "breed": "Domestic Longhair",
     "breedSec": "Mix",
     "sex": "M",
@@ -4533,7 +4533,7 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "1638 Trinidad Avenue NE, Washington, DC",
-    "location": "DC - Meow &amp; Forever",
+    "location": "Released",
     "color": "Black",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NE",
@@ -4542,7 +4542,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-15"
   },
   "60989448": {
@@ -4566,7 +4566,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-15"
   },
   "60989493": {
@@ -4581,7 +4581,7 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "1638 Trinidad Avenue NE, Washington, DC",
-    "location": "DC - Meow &amp; Forever",
+    "location": "Released",
     "color": "Black",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NE",
@@ -4590,7 +4590,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-15"
   },
   "60989519": {
@@ -4614,7 +4614,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-15"
   },
   "60991695": {
@@ -4638,7 +4638,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-15"
   },
   "60993162": {
@@ -4662,7 +4662,7 @@
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-15"
   },
   "60993176": {
@@ -4697,7 +4697,7 @@
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-15"
   },
   "60993200": {
@@ -4732,7 +4732,7 @@
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-15"
   },
   "60993212": {
@@ -4767,7 +4767,7 @@
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-15"
   },
   "60993225": {
@@ -4802,7 +4802,7 @@
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-15"
   },
   "60993235": {
@@ -4837,7 +4837,7 @@
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-15"
   },
   "60993260": {
@@ -4896,7 +4896,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-15"
   },
   "61001124": {
@@ -4920,7 +4920,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-16"
   },
   "61002791": {
@@ -4944,7 +4944,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-16"
   },
   "61003980": {
@@ -4968,7 +4968,7 @@
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-16"
   },
   "61005186": {
@@ -4992,7 +4992,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-17"
   },
   "61005197": {
@@ -5016,7 +5016,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-17"
   },
   "61005206": {
@@ -5040,7 +5040,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-17"
   },
   "61005214": {
@@ -5064,7 +5064,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-17"
   },
   "61005219": {
@@ -5088,7 +5088,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-17"
   },
   "61005538": {
@@ -5112,7 +5112,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-17"
   },
   "61008130": {
@@ -5127,7 +5127,7 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "2625 Bowen Road SE, Washington, DC",
-    "location": "DC - Stray Cat",
+    "location": "DC - Foster Home",
     "color": "Black",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - SE",
@@ -5136,7 +5136,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-18"
   },
   "61008132": {
@@ -5151,7 +5151,7 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "2625 Bowen Road SE, Washington, DC",
-    "location": "DC - Stray Cat",
+    "location": "DC - Foster Home",
     "color": "Black",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - SE",
@@ -5160,7 +5160,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-18"
   },
   "61012935": {
@@ -5184,7 +5184,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-19"
   },
   "61018571": {
@@ -5256,7 +5256,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-20"
   },
   "61024260": {
@@ -5280,7 +5280,7 @@
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-20"
   },
   "61027471": {
@@ -5295,7 +5295,7 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "1754 P St NW, Washington, DC 20036, Washington, DC",
-    "location": "DC - Offices",
+    "location": "DC - Foster Home",
     "color": "Tan",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NW",
@@ -5304,7 +5304,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-21"
   },
   "61027490": {
@@ -5319,7 +5319,7 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "1754 P St NW, Washington, DC 20036, Washington, DC",
-    "location": "DC - Offices",
+    "location": "DC - Foster Home",
     "color": "Orange",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NW",
@@ -5328,7 +5328,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-21"
   },
   "61027635": {
@@ -5343,7 +5343,7 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "1754 P St NW, Washington, DC 20036, Washington, DC",
-    "location": "DC - Offices",
+    "location": "DC - Foster Home",
     "color": "Grey",
     "colorSec": "White",
     "jurisdiction": "Washington, D.C. - NW",
@@ -5352,7 +5352,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-21"
   },
   "61027648": {
@@ -5367,7 +5367,7 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "1754 P St NW, Washington, DC 20036, Washington, DC",
-    "location": "DC - Offices",
+    "location": "DC - Foster Home",
     "color": "Black",
     "colorSec": "Orange",
     "jurisdiction": "Washington, D.C. - NW",
@@ -5376,7 +5376,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-21"
   },
   "61027703": {
@@ -5391,7 +5391,7 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "1754 P St NW, Washington, DC 20036, Washington, DC",
-    "location": "DC - Offices",
+    "location": "DC - Foster Home",
     "color": "Orange",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NW",
@@ -5400,7 +5400,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-21"
   },
   "61028083": {
@@ -5408,14 +5408,14 @@
     "name": "Greyson",
     "breed": "Domestic Shorthair",
     "breedSec": "",
-    "sex": "U",
+    "sex": "M",
     "ageMonths": 0,
     "foundDate": "2026-05-20",
     "foundAddr": "2811 Pomeroy Road SE",
     "city": "Washington",
     "state": "DC",
     "fullAddr": "2811 Pomeroy Road SE, Washington, DC",
-    "location": "DC - Stray Cat",
+    "location": "NYA - Foster Home",
     "color": "Grey",
     "colorSec": "White",
     "jurisdiction": "Washington, D.C. - SE",
@@ -5424,7 +5424,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-21"
   },
   "61031701": {
@@ -5472,7 +5472,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-22"
   },
   "61036233": {
@@ -5487,7 +5487,7 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "901 6th street sw, Washington, DC",
-    "location": "DC - Offices",
+    "location": "DC - Foster Home",
     "color": "Black",
     "colorSec": "White",
     "jurisdiction": "Washington, D.C. - SW",
@@ -5496,7 +5496,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-22"
   },
   "61036240": {
@@ -5511,7 +5511,7 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "901 6th street sw, Washington, DC",
-    "location": "DC - Offices",
+    "location": "DC - Foster Home",
     "color": "Black",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - SW",
@@ -5520,7 +5520,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-22"
   },
   "61036255": {
@@ -5544,7 +5544,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-22"
   },
   "61036275": {
@@ -5559,7 +5559,7 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "901 6th street sw, Washington, DC",
-    "location": "DC - Offices",
+    "location": "DC - Foster Home",
     "color": "Black",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - SW",
@@ -5568,7 +5568,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-22"
   },
   "61036289": {
@@ -5592,7 +5592,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-22"
   },
   "61036301": {
@@ -5616,7 +5616,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-22"
   },
   "61036315": {
@@ -5640,7 +5640,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-22"
   },
   "61040359": {
@@ -5664,7 +5664,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-22"
   },
   "61040360": {
@@ -5688,12 +5688,12 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-22"
   },
   "61040373": {
     "id": "61040373",
-    "name": "Ivory",
+    "name": "Mohammed",
     "breed": "Domestic Shorthair",
     "breedSec": "Mix",
     "sex": "M",
@@ -5708,11 +5708,186 @@
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NE",
     "spayedNeutered": "No",
-    "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
+    "photo": "https://g.petango.com/photos/2620/507798db-9b78-47d2-9846-58b1c040b077.jpg",
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-05-22",
+    "lastSeenDate": "2026-05-23",
     "firstSeenDate": "2026-05-22"
+  },
+  "61047003": {
+    "id": "61047003",
+    "name": "Unfair Labor practice",
+    "breed": "Domestic Shorthair",
+    "breedSec": "Mix",
+    "sex": "F",
+    "ageMonths": 0,
+    "foundDate": "2026-05-22",
+    "foundAddr": "4818 Fort Totten Dr NE",
+    "city": "Washington",
+    "state": "DC",
+    "fullAddr": "4818 Fort Totten Dr NE, Washington, DC",
+    "location": "DC - Stray Cat",
+    "color": "Black",
+    "colorSec": "",
+    "jurisdiction": "Washington, D.C. - NE",
+    "spayedNeutered": "No",
+    "photo": "https://g.petango.com/photos/2620/53b72813-06b6-4c3c-a51b-55c252086e67.jpg",
+    "size": "Small",
+    "possibleMother": {
+      "id": "61046998",
+      "name": "Labor Union Organizer",
+      "breed": "Domestic Shorthair",
+      "color": "Black",
+      "ageMonths": 36,
+      "sex": "F",
+      "location": "DC - Stray Cat",
+      "photo": "https://g.petango.com/photos/2620/fd4798c5-7440-4638-8998-5f05daa71508.jpg",
+      "confidence": "likely",
+      "note": "Same-day same-address adult female. Inferred, not confirmed."
+    },
+    "noAgeProvided": true,
+    "lastSeenDate": "2026-05-23",
+    "firstSeenDate": "2026-05-23"
+  },
+  "61047024": {
+    "id": "61047024",
+    "name": "Wage Garnishment",
+    "breed": "Domestic Shorthair",
+    "breedSec": "Mix",
+    "sex": "M",
+    "ageMonths": 0,
+    "foundDate": "2026-05-22",
+    "foundAddr": "4818 Fort Totten Dr NE",
+    "city": "Washington",
+    "state": "DC",
+    "fullAddr": "4818 Fort Totten Dr NE, Washington, DC",
+    "location": "DC - Stray Cat",
+    "color": "Black",
+    "colorSec": "",
+    "jurisdiction": "Washington, D.C. - NE",
+    "spayedNeutered": "No",
+    "photo": "https://g.petango.com/photos/2620/615a98a1-b5a4-4ed1-a031-8ecd4569d8f8.jpg",
+    "size": "Small",
+    "possibleMother": {
+      "id": "61046998",
+      "name": "Labor Union Organizer",
+      "breed": "Domestic Shorthair",
+      "color": "Black",
+      "ageMonths": 36,
+      "sex": "F",
+      "location": "DC - Stray Cat",
+      "photo": "https://g.petango.com/photos/2620/fd4798c5-7440-4638-8998-5f05daa71508.jpg",
+      "confidence": "likely",
+      "note": "Same-day same-address adult female. Inferred, not confirmed."
+    },
+    "noAgeProvided": true,
+    "lastSeenDate": "2026-05-23",
+    "firstSeenDate": "2026-05-23"
+  },
+  "61047032": {
+    "id": "61047032",
+    "name": "Union Buster",
+    "breed": "Domestic Shorthair",
+    "breedSec": "Mix",
+    "sex": "M",
+    "ageMonths": 0,
+    "foundDate": "2026-05-22",
+    "foundAddr": "4818 Fort Totten Dr NE",
+    "city": "Washington",
+    "state": "DC",
+    "fullAddr": "4818 Fort Totten Dr NE, Washington, DC",
+    "location": "DC - Stray Cat",
+    "color": "Black",
+    "colorSec": "",
+    "jurisdiction": "Washington, D.C. - NE",
+    "spayedNeutered": "No",
+    "photo": "https://g.petango.com/photos/2620/1b510793-865f-4bc6-89cf-1d8a2ef6bc63.jpg",
+    "size": "Small",
+    "possibleMother": {
+      "id": "61046998",
+      "name": "Labor Union Organizer",
+      "breed": "Domestic Shorthair",
+      "color": "Black",
+      "ageMonths": 36,
+      "sex": "F",
+      "location": "DC - Stray Cat",
+      "photo": "https://g.petango.com/photos/2620/fd4798c5-7440-4638-8998-5f05daa71508.jpg",
+      "confidence": "likely",
+      "note": "Same-day same-address adult female. Inferred, not confirmed."
+    },
+    "noAgeProvided": true,
+    "lastSeenDate": "2026-05-23",
+    "firstSeenDate": "2026-05-23"
+  },
+  "61047039": {
+    "id": "61047039",
+    "name": "Captive Audience Meeting",
+    "breed": "Domestic Shorthair",
+    "breedSec": "Mix",
+    "sex": "M",
+    "ageMonths": 0,
+    "foundDate": "2026-05-22",
+    "foundAddr": "4818 Fort Totten Dr NE",
+    "city": "Washington",
+    "state": "DC",
+    "fullAddr": "4818 Fort Totten Dr NE, Washington, DC",
+    "location": "DC - Stray Cat",
+    "color": "Black",
+    "colorSec": "",
+    "jurisdiction": "Washington, D.C. - NE",
+    "spayedNeutered": "No",
+    "photo": "https://g.petango.com/photos/2620/0f234380-4474-4ff2-9d7a-2125731821ea.jpg",
+    "size": "Small",
+    "possibleMother": {
+      "id": "61046998",
+      "name": "Labor Union Organizer",
+      "breed": "Domestic Shorthair",
+      "color": "Black",
+      "ageMonths": 36,
+      "sex": "F",
+      "location": "DC - Stray Cat",
+      "photo": "https://g.petango.com/photos/2620/fd4798c5-7440-4638-8998-5f05daa71508.jpg",
+      "confidence": "likely",
+      "note": "Same-day same-address adult female. Inferred, not confirmed."
+    },
+    "noAgeProvided": true,
+    "lastSeenDate": "2026-05-23",
+    "firstSeenDate": "2026-05-23"
+  },
+  "61047046": {
+    "id": "61047046",
+    "name": "Hostile Work Environment",
+    "breed": "Domestic Shorthair",
+    "breedSec": "Mix",
+    "sex": "F",
+    "ageMonths": 0,
+    "foundDate": "2026-05-22",
+    "foundAddr": "4818 Fort Totten Dr NE",
+    "city": "Washington",
+    "state": "DC",
+    "fullAddr": "4818 Fort Totten Dr NE, Washington, DC",
+    "location": "DC - Stray Cat",
+    "color": "Black",
+    "colorSec": "Orange",
+    "jurisdiction": "Washington, D.C. - NE",
+    "spayedNeutered": "No",
+    "photo": "https://g.petango.com/photos/2620/47811d9a-ae6c-418a-a70f-c8dbd371ac53.jpg",
+    "size": "Small",
+    "possibleMother": {
+      "id": "61046998",
+      "name": "Labor Union Organizer",
+      "breed": "Domestic Shorthair",
+      "color": "Black",
+      "ageMonths": 36,
+      "sex": "F",
+      "location": "DC - Stray Cat",
+      "photo": "https://g.petango.com/photos/2620/fd4798c5-7440-4638-8998-5f05daa71508.jpg",
+      "confidence": "likely",
+      "note": "Same-day same-address adult female. Inferred, not confirmed."
+    },
+    "noAgeProvided": true,
+    "lastSeenDate": "2026-05-23",
+    "firstSeenDate": "2026-05-23"
   }
 }
