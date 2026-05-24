@@ -414,5 +414,13 @@
   "4818 Fort Totten Dr NE, Washington, DC": {
     "lat": 38.948915,
     "lng": -77.0066807
+  },
+  "1608 29th St, Washington, DC": {
+    "lat": 38.8702914,
+    "lng": -76.9655862
+  },
+  "interstate 295, Washington, DC": {
+    "lat": 38.8367509,
+    "lng": -77.0102133
   }
 }
