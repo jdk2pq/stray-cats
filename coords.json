@@ -422,5 +422,17 @@
   "interstate 295, Washington, DC": {
     "lat": 38.8367509,
     "lng": -77.0102133
+  },
+  "1212 Trenton PL, Washington, DC": {
+    "lat": 38.8408555,
+    "lng": -76.9892716
+  },
+  "4829 4th Street NW, Washington, DC": {
+    "lat": 38.9495558,
+    "lng": -77.017263
+  },
+  "1301 Congress Street SE, Washington, DC": {
+    "lat": 38.842071,
+    "lng": -76.987281
   }
 }
