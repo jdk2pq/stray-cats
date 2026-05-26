@@ -434,5 +434,9 @@
   "1301 Congress Street SE, Washington, DC": {
     "lat": 38.842071,
     "lng": -76.987281
+  },
+  "5055 11th Street NE, Washington, DC": {
+    "lat": 38.9522575,
+    "lng": -76.9913737
   }
 }
