@@ -438,5 +438,13 @@
   "5055 11th Street NE, Washington, DC": {
     "lat": 38.9522575,
     "lng": -76.9913737
+  },
+  "1212 Trenton Pl SE, Washington, DC 20032, Washington, DC": {
+    "lat": 38.8408555,
+    "lng": -76.9892716
+  },
+  "1920 U Pl, Washington, DC": {
+    "lat": 38.8661148,
+    "lng": -76.9770283
   }
 }
