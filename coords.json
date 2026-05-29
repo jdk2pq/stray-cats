@@ -446,5 +446,21 @@
   "1920 U Pl, Washington, DC": {
     "lat": 38.8661148,
     "lng": -76.9770283
+  },
+  "Monroe &amp; 18th St, Washington, DC": {
+    "lat": 38.933294,
+    "lng": -77.04129209999999
+  },
+  "1442 Congress Pl SE, Washington, DC": {
+    "lat": 38.847256,
+    "lng": -76.9836535
+  },
+  "1314 Saratoga Avenue NE, Washington, DC": {
+    "lat": 38.9222609,
+    "lng": -76.9872525
+  },
+  "70 I Street SE, Washington, DC": {
+    "lat": 38.8795241,
+    "lng": -77.0070282
   }
 }
