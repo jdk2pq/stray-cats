@@ -462,5 +462,17 @@
   "70 I Street SE, Washington, DC": {
     "lat": 38.8795241,
     "lng": -77.0070282
+  },
+  "4923 Just ST NE, Washington, DC": {
+    "lat": 38.9023286,
+    "lng": -76.9304138
+  },
+  "14 St NW, Washington, DC": {
+    "lat": 38.9430312,
+    "lng": -77.0679514
+  },
+  "Naylor Rd, Washington, DC": {
+    "lat": 38.8690821,
+    "lng": -76.9715446
   }
 }
