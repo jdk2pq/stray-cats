@@ -474,5 +474,13 @@
   "Naylor Rd, Washington, DC": {
     "lat": 38.8690821,
     "lng": -76.9715446
+  },
+  "5324 C Street SE, Washington, DC": {
+    "lat": 38.8847558,
+    "lng": -76.9250976
+  },
+  "3767 Jay Street NE, Washington, DC": {
+    "lat": 38.9033458,
+    "lng": -76.9474122
   }
 }
