@@ -490,5 +490,21 @@
   "800 Kenilworth Avenue NE 446, Washington, DC": {
     "lat": 38.9014042,
     "lng": -76.9462579
+  },
+  "3322 Wheeler Rd SE, Washington, DC": {
+    "lat": 38.841055,
+    "lng": -76.9931074
+  },
+  "1909 Frederick Douglass Ct SE, Washington, DC": {
+    "lat": 38.8518816,
+    "lng": -76.9769998
+  },
+  "2801 14th street NW 919, Washington, DC": {
+    "lat": 38.9261708,
+    "lng": -77.0319944
+  },
+  "55 47th St SE, Washington, DC": {
+    "lat": 38.8884846,
+    "lng": -76.9336512
   }
 }
