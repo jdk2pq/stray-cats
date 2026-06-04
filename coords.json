@@ -506,5 +506,21 @@
   "55 47th St SE, Washington, DC": {
     "lat": 38.8884846,
     "lng": -76.9336512
+  },
+  "3957 Ames St NE, Washington, DC": {
+    "lat": 38.8906996,
+    "lng": -76.9483606
+  },
+  "645 E Street SE, Washington, DC": {
+    "lat": 38.8824604,
+    "lng": -76.9968502
+  },
+  "1701 Benning Rd NE, Washington, DC": {
+    "lat": 38.8990026,
+    "lng": -76.9791563
+  },
+  "607 Columbia Rd, Washington, DC": {
+    "lat": 38.9284708,
+    "lng": -77.0211646
   }
 }
