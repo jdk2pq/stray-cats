@@ -522,5 +522,29 @@
   "607 Columbia Rd, Washington, DC": {
     "lat": 38.9284708,
     "lng": -77.0211646
+  },
+  "830 Ridge Rd SE, Washington, DC": {
+    "lat": 38.8758259,
+    "lng": -76.9402959
+  },
+  "1332 Longfellow St, Washington, DC": {
+    "lat": 38.9570583,
+    "lng": -77.0314564
+  },
+  "2701 Douglas Pl, Washington, DC": {
+    "lat": 38.8561137,
+    "lng": -76.9905098
+  },
+  "71 Oglethorpe street NW Washington, 20011, Washington, DC": {
+    "lat": 38.9613643,
+    "lng": -77.008389
+  },
+  "1446 W St SE, Washington, DC": {
+    "lat": 38.8641106,
+    "lng": -76.9849458
+  },
+  "423 New Jersey Ave SE, Washington, DC": {
+    "lat": 38.8840929,
+    "lng": -77.0072784
   }
 }
