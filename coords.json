@@ -554,5 +554,9 @@
   "3670 Hayes St NE, Washington, DC 20019, Washington, DC": {
     "lat": 38.905633,
     "lng": -76.9522002
+  },
+  "1400 Clinton St, Washington, DC": {
+    "lat": 38.9307114,
+    "lng": -76.9648148
   }
 }
