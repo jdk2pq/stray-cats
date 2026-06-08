@@ -558,5 +558,13 @@
   "1400 Clinton St, Washington, DC": {
     "lat": 38.9307114,
     "lng": -76.9648148
+  },
+  "1601 Morris Street se, Washington, DC": {
+    "lat": 38.875052,
+    "lng": -76.9941646
+  },
+  "1201 valley ave, Washington, DC": {
+    "lat": 38.8371315,
+    "lng": -76.9902496
   }
 }
