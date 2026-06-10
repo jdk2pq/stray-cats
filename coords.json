@@ -570,5 +570,17 @@
   "5024 9th st NW, Washington, DC": {
     "lat": 38.9516497,
     "lng": -77.0257781
+  },
+  "125 U St NW, Washington, DC": {
+    "lat": 38.9171734,
+    "lng": -77.0131054
+  },
+  "1322 Levi's s NE, Washington, DC": {
+    "lat": 38.904899,
+    "lng": -76.9839903
+  },
+  "418 Oglethorpe Street NW Washington, 20011, Washington, DC": {
+    "lat": 38.9611086,
+    "lng": -77.0188963
   }
 }
