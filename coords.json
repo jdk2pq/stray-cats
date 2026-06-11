@@ -582,5 +582,13 @@
   "418 Oglethorpe Street NW Washington, 20011, Washington, DC": {
     "lat": 38.9611086,
     "lng": -77.0188963
+  },
+  "4525 Foote street ne, Washington, DC": {
+    "lat": 38.897254,
+    "lng": -76.9367192
+  },
+  "4 dcv lane sw, Washington, DC": {
+    "lat": 38.8738632,
+    "lng": -77.0219019
   }
 }
