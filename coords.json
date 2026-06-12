@@ -590,5 +590,21 @@
   "4 dcv lane sw, Washington, DC": {
     "lat": 38.8738632,
     "lng": -77.0219019
+  },
+  "4 DC Village lane, Washington, DC": {
+    "lat": 38.8150318,
+    "lng": -77.0134612
+  },
+  "2328 14th Place SE, Washington, DC": {
+    "lat": 38.8587145,
+    "lng": -76.9869496
+  },
+  "417 34th St NE, Washington, DC": {
+    "lat": 38.8953291,
+    "lng": -76.9572384
+  },
+  "Military Rd NW, Washington, DC": {
+    "lat": 38.9621717,
+    "lng": -77.0339316
   }
 }
