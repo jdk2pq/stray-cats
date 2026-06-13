@@ -606,5 +606,25 @@
   "Military Rd NW, Washington, DC": {
     "lat": 38.9621717,
     "lng": -77.0339316
+  },
+  "800 Kenilworth Avenue NE, Washington, DC": {
+    "lat": 38.9014042,
+    "lng": -76.9462579
+  },
+  "4923 G street SE, Washington, DC": {
+    "lat": 38.8800415,
+    "lng": -76.9309404
+  },
+  "506 Minnesota Ave NE, Washington, DC 20019, Washington, DC": {
+    "lat": 38.9086664,
+    "lng": -76.9332672
+  },
+  "1133 Trinidad ave ne, Washington, DC": {
+    "lat": 38.9022382,
+    "lng": -76.9866676
+  },
+  "4500 Kenilworth NE, Washington, DC": {
+    "lat": 38.8999462,
+    "lng": -76.9484803
   }
 }
