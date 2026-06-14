@@ -626,5 +626,13 @@
   "4500 Kenilworth NE, Washington, DC": {
     "lat": 38.8999462,
     "lng": -76.9484803
+  },
+  "2900 Pomeroy Road SE, Washington, DC": {
+    "lat": 38.8566238,
+    "lng": -76.9964186
+  },
+  "5929 Georgia Ave NW, Washington, DC 20011, Washington, DC": {
+    "lat": 38.9620325,
+    "lng": -77.0273083
   }
 }
