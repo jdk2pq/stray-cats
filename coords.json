@@ -634,5 +634,13 @@
   "5929 Georgia Ave NW, Washington, DC 20011, Washington, DC": {
     "lat": 38.9620325,
     "lng": -77.0273083
+  },
+  "268 37th Place SE Washington, 20019, Washington, DC": {
+    "lat": 38.8858946,
+    "lng": -76.9511874
+  },
+  "barnaby st se, Washington, DC": {
+    "lat": 38.8300685,
+    "lng": -76.9938356
   }
 }
