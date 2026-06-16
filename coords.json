@@ -642,5 +642,9 @@
   "barnaby st se, Washington, DC": {
     "lat": 38.8300685,
     "lng": -76.9938356
+  },
+  "120 11th Street NE, Washington, DC": {
+    "lat": 38.89104,
+    "lng": -76.9917831
   }
 }
