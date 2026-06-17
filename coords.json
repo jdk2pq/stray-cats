@@ -646,5 +646,25 @@
   "120 11th Street NE, Washington, DC": {
     "lat": 38.89104,
     "lng": -76.9917831
+  },
+  "2300 Washington pl NE, Washington, DC": {
+    "lat": 38.9209562,
+    "lng": -76.9939222
+  },
+  "3649 6th St SE, Washington, DC": {
+    "lat": 38.8376655,
+    "lng": -76.9987624
+  },
+  "3rd and Upshur St NW, Washington, DC": {
+    "lat": 38.9418755,
+    "lng": -77.0302513
+  },
+  "dakota crossing ne, Washington, DC": {
+    "lat": 38.9206595,
+    "lng": -76.952933
+  },
+  "2950 Mills Avenue NE, Washington, DC": {
+    "lat": 38.9288967,
+    "lng": -76.9745645
   }
 }
