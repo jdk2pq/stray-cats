@@ -60,7 +60,7 @@
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/7169a4f6-33ec-4784-ad89-66817b570420.jpg",
     "firstSeenDate": "2026-06-12",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "60559136": {
     "id": "60559136",
@@ -103,6 +103,27 @@
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-03",
     "lastSeenDate": "2026-06-15"
+  },
+  "60724556": {
+    "id": "60724556",
+    "name": "Truffle",
+    "breed": "Domestic Shorthair",
+    "breedSec": "Mix",
+    "sex": "M",
+    "ageMonths": 3,
+    "foundDate": "2026-06-17",
+    "foundAddr": "4 DC village ln sw",
+    "city": "Washington",
+    "state": "DC",
+    "fullAddr": "4 DC village ln sw, Washington, DC",
+    "location": "DC - Cat Treatment",
+    "color": "Brown",
+    "colorSec": "",
+    "jurisdiction": "Washington, D.C. - SW",
+    "spayedNeutered": "Yes",
+    "photo": "https://g.petango.com/photos/2620/85d1871c-751b-4882-a8bb-0344636587a1.jpg",
+    "firstSeenDate": "2026-06-18",
+    "lastSeenDate": "2026-06-18"
   },
   "60763985": {
     "id": "60763985",
@@ -7746,7 +7767,7 @@
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-06",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61132652": {
     "id": "61132652",
@@ -7767,7 +7788,7 @@
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-06",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61136603": {
     "id": "61136603",
@@ -7788,7 +7809,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/457d51c5-9c3a-4a4a-9c73-ab23776839c1.jpg",
     "firstSeenDate": "2026-06-06",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61137568": {
     "id": "61137568",
@@ -7809,7 +7830,7 @@
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/948864ab-0bf6-4ac3-8843-42a0f5ee150d.jpg",
     "firstSeenDate": "2026-06-07",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61137935": {
     "id": "61137935",
@@ -7830,7 +7851,7 @@
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/c8bf3fbd-2d63-46b4-9795-2c81b0deec4d.jpg",
     "firstSeenDate": "2026-06-07",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61142154": {
     "id": "61142154",
@@ -7872,7 +7893,7 @@
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-08",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61142804": {
     "id": "61142804",
@@ -7893,7 +7914,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/ca729e21-a11d-45b5-b8e3-cc52ed4a02ab.jpg",
     "firstSeenDate": "2026-06-08",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61142813": {
     "id": "61142813",
@@ -7914,7 +7935,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/34ed27a8-e9b0-42f6-8eeb-933fd4bae9bd.jpg",
     "firstSeenDate": "2026-06-08",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61149564": {
     "id": "61149564",
@@ -7932,10 +7953,10 @@
     "color": "Orange",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NW",
-    "spayedNeutered": "No",
+    "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/f601dc72-adfd-4e5b-a446-b806a222f610.jpg",
     "firstSeenDate": "2026-06-09",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61149600": {
     "id": "61149600",
@@ -7956,7 +7977,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/515e8abc-2c3b-4570-942a-d7087c948c38.jpg",
     "firstSeenDate": "2026-06-09",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61149977": {
     "id": "61149977",
@@ -7977,7 +7998,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/87c6994e-cee8-41ba-8ca1-4cf591778321.jpg",
     "firstSeenDate": "2026-06-09",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61154171": {
     "id": "61154171",
@@ -7998,7 +8019,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-10",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61154198": {
     "id": "61154198",
@@ -8019,7 +8040,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-10",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61154249": {
     "id": "61154249",
@@ -8040,7 +8061,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-10",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61154319": {
     "id": "61154319",
@@ -8061,7 +8082,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/1badd08c-ca1d-4be3-98dc-906de5eaa4fc.jpg",
     "firstSeenDate": "2026-06-10",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61154327": {
     "id": "61154327",
@@ -8082,7 +8103,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/ab64251c-e9fe-479e-888d-c60a597cecb5.jpg",
     "firstSeenDate": "2026-06-10",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61156313": {
     "id": "61156313",
@@ -8096,14 +8117,14 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "1349 Adams St NE, Washington, DC",
-    "location": "DC - Community Cats",
+    "location": "Released",
     "color": "Brown",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NE",
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/fb74f83d-12f7-40a0-bba3-dc127688fc34.jpg",
     "firstSeenDate": "2026-06-10",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61158749": {
     "id": "61158749",
@@ -8121,10 +8142,10 @@
     "color": "Black",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NE",
-    "spayedNeutered": "No",
+    "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-10",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61158760": {
     "id": "61158760",
@@ -8142,10 +8163,10 @@
     "color": "Black",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NE",
-    "spayedNeutered": "No",
+    "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-10",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61158772": {
     "id": "61158772",
@@ -8163,10 +8184,10 @@
     "color": "Black",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NE",
-    "spayedNeutered": "No",
+    "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-10",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61158773": {
     "id": "61158773",
@@ -8184,10 +8205,10 @@
     "color": "Brown",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NE",
-    "spayedNeutered": "No",
+    "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-10",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61159146": {
     "id": "61159146",
@@ -8208,7 +8229,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-10",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61160962": {
     "id": "61160962",
@@ -8229,7 +8250,7 @@
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/cdfdc59d-1b08-474c-b92c-b14d6d3e3c1a.jpg",
     "firstSeenDate": "2026-06-11",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61161360": {
     "id": "61161360",
@@ -8250,7 +8271,7 @@
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-11",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61161371": {
     "id": "61161371",
@@ -8271,7 +8292,7 @@
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-11",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61161387": {
     "id": "61161387",
@@ -8292,7 +8313,7 @@
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-11",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61161930": {
     "id": "61161930",
@@ -8313,7 +8334,7 @@
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/212b9aeb-18c2-4893-a513-e73ba1a46caf.jpg",
     "firstSeenDate": "2026-06-11",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61161959": {
     "id": "61161959",
@@ -8334,7 +8355,7 @@
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/5db66f11-b054-4d59-85ca-e1c004f7a2f7.jpg",
     "firstSeenDate": "2026-06-11",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61161971": {
     "id": "61161971",
@@ -8355,7 +8376,7 @@
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/5a91708b-de3c-4f1a-8d3c-2da6785c2949.jpg",
     "firstSeenDate": "2026-06-11",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61171527": {
     "id": "61171527",
@@ -8373,10 +8394,10 @@
     "color": "Grey",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - SW",
-    "spayedNeutered": "No",
+    "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/25d0a3e3-084a-4535-af2e-3e26a715373b.jpg",
     "firstSeenDate": "2026-06-12",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61173489": {
     "id": "61173489",
@@ -8397,7 +8418,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/cb18537b-2fcc-4992-bd3a-c401d355dc9d.jpg",
     "firstSeenDate": "2026-06-12",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61173831": {
     "id": "61173831",
@@ -8418,7 +8439,7 @@
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/cf5b2532-965c-4bb1-ba12-06d9c7cdf339.jpg",
     "firstSeenDate": "2026-06-12",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61174637": {
     "id": "61174637",
@@ -8436,10 +8457,10 @@
     "color": "Brown",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NW",
-    "spayedNeutered": "No",
+    "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/8ef8408f-50d3-4c6e-aadc-5fd1e98f4fde.jpg",
     "firstSeenDate": "2026-06-12",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61177346": {
     "id": "61177346",
@@ -8460,7 +8481,7 @@
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/ae209410-29f0-427d-a0bb-124d3d081796.jpg",
     "firstSeenDate": "2026-06-13",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61177359": {
     "id": "61177359",
@@ -8479,9 +8500,9 @@
     "colorSec": "White",
     "jurisdiction": "Washington, D.C. - NE",
     "spayedNeutered": "Yes",
-    "photo": "https://g.petango.com/photos/2620/5199b7ba-8bb5-4260-b411-ba87b1e9ba68.jpg",
+    "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-13",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61177370": {
     "id": "61177370",
@@ -8502,7 +8523,7 @@
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/293c522e-4f0f-4813-9cbc-74de69a85e02.jpg",
     "firstSeenDate": "2026-06-13",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61178797": {
     "id": "61178797",
@@ -8523,7 +8544,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/a3ea8223-6bb4-4650-bd8a-0150c53e6176.jpg",
     "firstSeenDate": "2026-06-13",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61178810": {
     "id": "61178810",
@@ -8544,7 +8565,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/69c4ab7e-84f0-41ee-84dd-71a31ac1d27a.jpg",
     "firstSeenDate": "2026-06-13",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61179874": {
     "id": "61179874",
@@ -8565,7 +8586,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/259bca81-ee4a-4ef8-9817-162da7625767.jpg",
     "firstSeenDate": "2026-06-13",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61180482": {
     "id": "61180482",
@@ -8586,7 +8607,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-13",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61181374": {
     "id": "61181374",
@@ -8607,7 +8628,7 @@
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/a9ea2175-5966-422b-8fb7-125b671a4ede.jpg",
     "firstSeenDate": "2026-06-13",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61182482": {
     "id": "61182482",
@@ -8628,7 +8649,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/b7905e84-710f-45ce-b347-2bd56cf993f8.jpg",
     "firstSeenDate": "2026-06-14",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61185737": {
     "id": "61185737",
@@ -8649,7 +8670,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/3c9c46fb-0e52-4058-ac84-65dce6520f5b.jpg",
     "firstSeenDate": "2026-06-14",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61185745": {
     "id": "61185745",
@@ -8670,7 +8691,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/4436e9dd-2173-4007-9ea3-18991fe595a3.jpg",
     "firstSeenDate": "2026-06-14",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61185748": {
     "id": "61185748",
@@ -8691,7 +8712,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/488b294b-2f3e-46eb-a521-d673b7bf0de0.jpg",
     "firstSeenDate": "2026-06-14",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61185754": {
     "id": "61185754",
@@ -8712,7 +8733,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/bb6c7244-ba11-4f72-8516-cb4dbc2c76f0.jpg",
     "firstSeenDate": "2026-06-14",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61187523": {
     "id": "61187523",
@@ -8726,14 +8747,14 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "1509 5th street nw, Washington, DC",
-    "location": "DC - Community Cats",
+    "location": "Released",
     "color": "Brindle",
     "colorSec": "Black",
     "jurisdiction": "Washington, D.C. - NW",
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/b67e568b-54c2-432a-993c-0098756d422b.jpg",
     "firstSeenDate": "2026-06-15",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61187968": {
     "id": "61187968",
@@ -8754,7 +8775,7 @@
     "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/27eb07fc-b99c-4540-9595-876bc77dec18.jpg",
     "firstSeenDate": "2026-06-15",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61188458": {
     "id": "61188458",
@@ -8772,10 +8793,10 @@
     "color": "Grey",
     "colorSec": "White",
     "jurisdiction": "Washington, D.C. - SE",
-    "spayedNeutered": "No",
-    "photo": "https://g.petango.com/photos/2620/4549e7f3-7116-4645-aa0e-e9398ab93aca.jpg",
+    "spayedNeutered": "Yes",
+    "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-15",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61191812": {
     "id": "61191812",
@@ -8793,10 +8814,10 @@
     "color": "Grey",
     "colorSec": "White",
     "jurisdiction": "Washington, D.C. - NE",
-    "spayedNeutered": "No",
+    "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/ad3cc775-9a27-4678-9226-2b25d8ab3a3c.jpg",
     "firstSeenDate": "2026-06-16",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61191840": {
     "id": "61191840",
@@ -8814,10 +8835,10 @@
     "color": "Grey",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NE",
-    "spayedNeutered": "No",
+    "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/9bb43fe1-4075-46e2-9234-034c4136909a.jpg",
     "firstSeenDate": "2026-06-16",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61191852": {
     "id": "61191852",
@@ -8835,10 +8856,10 @@
     "color": "Brown",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NE",
-    "spayedNeutered": "No",
+    "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/956716be-a35e-4f56-a309-9b3fa47c7f93.jpg",
     "firstSeenDate": "2026-06-16",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61191859": {
     "id": "61191859",
@@ -8856,10 +8877,10 @@
     "color": "Brown",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NE",
-    "spayedNeutered": "No",
+    "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/49b8e1fd-7fd0-49b4-99f1-957a0537be28.jpg",
     "firstSeenDate": "2026-06-16",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61191864": {
     "id": "61191864",
@@ -8877,10 +8898,10 @@
     "color": "Brown",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NE",
-    "spayedNeutered": "No",
+    "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/14a67b74-fb97-4d5f-a780-a41a14484ff4.jpg",
     "firstSeenDate": "2026-06-16",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61203167": {
     "id": "61203167",
@@ -8899,9 +8920,9 @@
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NE",
     "spayedNeutered": "No",
-    "photo": "https://g.petango.com/photos/2620/4994681a-f2c0-4efa-9684-49fe4a4b49ab.jpg",
+    "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
     "firstSeenDate": "2026-06-17",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61203835": {
     "id": "61203835",
@@ -8915,14 +8936,14 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "3649 6th St SE, Washington, DC",
-    "location": "DC - Surrender",
+    "location": "DC - Stray Cat",
     "color": "Grey",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - SE",
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/c99370e8-7236-4165-bcd9-b28b6c4315de.jpg",
     "firstSeenDate": "2026-06-17",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61203895": {
     "id": "61203895",
@@ -8943,7 +8964,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/93d326f2-81cd-4440-a835-e7c9339ceaa1.jpg",
     "firstSeenDate": "2026-06-17",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61203954": {
     "id": "61203954",
@@ -8964,7 +8985,7 @@
     "spayedNeutered": "No",
     "photo": "https://g.petango.com/photos/2620/11f93f5b-a127-493d-a107-6531f0626368.jpg",
     "firstSeenDate": "2026-06-17",
-    "lastSeenDate": "2026-06-17"
+    "lastSeenDate": "2026-06-18"
   },
   "61204512": {
     "id": "61204512",
@@ -8986,5 +9007,110 @@
     "photo": "https://g.petango.com/photos/2620/7a9e4477-1e47-44d3-9334-09dc0f8a86c9.jpg",
     "firstSeenDate": "2026-06-17",
     "lastSeenDate": "2026-06-17"
+  },
+  "61204967": {
+    "id": "61204967",
+    "name": "Hobbles",
+    "breed": "Domestic Shorthair",
+    "breedSec": "Mix",
+    "sex": "U",
+    "ageMonths": 0,
+    "foundDate": "2026-06-17",
+    "foundAddr": "3947 Pennsylvania Avenue SE Washington, 20020",
+    "city": "Washington",
+    "state": "DC",
+    "fullAddr": "3947 Pennsylvania Avenue SE Washington, 20020, Washington, DC",
+    "location": "DC - Stray Cat",
+    "color": "Black",
+    "colorSec": "White",
+    "jurisdiction": "Washington, D.C. - SE",
+    "spayedNeutered": "No",
+    "photo": "https://g.petango.com/photos/2620/55ad85cb-e499-43bc-ae8e-3ff3b28e9f0b.jpg",
+    "firstSeenDate": "2026-06-18",
+    "lastSeenDate": "2026-06-18"
+  },
+  "61206793": {
+    "id": "61206793",
+    "name": "Mariposa",
+    "breed": "Domestic Shorthair",
+    "breedSec": "Mix",
+    "sex": "F",
+    "ageMonths": 3,
+    "foundDate": "2026-06-17",
+    "foundAddr": "Brandywine St SE",
+    "city": "Washington",
+    "state": "DC",
+    "fullAddr": "Brandywine St SE, Washington, DC",
+    "location": "DC - Surrender",
+    "color": "Grey",
+    "colorSec": "",
+    "jurisdiction": "Washington, D.C. - SE",
+    "spayedNeutered": "No",
+    "photo": "https://g.petango.com/photos/2620/c5e84d9e-f583-4819-a5e9-533b17e9c344.jpg",
+    "firstSeenDate": "2026-06-18",
+    "lastSeenDate": "2026-06-18"
+  },
+  "61208133": {
+    "id": "61208133",
+    "name": "Mater",
+    "breed": "Domestic Shorthair",
+    "breedSec": "Mix",
+    "sex": "F",
+    "ageMonths": 166,
+    "foundDate": "2026-06-17",
+    "foundAddr": "Langdon park NE",
+    "city": "Washington",
+    "state": "DC",
+    "fullAddr": "Langdon park NE, Washington, DC",
+    "location": "DC - Stray Cat",
+    "color": "Black",
+    "colorSec": "White",
+    "jurisdiction": "Washington, D.C. - NE",
+    "spayedNeutered": "Yes",
+    "photo": "https://g.petango.com/photos/2620/736b0e06-1757-4b25-bba4-7fde325b317c.jpg",
+    "firstSeenDate": "2026-06-18",
+    "lastSeenDate": "2026-06-18"
+  },
+  "61210314": {
+    "id": "61210314",
+    "name": "Whitey",
+    "breed": "Domestic Shorthair",
+    "breedSec": "Mix",
+    "sex": "M",
+    "ageMonths": 24,
+    "foundDate": "2026-06-17",
+    "foundAddr": "1703 Irving street ne",
+    "city": "Washington",
+    "state": "DC",
+    "fullAddr": "1703 Irving street ne, Washington, DC",
+    "location": "DC - Foster Home",
+    "color": "White",
+    "colorSec": "Brown",
+    "jurisdiction": "Washington, D.C. - NE",
+    "spayedNeutered": "No",
+    "photo": "https://g.petango.com/photos/2620/7e0edd63-a986-406d-9184-733906d2a1e0.jpg",
+    "firstSeenDate": "2026-06-18",
+    "lastSeenDate": "2026-06-18"
+  },
+  "61211103": {
+    "id": "61211103",
+    "name": "Catness Everdeen",
+    "breed": "Domestic Shorthair",
+    "breedSec": "Mix",
+    "sex": "F",
+    "ageMonths": 36,
+    "foundDate": "2026-06-17",
+    "foundAddr": "13th st nw",
+    "city": "Washington",
+    "state": "DC",
+    "fullAddr": "13th st nw, Washington, DC",
+    "location": "DC - Surrender",
+    "color": "Brown",
+    "colorSec": "White",
+    "jurisdiction": "Washington, D.C. - NW",
+    "spayedNeutered": "No",
+    "photo": "https://g.petango.com/photos/2620/93673b66-b363-43d8-8f1a-a5b65e24179c.jpg",
+    "firstSeenDate": "2026-06-18",
+    "lastSeenDate": "2026-06-18"
   }
 }
