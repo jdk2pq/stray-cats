@@ -678,5 +678,13 @@
   "Brandywine St SE, Washington, DC": {
     "lat": 38.8300752,
     "lng": -76.9972156
+  },
+  "415 20th St NE, Washington, DC": {
+    "lat": 38.8952367,
+    "lng": -76.9760141
+  },
+  "4624 Lee St NE, Washington, DC": {
+    "lat": 38.9048341,
+    "lng": -76.9350831
   }
 }
