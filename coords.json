@@ -686,5 +686,13 @@
   "4624 Lee St NE, Washington, DC": {
     "lat": 38.9048341,
     "lng": -76.9350831
+  },
+  "57 Galveston Street SW, Washington, DC": {
+    "lat": 38.8237759,
+    "lng": -77.0085669
+  },
+  "5086 G St SE, Washington, DC": {
+    "lat": 38.8807631,
+    "lng": -76.9303222
   }
 }
