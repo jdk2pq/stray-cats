@@ -694,5 +694,13 @@
   "5086 G St SE, Washington, DC": {
     "lat": 38.8807631,
     "lng": -76.9303222
+  },
+  "2828 Buena Vista TER SE, Washington, DC": {
+    "lat": 38.855442,
+    "lng": -76.9670956
+  },
+  "8th St &amp; Hamilton St NW, Washington, DC": {
+    "lat": 38.9530221,
+    "lng": -77.0238833
   }
 }
