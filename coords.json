@@ -702,5 +702,25 @@
   "8th St &amp; Hamilton St NW, Washington, DC": {
     "lat": 38.9530221,
     "lng": -77.0238833
+  },
+  "4481 southern Ave, Washington, DC": {
+    "lat": 38.839863,
+    "lng": -76.9774558
+  },
+  "4923 g st se, Washington, DC": {
+    "lat": 38.8800415,
+    "lng": -76.9309404
+  },
+  "1047 taussia pl NE, Washington, DC": {
+    "lat": 38.941118,
+    "lng": -76.990783
+  },
+  "4500 13h st nw, Washington, DC": {
+    "lat": 38.9452366,
+    "lng": -77.0299613
+  },
+  "520 Madison st nw, Washington, DC": {
+    "lat": 38.958456,
+    "lng": -77.021623
   }
 }
