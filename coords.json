@@ -722,5 +722,9 @@
   "520 Madison st nw, Washington, DC": {
     "lat": 38.958456,
     "lng": -77.021623
+  },
+  "2210 5th st NE, Washington, DC": {
+    "lat": 38.9194088,
+    "lng": -77.0000161
   }
 }
