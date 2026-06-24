@@ -726,5 +726,25 @@
   "2210 5th st NE, Washington, DC": {
     "lat": 38.9194088,
     "lng": -77.0000161
+  },
+  "1445 Oak St NW, Washington, DC": {
+    "lat": 38.9345084,
+    "lng": -77.0345234
+  },
+  "1918 Rosedale Street NE, Washington, DC": {
+    "lat": 38.8968549,
+    "lng": -76.9763939
+  },
+  "Meade st NE, Washington, DC": {
+    "lat": 38.9055889,
+    "lng": -76.9404352
+  },
+  "2111 18th Street SE, Washington, DC": {
+    "lat": 38.8636417,
+    "lng": -76.9792543
+  },
+  "4201 Massachusetts Ave NW, Washington, DC": {
+    "lat": 38.9355878,
+    "lng": -77.0825815
   }
 }
