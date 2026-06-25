@@ -746,5 +746,29 @@
   "4201 Massachusetts Ave NW, Washington, DC": {
     "lat": 38.9355878,
     "lng": -77.0825815
+  },
+  "1716 28th Street SE, Washington, DC": {
+    "lat": 38.8692251,
+    "lng": -76.9676724
+  },
+  "2800 Franklin st NE, Washington, DC": {
+    "lat": 38.9257861,
+    "lng": -76.9678333
+  },
+  "3831 14th St NW, Washington, DC 20011, Washington, DC": {
+    "lat": 38.9383594,
+    "lng": -77.0324687
+  },
+  "1909 Frederick Douglas Ct SE, Washington, DC": {
+    "lat": 38.8518758,
+    "lng": -76.9769946
+  },
+  "900 Longfellow St NW, Washington, DC 20011, Washington, DC": {
+    "lat": 38.9571545,
+    "lng": -77.0259792
+  },
+  "1214 Congress St SE, Washington, DC 20032, Washington, DC": {
+    "lat": 38.8418419,
+    "lng": -76.9894006
   }
 }
