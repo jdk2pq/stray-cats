@@ -770,5 +770,13 @@
   "1214 Congress St SE, Washington, DC 20032, Washington, DC": {
     "lat": 38.8418419,
     "lng": -76.9894006
+  },
+  "2929 Nash Pl, Washington, DC": {
+    "lat": 38.8755993,
+    "lng": -76.967356
+  },
+  "45 Galveston Pl SW, Washington, DC 20032, Washington, DC": {
+    "lat": 38.8244935,
+    "lng": -77.0086148
   }
 }
