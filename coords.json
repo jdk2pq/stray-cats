@@ -778,5 +778,49 @@
   "45 Galveston Pl SW, Washington, DC 20032, Washington, DC": {
     "lat": 38.8244935,
     "lng": -77.0086148
+  },
+  "2441 market street (Costco parking lot), Washington, DC": {
+    "lat": 38.9205371,
+    "lng": -76.9541606
+  },
+  "newphire ave nw, Washington, DC": {
+    "lat": 38.9320565,
+    "lng": -77.0275979
+  },
+  "1900 18th St NW, Washington, DC 20009, Washington, DC": {
+    "lat": 38.9157198,
+    "lng": -77.0418497
+  },
+  "918 Longfellow St NW, Washington, DC 20011, Washington, DC": {
+    "lat": 38.9571482,
+    "lng": -77.0266915
+  },
+  "4724 Jay st ne, Washington, DC": {
+    "lat": 38.9016719,
+    "lng": -76.9349469
+  },
+  "5806 Georgia Ave NW, Washington, DC 20011, Washington, DC": {
+    "lat": 38.960499,
+    "lng": -77.0283073
+  },
+  "715 Longfellow St NW, Washington, DC 20011, Washington, DC": {
+    "lat": 38.9576192,
+    "lng": -77.0229712
+  },
+  "1372 Randolph St NW, Washington, DC 20011, Washington, DC": {
+    "lat": 38.9385195,
+    "lng": -77.0323328
+  },
+  "500 Hamilton St NE, Washington, DC 20011, Washington, DC": {
+    "lat": 38.9539302,
+    "lng": -76.9978659
+  },
+  "4461 South Dakota Ave, Washington, DC": {
+    "lat": 38.9440514,
+    "lng": -76.9848352
+  },
+  "7914 Orchid Street NW, Washington, DC": {
+    "lat": 38.9879762,
+    "lng": -77.0393122
   }
 }
