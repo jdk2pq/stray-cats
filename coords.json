@@ -838,5 +838,13 @@
   "3513 Carpenter Street SE Washington, 20020, Washington, DC": {
     "lat": 38.8702647,
     "lng": -76.9544597
+  },
+  "2019 M Street NE Washington, 20002, Washington, DC": {
+    "lat": 38.9054453,
+    "lng": -76.974362
+  },
+  "16th st NW, Washington, DC": {
+    "lat": 38.9742636,
+    "lng": -77.0364165
   }
 }
