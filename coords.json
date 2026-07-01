@@ -846,5 +846,29 @@
   "16th st NW, Washington, DC": {
     "lat": 38.9742636,
     "lng": -77.0364165
+  },
+  "1060 47th st ne, Washington, DC": {
+    "lat": 38.9045586,
+    "lng": -76.9355874
+  },
+  "4259 Nash st ne, Washington, DC": {
+    "lat": 38.9070018,
+    "lng": -76.9411223
+  },
+  "2900 7th st SE, Washington, DC": {
+    "lat": 38.8460077,
+    "lng": -76.9956696
+  },
+  "1339 Randolph st NW, Washington, DC": {
+    "lat": 38.9388733,
+    "lng": -77.0316233
+  },
+  "1345 Quincy St NW, Washington, DC": {
+    "lat": 38.9378023,
+    "lng": -77.0312553
+  },
+  "1011 Whaller Place SE, Washington, DC": {
+    "lat": 38.83463589999999,
+    "lng": -76.99001270000001
   }
 }
