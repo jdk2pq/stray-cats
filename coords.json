@@ -878,5 +878,13 @@
   "35 Parker Row SW, Washington, DC 20024, Washington, DC": {
     "lat": 38.8770776,
     "lng": -77.0216963
+  },
+  "4209 Dix St NE, Washington, DC 20019, Washington, DC": {
+    "lat": 38.8949624,
+    "lng": -76.9416161
+  },
+  "525 50th Pl NE, Washington, DC 20019, Washington, DC": {
+    "lat": 38.8968253,
+    "lng": -76.9276711
   }
 }
