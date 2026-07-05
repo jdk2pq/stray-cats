@@ -886,5 +886,9 @@
   "525 50th Pl NE, Washington, DC 20019, Washington, DC": {
     "lat": 38.8968253,
     "lng": -76.9276711
+  },
+  "2234 Savannah Terrace SE, Washington, DC": {
+    "lat": 38.849717,
+    "lng": -76.9731184
   }
 }
