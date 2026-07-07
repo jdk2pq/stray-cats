@@ -894,5 +894,9 @@
   "701 18th Street NW, Washington, DC": {
     "lat": 38.8988572,
     "lng": -77.0414707
+  },
+  "519 Trenton Street SE, Washington, DC": {
+    "lat": 38.8401644,
+    "lng": -76.9987164
   }
 }
