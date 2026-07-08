@@ -898,5 +898,17 @@
   "519 Trenton Street SE, Washington, DC": {
     "lat": 38.8401644,
     "lng": -76.9987164
+  },
+  "1814 Valley Terrace, Washington, DC": {
+    "lat": 38.84032,
+    "lng": -76.977744
+  },
+  "5516 E St SE, Washington, DC": {
+    "lat": 38.8817071,
+    "lng": -76.9241212
+  },
+  "4909 Arkansas Avenue NW, Washington, DC": {
+    "lat": 38.9502458,
+    "lng": -77.0281333
   }
 }
