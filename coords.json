@@ -910,5 +910,25 @@
   "4909 Arkansas Avenue NW, Washington, DC": {
     "lat": 38.9502458,
     "lng": -77.0281333
+  },
+  "819 Barnaby Street SE Washington, 20032, Washington, DC": {
+    "lat": 38.8296675,
+    "lng": -76.9939892
+  },
+  "4104 4th St NW, Washington, DC": {
+    "lat": 38.9413967,
+    "lng": -77.0173049
+  },
+  "11 D St SE, Washington, DC 20003, Washington, DC": {
+    "lat": 38.8848984,
+    "lng": -77.0084606
+  },
+  "4920 Nash Street NE, Washington, DC": {
+    "lat": 38.907427,
+    "lng": -76.930614
+  },
+  "55 Forrester Street SW, Washington, DC": {
+    "lat": 38.8253812,
+    "lng": -77.0086777
   }
 }
