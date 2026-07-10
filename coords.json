@@ -930,5 +930,33 @@
   "55 Forrester Street SW, Washington, DC": {
     "lat": 38.8253812,
     "lng": -77.0086777
+  },
+  "837 Adrian St SE, Washington, DC": {
+    "lat": 38.8786168,
+    "lng": -76.9436562
+  },
+  "4400 Douglas St NE, Washington, DC 20019, Washington, DC": {
+    "lat": 38.9111427,
+    "lng": -76.9402452
+  },
+  "71 Ogelthorpe St NW, Washington, DC": {
+    "lat": 38.9613695,
+    "lng": -77.00840989999999
+  },
+  "730 51st Street NE Washington, 20019, Washington, DC": {
+    "lat": 38.8992051,
+    "lng": -76.9276435
+  },
+  "1631 S Street NW, Washington, DC": {
+    "lat": 38.9143857,
+    "lng": -77.0382118
+  },
+  "310 Taylor ST NE, Washington, DC": {
+    "lat": 38.9415233,
+    "lng": -77.0025261
+  },
+  "18 Adams Street Northeast, Washington, DC 20018, Washington, DC": {
+    "lat": 38.9209873,
+    "lng": -76.9666945
   }
 }
