@@ -958,5 +958,21 @@
   "18 Adams Street Northeast, Washington, DC 20018, Washington, DC": {
     "lat": 38.9209873,
     "lng": -76.9666945
+  },
+  "V St SE, Washington, DC 20020, Washington, DC": {
+    "lat": 38.8653867,
+    "lng": -76.9874741
+  },
+  "334 Anacostia Road SE, Washington, DC": {
+    "lat": 38.8847303,
+    "lng": -76.9549465
+  },
+  "Forrester St SE, Washington, DC 20032, Washington, DC": {
+    "lat": 38.8249981,
+    "lng": -76.9984435
+  },
+  "5320 E Capitol St NE, Washington, DC": {
+    "lat": 38.8900297,
+    "lng": -76.9249804
   }
 }
