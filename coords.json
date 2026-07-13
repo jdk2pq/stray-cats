@@ -974,5 +974,25 @@
   "5320 E Capitol St NE, Washington, DC": {
     "lat": 38.8900297,
     "lng": -76.9249804
+  },
+  "198 54th St SE, Washington, DC 20019, Washington, DC": {
+    "lat": 38.8859694,
+    "lng": -76.9233437
+  },
+  "3605 Texas Ave SE, Washington, DC 20020, Washington, DC": {
+    "lat": 38.8704884,
+    "lng": -76.9518808
+  },
+  "1100 block allison st, Washington, DC": {
+    "lat": 38.9449163,
+    "lng": -77.0265877
+  },
+  "1102 Varney St, Washington, DC 20032, Washington, DC": {
+    "lat": 38.8362149,
+    "lng": -76.9897056
+  },
+  "39 Buchanan Street NE, Washington, DC": {
+    "lat": 38.94725,
+    "lng": -77.0071122
   }
 }
