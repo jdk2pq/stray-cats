@@ -994,5 +994,17 @@
   "39 Buchanan Street NE, Washington, DC": {
     "lat": 38.94725,
     "lng": -77.0071122
+  },
+  "2901 S Street SE Washington, 20020, Washington, DC": {
+    "lat": 38.8683716,
+    "lng": -76.9655704
+  },
+  "434 Longfellow st nw, Washington, DC": {
+    "lat": 38.9573466,
+    "lng": -77.0192694
+  },
+  "70 Forrester Street SW, Washington, DC": {
+    "lat": 38.8249747,
+    "lng": -77.0091125
   }
 }
