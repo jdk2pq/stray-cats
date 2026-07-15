@@ -1006,5 +1006,17 @@
   "70 Forrester Street SW, Washington, DC": {
     "lat": 38.8249747,
     "lng": -77.0091125
+  },
+  "1341 Pennsylvania Avenue SE 20003, Washington, DC": {
+    "lat": 38.8806525,
+    "lng": -76.9874138
+  },
+  "2301 Savannah Rd se, Washington, DC": {
+    "lat": 38.8478783,
+    "lng": -76.9706954
+  },
+  "731 Croissant Pl SE, Washington, DC": {
+    "lat": 38.8791782,
+    "lng": -76.9625048
   }
 }
