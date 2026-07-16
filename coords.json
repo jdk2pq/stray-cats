@@ -1018,5 +1018,13 @@
   "731 Croissant Pl SE, Washington, DC": {
     "lat": 38.8791782,
     "lng": -76.9625048
+  },
+  "Congress St SE, Washington, DC": {
+    "lat": 38.8420556,
+    "lng": -76.9876949
+  },
+  "820 Chesapeake st se, Washington, DC": {
+    "lat": 38.8293734,
+    "lng": -76.9924544
   }
 }
