@@ -1046,5 +1046,21 @@
   "2242 Nicholson street SE Washington, 20020, Washington, DC": {
     "lat": 38.8735972,
     "lng": -76.9735096
+  },
+  "709 Congress St SE, Washington, DC": {
+    "lat": 38.8392351,
+    "lng": -76.9960701
+  },
+  "774 Kenilworth terr. NE, Washington, DC": {
+    "lat": 38.9016144,
+    "lng": -76.9467241
+  },
+  "4769 S Capitol Terrace SW, Washington, DC": {
+    "lat": 38.8209475,
+    "lng": -77.0074467
+  },
+  "5006 2nd St NW, Washington, DC": {
+    "lat": 38.9515692,
+    "lng": -77.0137089
   }
 }
