@@ -1062,5 +1062,17 @@
   "5006 2nd St NW, Washington, DC": {
     "lat": 38.9515692,
     "lng": -77.0137089
+  },
+  "310 Atlantic St SE, Washington, DC": {
+    "lat": 38.8311291,
+    "lng": -77.0013818
+  },
+  "Monroe 818th St NE, Washington, DC": {
+    "lat": 38.9097608,
+    "lng": -76.9758274
+  },
+  "park Rd nw, Washington, DC": {
+    "lat": 38.9330705,
+    "lng": -77.0451391
   }
 }
