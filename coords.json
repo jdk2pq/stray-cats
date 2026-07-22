@@ -1075,5 +1075,26 @@
     "lat": 38.9330705,
     "lng": -77.0451391
   },
-  "71 Oglethrope Street NW Washington, 20011, Washington, DC": null
+  "71 Oglethrope Street NW Washington, 20011, Washington, DC": null,
+  "3225 stanton Rd SE neighborhood, Washington, DC": null,
+  "4402 Barnaby RD SE, Washington, DC": {
+    "lat": 38.8251283,
+    "lng": -76.9973957
+  },
+  "1728 27th Street SE, Washington, DC": {
+    "lat": 38.8685377,
+    "lng": -76.9686282
+  },
+  "Mississippi ave se, Washington, DC": {
+    "lat": 38.843871,
+    "lng": -76.9731467
+  },
+  "270 37th Place SE Washington, 20019, Washington, DC": {
+    "lat": 38.8859012,
+    "lng": -76.9511169
+  },
+  "Branch ave SE, Washington, DC": {
+    "lat": 38.8588872,
+    "lng": -76.9589154
+  }
 }
