@@ -1096,5 +1096,30 @@
   "Branch ave SE, Washington, DC": {
     "lat": 38.8588872,
     "lng": -76.9589154
-  }
+  },
+  "1 Dc Village Ln SW, Washington, DC": {
+    "lat": 38.8162235,
+    "lng": -77.0135595
+  },
+  "2600 Douglas RD SE, Washington, DC": {
+    "lat": 38.8574774,
+    "lng": -76.9905385
+  },
+  "4219 4th Street SW, Washington, DC": {
+    "lat": 38.8758265,
+    "lng": -77.0175579
+  },
+  "New York Ave NE, Washington, DC 20002, Washington, DC": {
+    "lat": 38.913116,
+    "lng": -76.9923435
+  },
+  "3581 Stanton Rd SE, Washington, DC": {
+    "lat": 38.8431981,
+    "lng": -76.9793856
+  },
+  "2480 Market St NE, Washington, DC": {
+    "lat": 38.9216743,
+    "lng": -76.9540241
+  },
+  "2600 Douglass Rd SE, Washington, DC": null
 }
