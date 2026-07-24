@@ -1121,5 +1121,9 @@
     "lat": 38.9216743,
     "lng": -76.9540241
   },
-  "2600 Douglass Rd SE, Washington, DC": null
+  "2600 Douglass Rd SE, Washington, DC": null,
+  "538 13th St SE, Washington, DC 20003, Washington, DC": {
+    "lat": 38.8817799,
+    "lng": -76.9880828
+  }
 }
