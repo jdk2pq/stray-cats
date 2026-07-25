@@ -1075,8 +1075,14 @@
     "lat": 38.9330705,
     "lng": -77.0451391
   },
-  "71 Oglethrope Street NW Washington, 20011, Washington, DC": null,
-  "3225 stanton Rd SE neighborhood, Washington, DC": null,
+  "71 Oglethrope Street NW Washington, 20011, Washington, DC": {
+    "lat": 38.9613695,
+    "lng": -77.00840989999999
+  },
+  "3225 stanton Rd SE neighborhood, Washington, DC": {
+    "lat": 38.8489438,
+    "lng": -76.9812619
+  },
   "4402 Barnaby RD SE, Washington, DC": {
     "lat": 38.8251283,
     "lng": -76.9973957
@@ -1121,12 +1127,18 @@
     "lat": 38.9216743,
     "lng": -76.9540241
   },
-  "2600 Douglass Rd SE, Washington, DC": null,
+  "2600 Douglass Rd SE, Washington, DC": {
+    "lat": 38.8561071,
+    "lng": -76.9890578
+  },
   "538 13th St SE, Washington, DC 20003, Washington, DC": {
     "lat": 38.8817799,
     "lng": -76.9880828
   },
-  "1736 Primerose Road, Washington, DC": null,
+  "1736 Primerose Road, Washington, DC": {
+    "lat": 38.9888951,
+    "lng": -77.0399418
+  },
   "1550 Anacostia Ave NE, Washington, DC": {
     "lat": 38.912614,
     "lng": -76.9393031
