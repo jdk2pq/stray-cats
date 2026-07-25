@@ -1125,5 +1125,10 @@
   "538 13th St SE, Washington, DC 20003, Washington, DC": {
     "lat": 38.8817799,
     "lng": -76.9880828
+  },
+  "1736 Primerose Road, Washington, DC": null,
+  "1550 Anacostia Ave NE, Washington, DC": {
+    "lat": 38.912614,
+    "lng": -76.9393031
   }
 }
