@@ -1142,5 +1142,17 @@
   "1550 Anacostia Ave NE, Washington, DC": {
     "lat": 38.912614,
     "lng": -76.9393031
+  },
+  "1671 Primrose Road NW, Washington, DC": {
+    "lat": 38.9888228,
+    "lng": -77.0393415
+  },
+  "Benning Rd NE, Washington, DC": {
+    "lat": 38.900135,
+    "lng": -76.9838974
+  },
+  "7th + Jefferson St NW, Washington, DC": {
+    "lat": 38.9555333,
+    "lng": -77.0147117
   }
 }
