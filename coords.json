@@ -1154,5 +1154,9 @@
   "7th + Jefferson St NW, Washington, DC": {
     "lat": 38.9555333,
     "lng": -77.0147117
+  },
+  "723 Croissant Pl SE, Washington, DC 20019, Washington, DC": {
+    "lat": 38.8793195,
+    "lng": -76.962486
   }
 }
