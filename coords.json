@@ -1158,5 +1158,13 @@
   "723 Croissant Pl SE, Washington, DC 20019, Washington, DC": {
     "lat": 38.8793195,
     "lng": -76.962486
+  },
+  "723 Croissant PL SE, Washington, DC": {
+    "lat": 38.8793195,
+    "lng": -76.962486
+  },
+  "1103 Bellevue Street SE, Washington, DC": {
+    "lat": 38.8328644,
+    "lng": -76.9875833
   }
 }
