@@ -1166,5 +1166,45 @@
   "1103 Bellevue Street SE, Washington, DC": {
     "lat": 38.8328644,
     "lng": -76.9875833
+  },
+  "50th st ne, Washington, DC": {
+    "lat": 38.8972804,
+    "lng": -76.9298729
+  },
+  "Eastover se, Washington, DC": {
+    "lat": 38.9072873,
+    "lng": -77.0369274
+  },
+  "522 23rd Pl NE under porch, Washington, DC": {
+    "lat": 38.8967455,
+    "lng": -76.97372299999999
+  },
+  "217 57th ave, Washington, DC": {
+    "lat": 38.8918874,
+    "lng": -76.9195625
+  },
+  "1016 17th Pl ne, Washington, DC": {
+    "lat": 38.9027844,
+    "lng": -76.9801628
+  },
+  "1336 newton st NE, Washington, DC": {
+    "lat": 38.9339088,
+    "lng": -76.9875326
+  },
+  "360 H St NE, Washington, DC": {
+    "lat": 38.9004293,
+    "lng": -77.0009363
+  },
+  "548 foxhall pl, Washington, DC": {
+    "lat": 38.8339858,
+    "lng": -76.9977444
+  },
+  "1119 Chicago Ave, Washington, DC": {
+    "lat": 38.86416759999999,
+    "lng": -76.9920825
+  },
+  "1119 Chicago St., Washington, DC": {
+    "lat": 38.8641752,
+    "lng": -76.9920882
   }
 }
