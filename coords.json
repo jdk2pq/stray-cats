@@ -1206,5 +1206,21 @@
   "1119 Chicago St., Washington, DC": {
     "lat": 38.8641752,
     "lng": -76.9920882
+  },
+  "241 37th St SE, Washington, DC": {
+    "lat": 38.887112,
+    "lng": -76.9527719
+  },
+  "3030 30th St SE, Washington, DC": {
+    "lat": 38.852378,
+    "lng": -76.9652216
+  },
+  "209 Valley Ave SE, Washington, DC 20032, Washington, DC": {
+    "lat": 38.8312431,
+    "lng": -77.0027673
+  },
+  "3333 Alabama Ave SE, Washington, DC": {
+    "lat": 38.8617271,
+    "lng": -76.9585954
   }
 }
