@@ -1222,5 +1222,25 @@
   "3333 Alabama Ave SE, Washington, DC": {
     "lat": 38.8617271,
     "lng": -76.9585954
+  },
+  "1508 Gales St NE, Washington, DC 20002, Washington, DC": {
+    "lat": 38.8987918,
+    "lng": -76.9829162
+  },
+  "1446 W Street se, Washington, DC": {
+    "lat": 38.8641106,
+    "lng": -76.9849458
+  },
+  "2957 Carlton Ave, Washington, DC": {
+    "lat": 38.9293962,
+    "lng": -76.9669281
+  },
+  "1428 Perry Pl NW, Washington, DC 20010, Washington, DC": {
+    "lat": 38.936434,
+    "lng": -77.0340521
+  },
+  "3110 Massachusetts Ave SE, Washington, DC 20019, Washington, DC": {
+    "lat": 38.8788993,
+    "lng": -76.9625651
   }
 }
