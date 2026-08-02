@@ -1242,5 +1242,21 @@
   "3110 Massachusetts Ave SE, Washington, DC 20019, Washington, DC": {
     "lat": 38.8788993,
     "lng": -76.9625651
+  },
+  "1428 Perry Place NW, Washington, DC": {
+    "lat": 38.936434,
+    "lng": -77.0340521
+  },
+  "614 Southern Avenue SE, Washington, DC": {
+    "lat": 38.8624909,
+    "lng": -76.9483683
+  },
+  "1522 4 St NW, Washington, DC": {
+    "lat": 38.9379714,
+    "lng": -77.0324867
+  },
+  "1531 D Street NE, Washington, DC": {
+    "lat": 38.8946016,
+    "lng": -76.9825611
   }
 }
