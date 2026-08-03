@@ -1258,5 +1258,13 @@
   "1531 D Street NE, Washington, DC": {
     "lat": 38.8946016,
     "lng": -76.9825611
+  },
+  "3343 Highwood Dr SE, Washington, DC": {
+    "lat": 38.8707433,
+    "lng": -76.9579495
+  },
+  "4812 Hayes street ne, Washington, DC": {
+    "lat": 38.8999471,
+    "lng": -76.9331549
   }
 }
