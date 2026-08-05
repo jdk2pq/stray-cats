@@ -1266,5 +1266,13 @@
   "4812 Hayes street ne, Washington, DC": {
     "lat": 38.8999471,
     "lng": -76.9331549
+  },
+  "Buchanan St., New Hampshire Ave NW, Washington, DC": {
+    "lat": 38.9464164,
+    "lng": -77.01674249999999
+  },
+  "3790 MLK Jr. SE, Washington, DC": {
+    "lat": 38.836007,
+    "lng": -77.007273
   }
 }
