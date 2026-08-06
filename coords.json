@@ -1274,5 +1274,9 @@
   "3790 MLK Jr. SE, Washington, DC": {
     "lat": 38.836007,
     "lng": -77.007273
+  },
+  "Fort Totten, Washington, DC, Washington, DC": {
+    "lat": 38.9517337,
+    "lng": -77.0026753
   }
 }
