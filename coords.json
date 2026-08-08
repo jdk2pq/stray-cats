@@ -1282,5 +1282,9 @@
   "2509 Randolph St NE, Washington, DC": {
     "lat": 38.9376007,
     "lng": -76.9705471
+  },
+  "5100 brook st ne, Washington, DC": {
+    "lat": 38.892294,
+    "lng": -76.9290371
   }
 }
