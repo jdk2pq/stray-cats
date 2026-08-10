@@ -1290,5 +1290,25 @@
   "3009 25th Street, Washington, DC": {
     "lat": 38.9284687,
     "lng": -76.9709083
+  },
+  "4850 Colorado Ave NW, Washington, DC 20011, Washington, DC": {
+    "lat": 38.9507833,
+    "lng": -77.0383117
+  },
+  "Alabama Ave SE, Washington, DC 20020, Washington, DC": {
+    "lat": 38.8591326,
+    "lng": -76.967997
+  },
+  "200 M St SE, Washington, DC": {
+    "lat": 38.876563,
+    "lng": -77.00337
+  },
+  "1422 Potomac Ave SE, Washington, DC 20003, Washington, DC": {
+    "lat": 38.8809378,
+    "lng": -76.9847085
+  },
+  "2927 S Dakota Ave NE, Washington, DC 20018, Washington, DC": {
+    "lat": 38.928428,
+    "lng": -76.9682092
   }
 }
