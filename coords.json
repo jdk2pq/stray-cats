@@ -1310,5 +1310,9 @@
   "2927 S Dakota Ave NE, Washington, DC 20018, Washington, DC": {
     "lat": 38.928428,
     "lng": -76.9682092
+  },
+  "2825 Robinson Place SE Washington, 20020, Washington, DC": {
+    "lat": 38.8506309,
+    "lng": -76.986575
   }
 }
