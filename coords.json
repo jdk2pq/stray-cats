@@ -1314,5 +1314,13 @@
   "2825 Robinson Place SE Washington, 20020, Washington, DC": {
     "lat": 38.8506309,
     "lng": -76.986575
+  },
+  "1823 Tabias Drive Se Washington, 20020, Washington, DC": {
+    "lat": 38.8503701,
+    "lng": -76.9787762
+  },
+  "3735 Kanawha Street NW Washington, 20015, Washington, DC": {
+    "lat": 38.9604818,
+    "lng": -77.0716538
   }
 }
