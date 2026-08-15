@@ -1322,5 +1322,33 @@
   "3735 Kanawha Street NW Washington, 20015, Washington, DC": {
     "lat": 38.9604818,
     "lng": -77.0716538
+  },
+  "2115 4th St NE, Washington, DC": {
+    "lat": 38.9185746,
+    "lng": -77.0002707
+  },
+  "634 Taylor St NE, Washington, DC": {
+    "lat": 38.9406508,
+    "lng": -76.9968487
+  },
+  "1222 Congress St SE, Washington, DC 20032, Washington, DC": {
+    "lat": 38.8419121,
+    "lng": -76.9891063
+  },
+  "3325 13th St SE, Washington, DC": {
+    "lat": 38.8423042,
+    "lng": -76.9888169
+  },
+  "1303 Congress St SE, Washington, DC": {
+    "lat": 38.841649,
+    "lng": -76.9866633
+  },
+  "Wisconsin Ave &amp; Jenifer St NW, Washington, DC": {
+    "lat": 38.9590481,
+    "lng": -77.0848524
+  },
+  "4 DC Village Lane SW, Washington, DC": {
+    "lat": 38.8129265,
+    "lng": -77.0143223
   }
 }
