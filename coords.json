@@ -1350,5 +1350,25 @@
   "4 DC Village Lane SW, Washington, DC": {
     "lat": 38.8129265,
     "lng": -77.0143223
+  },
+  "16th &amp; Queen St NE, Washington, DC": {
+    "lat": 38.9048415,
+    "lng": -76.98137229999999
+  },
+  "4100 Mass Ave NW, Washington, DC": {
+    "lat": 38.9335728,
+    "lng": -77.0819405
+  },
+  "4100 Massachusetts Ave NW, Washington, DC 20016, Washington, DC": {
+    "lat": 38.9335281,
+    "lng": -77.0818136
+  },
+  "753 19th Street NE, Washington, DC": {
+    "lat": 38.8990207,
+    "lng": -76.9759801
+  },
+  "1720 Alabama Avenue SE, Washington, DC": {
+    "lat": 38.8470964,
+    "lng": -76.9800345
   }
 }
