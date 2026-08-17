@@ -1370,5 +1370,13 @@
   "1720 Alabama Avenue SE, Washington, DC": {
     "lat": 38.8470964,
     "lng": -76.9800345
+  },
+  "1100 Dahlia St NW (Courtyard), Washington, DC": {
+    "lat": 38.974987,
+    "lng": -77.02715580000002
+  },
+  "Eastern Ave and Kansas Ave NE, Washington, DC": {
+    "lat": 38.9685306,
+    "lng": -77.00608729999999
   }
 }
