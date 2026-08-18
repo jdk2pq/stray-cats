@@ -1378,5 +1378,25 @@
   "Eastern Ave and Kansas Ave NE, Washington, DC": {
     "lat": 38.9685306,
     "lng": -77.00608729999999
+  },
+  "71 Oglethorpe Street NW Washington, 20011, Washington, DC": {
+    "lat": 38.9613643,
+    "lng": -77.008389
+  },
+  "4 dc village ln sw, Washington, DC": {
+    "lat": 38.8129265,
+    "lng": -77.0143223
+  },
+  "400 50th Street SE Washington, 20019, Washington, DC": {
+    "lat": 38.8836894,
+    "lng": -76.9307972
+  },
+  "350 Anacostia Road SE, Washington, DC": {
+    "lat": 38.8847523,
+    "lng": -76.9542664
+  },
+  "3725 Kansas Avenue NW, Washington, DC": {
+    "lat": 38.9373306,
+    "lng": -77.02897
   }
 }
