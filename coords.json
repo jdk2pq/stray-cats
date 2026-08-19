@@ -1398,5 +1398,17 @@
   "3725 Kansas Avenue NW, Washington, DC": {
     "lat": 38.9373306,
     "lng": -77.02897
+  },
+  "3499 Minnesota Ave SE, Washington, DC": {
+    "lat": 38.8856314,
+    "lng": -76.9559411
+  },
+  "4202 4th street SE Washington, 20032, Washington, DC": {
+    "lat": 38.8288283,
+    "lng": -77.000142
+  },
+  "1303 congress st se, Washington, DC": {
+    "lat": 38.841649,
+    "lng": -76.9866633
   }
 }
