@@ -1410,5 +1410,17 @@
   "1303 congress st se, Washington, DC": {
     "lat": 38.841649,
     "lng": -76.9866633
+  },
+  "2629 Douglass Rd SE, Washington, DC 20020, Washington, DC": {
+    "lat": 38.8566152,
+    "lng": -76.9895859
+  },
+  "1303 Congress St SE, Washington, DC 20032, Washington, DC": {
+    "lat": 38.841649,
+    "lng": -76.9866633
+  },
+  "2909 Pennsylvania Avenue SE Washington, 20020, Washington, DC": {
+    "lat": 38.8713513,
+    "lng": -76.966238
   }
 }
