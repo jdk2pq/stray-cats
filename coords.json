@@ -1422,5 +1422,9 @@
   "2909 Pennsylvania Avenue SE Washington, 20020, Washington, DC": {
     "lat": 38.8713513,
     "lng": -76.966238
+  },
+  "2850 Langston Pl, Washington, DC": {
+    "lat": 38.8552673,
+    "lng": -76.973079
   }
 }
