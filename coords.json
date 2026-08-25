@@ -1434,5 +1434,9 @@
   "4540 Benning Road SE, Washington, DC": {
     "lat": 38.8885259,
     "lng": -76.9366317
+  },
+  "3320 11th Place SE Apt 204 Washington, 20032, Washington, DC": {
+    "lat": 38.8418483,
+    "lng": -76.99103629999999
   }
 }
