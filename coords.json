@@ -1454,5 +1454,25 @@
   "524 57th St NE, Washington, DC 20019, Washington, DC": {
     "lat": 38.8967942,
     "lng": -76.9193828
+  },
+  "2484 Market Street NE, Washington, DC": {
+    "lat": 38.9219508,
+    "lng": -76.9535578
+  },
+  "66 Farragut Pl NW, Washington, DC": {
+    "lat": 38.9520504,
+    "lng": -77.0105926
+  },
+  "726 Maryland Ave NE, Washington, DC": {
+    "lat": 38.8956403,
+    "lng": -76.9953514
+  },
+  "Anacostia Park, Washington, DC": {
+    "lat": 38.8733578,
+    "lng": -76.9834023
+  },
+  "6206 8th Street NW, Washington, DC": {
+    "lat": 38.9654295,
+    "lng": -77.0244671
   }
 }
