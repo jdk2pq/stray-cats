@@ -1474,5 +1474,13 @@
   "6206 8th Street NW, Washington, DC": {
     "lat": 38.9654295,
     "lng": -77.0244671
+  },
+  "2017 38th St SE, Washington, DC": {
+    "lat": 38.8643845,
+    "lng": -76.9526146
+  },
+  "Beach Dr NW &amp; Joyce Rd NW, Washington, DC": {
+    "lat": 38.9606687,
+    "lng": -77.0418353
   }
 }
