@@ -1482,5 +1482,17 @@
   "Beach Dr NW &amp; Joyce Rd NW, Washington, DC": {
     "lat": 38.9606687,
     "lng": -77.0418353
+  },
+  "4520 MacArthur Blvd NW Washington, 20007, Washington, DC": {
+    "lat": 38.9084953,
+    "lng": -77.0859952
+  },
+  "308 Upshur st Nw, Washington, DC": {
+    "lat": 38.9419432,
+    "lng": -77.0161615
+  },
+  "300 37th ST, Washington, DC": {
+    "lat": 38.8856045,
+    "lng": -76.9527092
   }
 }
