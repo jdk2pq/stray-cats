@@ -243,6 +243,17 @@
     font-style: italic;
   }
 
+  .cb-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: var(--ink);
+    padding: 3px 0;
+    cursor: pointer;
+  }
+  .cb-row input { cursor: pointer; }
+
   .no-results {
     padding: 30px 14px;
     font-family: var(--mono);
@@ -286,6 +297,56 @@
     pointer-events: none;
   }
   .attribution a { color: #2a6db5; pointer-events: all; }
+
+  /* ── LEGEND ── */
+  .legend {
+    position: fixed;
+    left: 292px;
+    top: 62px;
+    width: 240px;
+    background: rgba(255,255,255,0.97);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 12px 14px;
+    color: var(--ink);
+    z-index: 998;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  .legend-title {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  .legend-group + .legend-group { margin-top: 12px; }
+  .legend-group-label {
+    font-family: var(--mono);
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+  .legend-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin: 7px 0;
+    cursor: pointer;
+  }
+  .legend-row input { margin-top: 3px; cursor: pointer; flex-shrink: 0; }
+  .legend-swatch { width: 11px; height: 11px; flex-shrink: 0; box-sizing: border-box; margin-top: 2px; }
+  .legend-swatch.teardrop { border-radius: 50% 50% 50% 0; transform: rotate(-45deg); }
+  .legend-swatch.outline-circle { border-radius: 50%; background: transparent; border: 2px solid; }
+  .legend-text { font-size: 12px; line-height: 1.4; }
+  .legend-text strong { font-weight: 500; }
+  .legend-sub { display: block; color: var(--muted); font-size: 10.5px; margin-top: 1px; }
 </style>
 </head>
 <body>
@@ -305,6 +366,11 @@
 <div class="main">
   <div class="sidebar">
     <div class="filters">
+
+      <div class="fs">
+        <div class="fl">Map layers</div>
+        <label class="cb-row"><input type="checkbox" id="catsToggle" checked onchange="toggleKittens()"> Kittens</label>
+      </div>
 
       <div class="fs">
         <div class="fl">Search</div>
@@ -402,6 +468,42 @@
   </div>
 
   <div id="map"></div>
+  <div class="legend" id="legend">
+    <div class="legend-title">Community Cat Targeted Trapping</div>
+
+    <div class="legend-group">
+      <div class="legend-group-label">500-foot call hotspots</div>
+      <label class="legend-row">
+        <input type="checkbox" id="tierBusiestToggle" onchange="renderTrappingLayers()">
+        <span class="legend-swatch outline-circle" style="border-color:#b91c1c"></span>
+        <span class="legend-text"><strong>Start here: 10+ calls</strong><span class="legend-sub">Our busiest 500-foot areas</span></span>
+      </label>
+      <label class="legend-row">
+        <input type="checkbox" id="tierStrongToggle" onchange="renderTrappingLayers()">
+        <span class="legend-swatch outline-circle" style="border-color:#e05c2a"></span>
+        <span class="legend-text"><strong>Strong pattern: 6–9 calls</strong><span class="legend-sub">More repeat activity nearby</span></span>
+      </label>
+      <label class="legend-row">
+        <input type="checkbox" id="tierEmergingToggle" onchange="renderTrappingLayers()">
+        <span class="legend-swatch outline-circle" style="border-color:#15803d"></span>
+        <span class="legend-text"><strong>Emerging: 3–5 calls</strong><span class="legend-sub">Worth a closer look</span></span>
+      </label>
+    </div>
+
+    <div class="legend-group">
+      <div class="legend-group-label">Individual locations</div>
+      <label class="legend-row">
+        <input type="checkbox" id="caseReportToggle" onchange="renderTrappingLayers()">
+        <span class="legend-swatch teardrop" style="background:#7c3aed"></span>
+        <span class="legend-text"><strong>Open trapping case</strong><span class="legend-sub">A current Community Cat trapping case</span></span>
+      </label>
+      <label class="legend-row">
+        <input type="checkbox" id="callReportToggle" onchange="renderTrappingLayers()">
+        <span class="legend-swatch" style="background:#2a6db5"></span>
+        <span class="legend-text"><strong>Unique call location</strong><span class="legend-sub">One dot per matched address; repeat calls are combined</span></span>
+      </label>
+    </div>
+  </div>
 </div>
 
 <div class="toast" id="toast"></div>
@@ -411,6 +513,8 @@
 let allRecords = [], filtered = [], coords = {};
 let map, markers = [], infoWindow, activeIdx = null;
 let selectedYears = new Set();
+let clusterData = null, clusterOverlays = [], reportMarkers = [];
+let showKittens = true;
 
 // ── PROGRESS ──
 function setProgress(pct) {
@@ -584,10 +688,15 @@ function makePin(isActive) {
   return el;
 }
 
-function renderMarkers() {
+function toggleKittens() {
+  showKittens = document.getElementById('catsToggle').checked;
+  renderMarkers(/* fitBoundsOnRender */ false);
+}
+
+function renderMarkers(fitBoundsOnRender = true) {
   markers.forEach(m => { m.marker.map = null; });
   markers = [];
-  if (!map) return;
+  if (!showKittens || !map) return;
 
   // Spread co-located markers in a small circle so each is individually clickable.
   // ~9m radius — visually imperceptible at city zoom, but enough separation to click.
@@ -635,7 +744,7 @@ function renderMarkers() {
     markers.push({ marker, record: r, pinEl });
   });
 
-  if (any) map.fitBounds(bounds, { padding: 60 });
+  if (any && fitBoundsOnRender) map.fitBounds(bounds, { padding: 60 });
 }
 
 // ── FOCUS / ACTIVATE ──
@@ -744,6 +853,221 @@ function downloadCSV() {
   toast(`Downloaded ${filtered.length} records`);
 }
 
+// ── TRAPPING CLUSTERS (community call data) ──
+// Loaded from clusters.json, a one-off build artifact (see build-clusters.js) —
+// it is NOT part of the nightly Petango sync and must be regenerated manually.
+
+// Andrew's monotone chain convex hull. Points are {lat, lng, ...}; returns the
+// subset (in hull order) that forms the outer boundary.
+function convexHull(points) {
+  const pts = points.map(p => ({ x: p.lng, y: p.lat, orig: p })).sort((a, b) => a.x - b.x || a.y - b.y);
+  if (pts.length < 3) return points;
+  const cross = (o, a, b) => (a.x - o.x) * (b.y - o.y) - (a.y - o.y) * (b.x - o.x);
+  const lower = [];
+  for (const p of pts) {
+    while (lower.length >= 2 && cross(lower[lower.length - 2], lower[lower.length - 1], p) <= 0) lower.pop();
+    lower.push(p);
+  }
+  const upper = [];
+  for (let i = pts.length - 1; i >= 0; i--) {
+    const p = pts[i];
+    while (upper.length >= 2 && cross(upper[upper.length - 2], upper[upper.length - 1], p) <= 0) upper.pop();
+    upper.push(p);
+  }
+  lower.pop();
+  upper.pop();
+  return [...lower, ...upper].map(p => p.orig);
+}
+
+const TRAPPING_TOGGLE_IDS = ['tierBusiestToggle', 'tierStrongToggle', 'tierEmergingToggle', 'caseReportToggle', 'callReportToggle'];
+
+// Matches the source tool's own "500-foot cluster" minimum of 3 calls.
+function tierOf(calls) {
+  if (calls >= 10) return 'busiest';
+  if (calls >= 6) return 'strong';
+  return 'emerging'; // 3–5
+}
+const TIER_COLORS = { busiest: '#b91c1c', strong: '#e05c2a', emerging: '#15803d' };
+
+async function ensureClusterData() {
+  if (clusterData) return clusterData;
+  try {
+    const res = await fetch('clusters.json?v=' + Date.now());
+    if (!res.ok) throw new Error('not found');
+    clusterData = await res.json();
+    return clusterData;
+  } catch (e) {
+    toast('clusters.json not found — run geocode-cluster-addresses.js then build-clusters.js first.', 4000);
+    TRAPPING_TOGGLE_IDS.forEach(id => { document.getElementById(id).checked = false; });
+    return null;
+  }
+}
+
+function clearClusterOverlays() {
+  clusterOverlays.forEach(o => {
+    o.circle.setMap(null);
+    if (o.shape) o.shape.setMap(null);
+    o.addrMarkers.forEach(m => { m.map = null; });
+  });
+  clusterOverlays = [];
+}
+
+function clearReportMarkers() {
+  reportMarkers.forEach(m => { m.map = null; });
+  reportMarkers = [];
+}
+
+function renderClusters(clusters) {
+  clusters.forEach(c => {
+    const color = TIER_COLORS[tierOf(c.calls)];
+    const circle = new google.maps.Circle({
+      map,
+      center: c.center,
+      radius: 152.4, // 500 ft — the source tool's own clustering radius
+      strokeColor: color,
+      strokeOpacity: 0.6,
+      strokeWeight: 1.5,
+      fillColor: color,
+      fillOpacity: 0.08,
+      clickable: true,
+      zIndex: 1,
+    });
+    circle.addListener('click', () => {
+      // Show exactly what the source geojson feature said, verbatim, so the
+      // original data behind this cluster is never more than a click away.
+      infoWindow.setContent(`
+        <div style="font-family:'DM Sans',sans-serif;font-size:12px;max-width:260px">
+          ${c.rawDescription || c.rawName}
+        </div>
+      `);
+      infoWindow.setPosition(c.center);
+      infoWindow.open(map);
+    });
+
+    let shape = null;
+    if (c.addresses.length >= 3) {
+      shape = new google.maps.Polygon({
+        map,
+        paths: convexHull(c.addresses).map(a => ({ lat: a.lat, lng: a.lng })),
+        strokeColor: color,
+        strokeOpacity: 0.8,
+        strokeWeight: 2,
+        fillColor: color,
+        fillOpacity: 0.12,
+        clickable: false,
+        zIndex: 2,
+      });
+    } else if (c.addresses.length === 2) {
+      shape = new google.maps.Polyline({
+        map,
+        path: c.addresses.map(a => ({ lat: a.lat, lng: a.lng })),
+        strokeColor: color,
+        strokeOpacity: 0.8,
+        strokeWeight: 2,
+        zIndex: 2,
+      });
+    }
+
+    const addrMarkers = c.addresses.map(a => {
+      // Square, not round — the cat pins are circles, so a square keeps these
+      // visually distinct at a glance instead of reading as more kitten pins.
+      const el = document.createElement('div');
+      el.style.cssText = `width:9px;height:9px;background:${color};border:2px solid #fff;box-shadow:0 0 2px rgba(0,0,0,0.4);`;
+      const marker = new google.maps.marker.AdvancedMarkerElement({
+        map,
+        position: { lat: a.lat, lng: a.lng },
+        content: el,
+        title: a.address,
+      });
+      marker.addListener('gmp-click', () => {
+        infoWindow.setContent(`
+          <div style="font-family:'DM Sans',sans-serif;font-size:12px;max-width:220px">
+            <div style="font-weight:500;margin-bottom:4px">${a.address}</div>
+            <div style="color:#555">${a.calls} call${a.calls === 1 ? '' : 's'}</div>
+            <div style="color:#888;font-size:10px;margin-top:4px">Part of a ${c.calls}-call / ${c.locations}-location hotspot</div>
+          </div>
+        `);
+        infoWindow.setPosition({ lat: a.lat, lng: a.lng });
+        infoWindow.open(map);
+      });
+      return marker;
+    });
+
+    clusterOverlays.push({ circle, shape, addrMarkers });
+  });
+}
+
+function renderReports(reports) {
+  reports.forEach(r => {
+    if (r.lat == null || r.lng == null) return;
+    // A marker can carry both a case record and a call-log record for the
+    // same address (merged by build-clusters.js) — the case takes shape
+    // priority since it's the more actionable of the two.
+    const hasCase = r.records.some(rec => rec.kind === 'case');
+    const el = document.createElement('div');
+    el.style.cssText = hasCase
+      ? 'width:12px;height:12px;border-radius:50% 50% 50% 0;background:#7c3aed;border:2px solid #fff;transform:rotate(-45deg);box-shadow:0 0 2px rgba(0,0,0,0.4);'
+      : 'width:13px;height:13px;background:#2a6db5;border:2px solid #fff;box-shadow:0 0 2px rgba(0,0,0,0.4);';
+    const marker = new google.maps.marker.AdvancedMarkerElement({
+      map,
+      position: { lat: r.lat, lng: r.lng },
+      content: el,
+      title: r.address,
+    });
+    marker.addListener('gmp-click', () => {
+      // A single address can carry more than one record — e.g. a real case/
+      // activity record from the shelter's case system AND a separate
+      // "repeat caller" call-log summary for the same spot. Show all of them,
+      // not just whichever one happened to be on top.
+      const bodies = r.records.map(rec => rec.kind === 'case' ? `
+          <div style="font-weight:500;margin-bottom:4px">${rec.activity || 'Case record'}</div>
+          <div style="color:#555;margin-bottom:2px">Status: ${rec.status || '—'}</div>
+          <div style="color:#555;margin-bottom:2px">Case: ${rec.caseNumber || '—'}</div>
+        ` : rec.kind === 'call' ? `
+          <div style="font-weight:500;margin-bottom:4px">${rec.calls > 1 ? 'Repeat caller' : 'Reported call'}</div>
+          <div style="color:#555;margin-bottom:2px">${rec.calls} call${rec.calls === 1 ? '' : 's'} at this location</div>
+          <div style="color:#555;margin-bottom:2px">Call dates: ${rec.callDates || '—'}</div>
+        ` : `
+          <div style="font-weight:500;margin-bottom:4px">Report</div>
+        `);
+      infoWindow.setContent(`
+        <div style="font-family:'DM Sans',sans-serif;font-size:12px;max-width:220px">
+          ${bodies.join('<div style="border-top:1px solid #eee;margin:6px 0"></div>')}
+          <div style="color:#2a6db5;font-size:11px">${r.address}</div>
+        </div>
+      `);
+      infoWindow.setPosition({ lat: r.lat, lng: r.lng });
+      infoWindow.open(map);
+    });
+    reportMarkers.push(marker);
+  });
+}
+
+async function renderTrappingLayers() {
+  clearClusterOverlays();
+  clearReportMarkers();
+
+  const tierOn = {
+    busiest: document.getElementById('tierBusiestToggle').checked,
+    strong: document.getElementById('tierStrongToggle').checked,
+    emerging: document.getElementById('tierEmergingToggle').checked,
+  };
+  const showCase = document.getElementById('caseReportToggle').checked;
+  const showCall = document.getElementById('callReportToggle').checked;
+
+  if (!tierOn.busiest && !tierOn.strong && !tierOn.emerging && !showCase && !showCall) return;
+
+  const data = await ensureClusterData();
+  if (!data) return;
+
+  renderClusters(data.clusters.filter(c => tierOn[tierOf(c.calls)]));
+
+  renderReports(data.reports.filter(r => {
+    const kinds = new Set(r.records.map(rec => rec.kind));
+    return (showCase && kinds.has('case')) || (showCall && kinds.has('call'));
+  }));
+}
+
 async function addDCMask() {
   try {
     const res = await fetch('https://raw.githubusercontent.com/benbalter/dc-maps/refs/heads/master/maps/dc-boundary.geojson');
@@ -755,25 +1079,21 @@ async function addDCMask() {
       ? geometry.coordinates[0][0]
       : geometry.coordinates[0];
 
-    const worldRing = [[-179, 85], [-179, -85], [179, -85], [179, 85], [-179, 85]];
-    const dcHole = [...ringCoords].reverse();
+    const toLatLng = ([lng, lat]) => ({ lat, lng });
+    const worldRing = [[-179, 85], [-179, -85], [179, -85], [179, 85], [-179, 85]].map(toLatLng);
+    const dcHole = ringCoords.map(toLatLng);
 
-    map.data.addGeoJson({
-      type: 'FeatureCollection',
-      features: [{
-        type: 'Feature',
-        geometry: { type: 'Polygon', coordinates: [worldRing, dcHole] },
-        properties: {},
-      }],
-    });
-
-    map.data.setStyle({
-      fillColor: '#1a1a1a',
-      fillOpacity: 0.45,
+    // A plain Polygon (not map.data) so it shares the same overlay class — and
+    // therefore the same reliable zIndex stacking — as the cluster shapes below.
+    new google.maps.Polygon({
+      map,
+      paths: [worldRing, dcHole],
+      fillOpacity: 0,
       strokeColor: '#e05c2a',
       strokeWeight: 1.5,
       strokeOpacity: 0.6,
       clickable: false,
+      zIndex: 0,
     });
   } catch (e) {
     console.warn('DC boundary fetch failed:', e.message);
@@ -786,7 +1106,7 @@ function initMap() {
     center: { lat: 38.9072, lng: -77.0369 },
     zoom: 12,
     minZoom: 10,
-    mapId: 'dc_kitten_finder',
+    mapId: 'a719c24d2f48ea84f87764b5',
     mapTypeControl: false,
     streetViewControl: false,
     fullscreenControl: true,

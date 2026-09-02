@@ -1,0 +1,962 @@
+{
+  "3506 22ND ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8459913,
+    "lng": -76.9725649
+  },
+  "2301 SAVANNAH ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8478783,
+    "lng": -76.9706954
+  },
+  "3439 23RD ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8466558,
+    "lng": -76.9718968
+  },
+  "3448 23RD ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8463509,
+    "lng": -76.97142199999999
+  },
+  "3465 24TH ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8459626,
+    "lng": -76.9710518
+  },
+  "3468 22ND ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8464294,
+    "lng": -76.9724931
+  },
+  "1219 ALABAMA AVE SE, WASHINGTON, DC, 20032": {
+    "lat": 38.844236,
+    "lng": -76.98946389999999
+  },
+  "1224 SAVANNAH ST SE, WASHINGTON, DC, 20032": {
+    "lat": 38.84332029999999,
+    "lng": -76.9894434
+  },
+  "1328 CONGRESS ST SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8426684,
+    "lng": -76.986756
+  },
+  "3324 13TH ST SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8423236,
+    "lng": -76.98829289999999
+  },
+  "1236 SAVANNAH ST SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8433705,
+    "lng": -76.9888608
+  },
+  "1301 SAVANNAH ST SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8431327,
+    "lng": -76.98815979999999
+  },
+  "645 E ST SE, WASHINGTON, DC, 20003": {
+    "lat": 38.8825189,
+    "lng": -76.9968797
+  },
+  "714 7TH ST SE, WASHINGTON, DC, 20003": {
+    "lat": 38.8807368,
+    "lng": -76.9959786
+  },
+  "555L F STREET TER SE, WASHINGTON, DC, 20003": {
+    "lat": 38.8817118,
+    "lng": -76.99719689999999
+  },
+  "635 G ST SE, WASHINGTON, DC, 20003": {
+    "lat": 38.8811118,
+    "lng": -76.99707
+  },
+  "707 7TH ST SE, WASHINGTON, DC, 20003": {
+    "lat": 38.880977,
+    "lng": -76.9964259
+  },
+  "708 6TH ST SE, WASHINGTON, DC, 20003": {
+    "lat": 38.8807323,
+    "lng": -76.9982594
+  },
+  "2613 DOUGLAS RD SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8569425,
+    "lng": -76.9894195
+  },
+  "1322 DEXTER TER SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8608982,
+    "lng": -76.9902124
+  },
+  "1336 TALBERT TER SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8608481,
+    "lng": -76.99106259999999
+  },
+  "1362 MORRIS RD SE, WASHINGTON, DC, 20020": {
+    "lat": 38.86124969999999,
+    "lng": -76.9888636
+  },
+  "2607 BOWEN RD SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8591517,
+    "lng": -76.9917181
+  },
+  "2611 BOWEN RD SE, WASHINGTON, DC, 20020": {
+    "lat": 38.85872140000001,
+    "lng": -76.99183479999999
+  },
+  "601 FORRESTER ST SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8249761,
+    "lng": -76.99901419999999
+  },
+  "614 SOUTHERN AVE SE, WASHINGTON, DC, 20032": {
+    "lat": 38.82443689999999,
+    "lng": -76.9974795
+  },
+  "319 LIVINGSTON TER SE, WASHINGTON, DC, 20032": {
+    "lat": 38.82661299999999,
+    "lng": -77.00085
+  },
+  "4254 4TH ST SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8256133,
+    "lng": -76.9995134
+  },
+  "600 FORRESTER ST SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8252614,
+    "lng": -76.9988162
+  },
+  "608 ELMIRA ST SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8258109,
+    "lng": -76.9982541
+  },
+  "146 ELMIRA ST SW, WASHINGTON, DC, 20032": {
+    "lat": 38.8258708,
+    "lng": -77.0112992
+  },
+  "70 FORRESTER ST SW, WASHINGTON, DC, 20032": {
+    "lat": 38.8249731,
+    "lng": -77.009109
+  },
+  "76 FORRESTER ST SW, WASHINGTON, DC, 20032": {
+    "lat": 38.8250395,
+    "lng": -77.0094311
+  },
+  "100 FORRESTER ST SW, WASHINGTON, DC, 20032": {
+    "lat": 38.8250165,
+    "lng": -77.00997029999999
+  },
+  "107 FORRESTER ST SW, WASHINGTON, DC, 20032": {
+    "lat": 38.8254027,
+    "lng": -77.01014219999999
+  },
+  "125 FORRESTER ST SW, WASHINGTON, DC, 20032": {
+    "lat": 38.8253796,
+    "lng": -77.01058739999999
+  },
+  "3023 14TH ST NW, WASHINGTON, DC, 20009": {
+    "lat": 38.92814930000001,
+    "lng": -77.0321867
+  },
+  "2900 14TH ST NW, WASHINGTON, DC, 20009": {
+    "lat": 38.9269726,
+    "lng": -77.03274309999999
+  },
+  "1346 GIRARD ST NW, WASHINGTON, DC, 20009": {
+    "lat": 38.9254973,
+    "lng": -77.0313767
+  },
+  "1358 IRVING ST NW, WASHINGTON, DC, 20010": {
+    "lat": 38.92830259999999,
+    "lng": -77.03166689999999
+  },
+  "1401 FAIRMONT ST NW, WASHINGTON, DC, 20009": {
+    "lat": 38.9248068,
+    "lng": -77.032862
+  },
+  "2801 14TH ST NW, WASHINGTON, DC, 20009": {
+    "lat": 38.926137,
+    "lng": -77.0319213
+  },
+  "1102 VARNEY ST SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8362327,
+    "lng": -76.9897417
+  },
+  "1108 VARNEY ST SE, WASHINGTON, DC, 20032": {
+    "lat": 38.836175,
+    "lng": -76.9893433
+  },
+  "929 BLAKNEY LN SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8365031,
+    "lng": -76.9906003
+  },
+  "2837 28TH ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8559506,
+    "lng": -76.9687048
+  },
+  "2800 BUENA VISTA TER SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8563054,
+    "lng": -76.9676653
+  },
+  "2819 GAINESVILLE ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8549716,
+    "lng": -76.96867069999999
+  },
+  "2825 28TH ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8562996,
+    "lng": -76.96832900000001
+  },
+  "2834 BUENA VISTA TER SE, WASHINGTON, DC, 20020": {
+    "lat": 38.85532070000001,
+    "lng": -76.9670076
+  },
+  "2838 HARTFORD ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8546501,
+    "lng": -76.96729189999999
+  },
+  "5447 BASS PL SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8846969,
+    "lng": -76.9226724
+  },
+  "5448 B ST SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8858245,
+    "lng": -76.9220481
+  },
+  "5408 D ST SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8831625,
+    "lng": -76.9234534
+  },
+  "5411 C ST SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8842507,
+    "lng": -76.92354619999999
+  },
+  "5435 BASS PL SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8848575,
+    "lng": -76.923102
+  },
+  "5446 B ST SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8858393,
+    "lng": -76.9221166
+  },
+  "2242 NICHOLSON ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.87362540000001,
+    "lng": -76.9735147
+  },
+  "2310 NICHOLSON ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.87341000000001,
+    "lng": -76.97304249999999
+  },
+  "1433 22ND ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8728186,
+    "lng": -76.9752254
+  },
+  "1936 NAYLOR RD SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8725207,
+    "lng": -76.97626319999999
+  },
+  "2316 MINNESOTA AVE SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8727577,
+    "lng": -76.9727327
+  },
+  "1716 28TH ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8688067,
+    "lng": -76.96753389999999
+  },
+  "1728 27TH ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8685453,
+    "lng": -76.96863789999999
+  },
+  "1727 28TH ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8688105,
+    "lng": -76.968013
+  },
+  "1724 27TH ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8687089,
+    "lng": -76.96868289999999
+  },
+  "51ST ST NE &amp; NANNIE HELEN BURROUGHS AVE NE, WASHINGTON, DC, 20019": {
+    "lat": 38.8983279,
+    "lng": -76.927466
+  },
+  "730 51ST ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.8992067,
+    "lng": -76.9276288
+  },
+  "5110 NANNIE HELEN BURROUGHS AVE NE, WASHINGTON, DC, 20019": {
+    "lat": 38.8988278,
+    "lng": -76.9271589
+  },
+  "NANNIE HELEN BURROUGHS AVE NE &amp; 51ST ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.8983279,
+    "lng": -76.927466
+  },
+  "1671 PRIMROSE RD NW, WASHINGTON, DC, 20012": {
+    "lat": 38.9888387,
+    "lng": -77.03935109999999
+  },
+  "1617 PRIMROSE RD NW, WASHINGTON, DC, 20012": {
+    "lat": 38.9890483,
+    "lng": -77.036947
+  },
+  "7914 ORCHID ST NW, WASHINGTON, DC, 20012": {
+    "lat": 38.9879776,
+    "lng": -77.0393168
+  },
+  "800 KENILWORTH AVE NE, WASHINGTON, DC, 20019": {
+    "lat": 38.9012803,
+    "lng": -76.9458243
+  },
+  "774 KENILWORTH TER NE, WASHINGTON, DC, 20019": {
+    "lat": 38.9015632,
+    "lng": -76.946726
+  },
+  "1371 LOCUST RD NW, WASHINGTON, DC, 20012": {
+    "lat": 38.98588040000001,
+    "lng": -77.0323825
+  },
+  "1320 LEEGATE RD NW, WASHINGTON, DC, 20012": {
+    "lat": 38.9861754,
+    "lng": -77.0307933
+  },
+  "1346 LEEGATE RD NW, WASHINGTON, DC, 20012": {
+    "lat": 38.9862415,
+    "lng": -77.0322523
+  },
+  "1373 LOCUST RD NW, WASHINGTON, DC, 20012": {
+    "lat": 38.9859179,
+    "lng": -77.0325797
+  },
+  "1375 LOCUST RD NW, WASHINGTON, DC, 20012": {
+    "lat": 38.9859627,
+    "lng": -77.0328277
+  },
+  "3225 23RD ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8504674,
+    "lng": -76.9732914
+  },
+  "2225 SAVANNAH TER SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8490545,
+    "lng": -76.97317780000002
+  },
+  "2234 SAVANNAH TER SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8497207,
+    "lng": -76.9730744
+  },
+  "23RD ST SE &amp; ALABAMA AVE SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8510846,
+    "lng": -76.9737334
+  },
+  "3245 23RD ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8501754,
+    "lng": -76.9738352
+  },
+  "3823 W ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8626066,
+    "lng": -76.95088930000001
+  },
+  "2022 37TH ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.863681,
+    "lng": -76.9534271
+  },
+  "2035 38TH ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8638591,
+    "lng": -76.9527264
+  },
+  "3660 ALABAMA AVE SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8648649,
+    "lng": -76.9542096
+  },
+  "268 37TH PL SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8859244,
+    "lng": -76.95118049999999
+  },
+  "270 37TH PL SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8859275,
+    "lng": -76.95118529999999
+  },
+  "403 37TH PL SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8845203,
+    "lng": -76.9511148
+  },
+  "4308 HALLEY TER SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8273922,
+    "lng": -77.0064402
+  },
+  "4342 HALLEY TER SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8262822,
+    "lng": -77.0061789
+  },
+  "4301 S CAPITOL ST SW, WASHINGTON, DC, 20032": {
+    "lat": 38.8276759,
+    "lng": -77.00802999999999
+  },
+  "4302 HALLEY TER SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8275911,
+    "lng": -77.0064445
+  },
+  "2020 3RD ST NE, WASHINGTON, DC, 20002": {
+    "lat": 38.9178229,
+    "lng": -77.00225499999999
+  },
+  "2019 2ND ST NE, WASHINGTON, DC, 20002": {
+    "lat": 38.9173778,
+    "lng": -77.0032784
+  },
+  "2022 3RD ST NE, WASHINGTON, DC, 20002": {
+    "lat": 38.9178554,
+    "lng": -77.0023914
+  },
+  "219 V ST NE, WASHINGTON, DC, 20002": {
+    "lat": 38.9179289,
+    "lng": -77.0026628
+  },
+  "2825 28TH ST NW, WASHINGTON, DC, 20008": {
+    "lat": 38.9274755,
+    "lng": -77.0561748
+  },
+  "2835 28TH ST NW, WASHINGTON, DC, 20008": {
+    "lat": 38.9279159,
+    "lng": -77.0561609
+  },
+  "2915 28TH ST NW, WASHINGTON, DC, 20008": {
+    "lat": 38.929201,
+    "lng": -77.0565747
+  },
+  "2928 28TH ST NW, WASHINGTON, DC, 20008": {
+    "lat": 38.9294829,
+    "lng": -77.0572801
+  },
+  "2625 JASPER ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8512111,
+    "lng": -76.9696432
+  },
+  "2618 JASPER ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8507984,
+    "lng": -76.9699617
+  },
+  "2719 JASPER ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8511092,
+    "lng": -76.96856489999999
+  },
+  "2727 JASPER ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.85109,
+    "lng": -76.9681803
+  },
+  "5112 CALL PL SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8843918,
+    "lng": -76.9276762
+  },
+  "5216 CALL PL SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8842652,
+    "lng": -76.92685089999999
+  },
+  "5260 D ST SE, WASHINGTON, DC, 20019": {
+    "lat": 38.883405,
+    "lng": -76.9267665
+  },
+  "2811 POMEROY RD SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8559779,
+    "lng": -76.99531739999999
+  },
+  "M L KING JR AVE SE &amp; POMEROY RD SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8560673,
+    "lng": -76.9960802
+  },
+  "2900 POMEROY RD SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8566255,
+    "lng": -76.9964176
+  },
+  "1810 29TH ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8681021,
+    "lng": -76.965583
+  },
+  "2901 S ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8683767,
+    "lng": -76.9655721
+  },
+  "2902 S ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8687686,
+    "lng": -76.96549519999999
+  },
+  "1338 QUINCY ST NW, WASHINGTON, DC, 20011": {
+    "lat": 38.9374019,
+    "lng": -77.0309996
+  },
+  "1340 QUINCY ST NW, WASHINGTON, DC, 20011": {
+    "lat": 38.9374022,
+    "lng": -77.0310641
+  },
+  "1348 SPRING RD NW, WASHINGTON, DC, 20010": {
+    "lat": 38.9364953,
+    "lng": -77.0314029
+  },
+  "1918 ROSEDALE ST NE, WASHINGTON, DC, 20002": {
+    "lat": 38.896874,
+    "lng": -76.9764332
+  },
+  "1900 ROSEDALE ST NE, WASHINGTON, DC, 20002": {
+    "lat": 38.8969834,
+    "lng": -76.9769141
+  },
+  "1813 GALES ST NE, WASHINGTON, DC, 20002": {
+    "lat": 38.8975729,
+    "lng": -76.9774679
+  },
+  "828 BARNABY ST SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8312868,
+    "lng": -76.9926523
+  },
+  "832 BARNABY ST SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8314192,
+    "lng": -76.99240309999999
+  },
+  "1851 24TH ST NE, WASHINGTON, DC, 20002": {
+    "lat": 38.915188,
+    "lng": -76.9706705
+  },
+  "380 TAYLOR ST NE, WASHINGTON, DC, 20017": {
+    "lat": 38.9424059,
+    "lng": -77.00388869999999
+  },
+  "400 TAYLOR ST NE, WASHINGTON, DC, 20017": {
+    "lat": 38.9410206,
+    "lng": -77.0019664
+  },
+  "430 TAYLOR ST NE, WASHINGTON, DC, 20017": {
+    "lat": 38.941217,
+    "lng": -77.0013433
+  },
+  "440 TAYLOR ST NE, WASHINGTON, DC, 20017": {
+    "lat": 38.9415704,
+    "lng": -77.0012845
+  },
+  "490 TAYLOR ST NE, WASHINGTON, DC, 20017": {
+    "lat": 38.9426066,
+    "lng": -77.00230049999999
+  },
+  "1728 W ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8629115,
+    "lng": -76.9796087
+  },
+  "1649 W ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8629425,
+    "lng": -76.98131769999999
+  },
+  "1656 W ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8634155,
+    "lng": -76.9806505
+  },
+  "1734 GALEN ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8621143,
+    "lng": -76.9802745
+  },
+  "6342 SOUTHERN AVE NE, WASHINGTON, DC, 20019": {
+    "lat": 38.8927583,
+    "lng": -76.909849
+  },
+  "223 63RD ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.8925714,
+    "lng": -76.9106845
+  },
+  "6340 SOUTHERN AVE NE, WASHINGTON, DC, 20019": {
+    "lat": 38.8927249,
+    "lng": -76.9098899
+  },
+  "6370 SOUTHERN AVE NE, WASHINGTON, DC, 20019": {
+    "lat": 38.892837,
+    "lng": -76.9097638
+  },
+  "3513 CARPENTER ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8702766,
+    "lng": -76.95447
+  },
+  "3528 HIGHWOOD DR SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8699985,
+    "lng": -76.9539905
+  },
+  "3201 PENNSYLVANIA AVE SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8687659,
+    "lng": -76.9599708
+  },
+  "616 RALEIGH PL SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8444385,
+    "lng": -76.9969532
+  },
+  "4334 CHAPLIN ST SE, WASHINGTON, DC, 20019": {
+    "lat": 38.882225,
+    "lng": -76.9403512
+  },
+  "4400 FALLS TER SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8825144,
+    "lng": -76.9389609
+  },
+  "4417 FALLS TER SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8822687,
+    "lng": -76.9380635
+  },
+  "4816 ALABAMA AVE SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8826805,
+    "lng": -76.9398889
+  },
+  "25 N ST NW, WASHINGTON, DC, 20001": {
+    "lat": 38.906477,
+    "lng": -77.01041810000001
+  },
+  "30 NEW YORK AVE NW, WASHINGTON, DC, 20001": {
+    "lat": 38.9066905,
+    "lng": -77.01020539999999
+  },
+  "32 HANOVER PL NW, WASHINGTON, DC, 20001": {
+    "lat": 38.9077547,
+    "lng": -77.0101658
+  },
+  "37 HANOVER PL NW, WASHINGTON, DC, 20001": {
+    "lat": 38.908047,
+    "lng": -77.010171
+  },
+  "4414 ILLINOIS AVE NW, WASHINGTON, DC, 20011": {
+    "lat": 38.9449563,
+    "lng": -77.02073399999999
+  },
+  "4520 ILLINOIS AVE NW, WASHINGTON, DC, 20011": {
+    "lat": 38.9458676,
+    "lng": -77.0213306
+  },
+  "512 BUCHANAN ST NW, WASHINGTON, DC, 20011": {
+    "lat": 38.9461557,
+    "lng": -77.0199762
+  },
+  "BUCHANAN ST NW &amp; 7TH ST NW, WASHINGTON, DC, 20011": {
+    "lat": 38.9462684,
+    "lng": -77.02183219999999
+  },
+  "660 46TH ST SE, WASHINGTON, DC, 20019": {
+    "lat": 38.88068519999999,
+    "lng": -76.9361746
+  },
+  "4611 G ST SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8802589,
+    "lng": -76.9355898
+  },
+  "4648 G ST SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8813189,
+    "lng": -76.9346534
+  },
+  "4916 MEADE ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.9062539,
+    "lng": -76.9305198
+  },
+  "1215 49TH ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.906622,
+    "lng": -76.9314567
+  },
+  "4910 MEADE ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.906278,
+    "lng": -76.93107309999999
+  },
+  "5316 E CAPITOL ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.8900392,
+    "lng": -76.92512920000001
+  },
+  "5300 E CAPITOL ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.8901002,
+    "lng": -76.9258301
+  },
+  "5340 E CAPITOL ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.8900323,
+    "lng": -76.9241083
+  },
+  "479 VALLEY AVE SE, WASHINGTON, DC, 20032": {
+    "lat": 38.834342,
+    "lng": -76.997985
+  },
+  "548 FOXHALL PL SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8339849,
+    "lng": -76.9977534
+  },
+  "617 CONDON TER SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8336465,
+    "lng": -76.9959696
+  },
+  "1516 45TH ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.9116524,
+    "lng": -76.9371815
+  },
+  "1512 45TH ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.9115342,
+    "lng": -76.9372521
+  },
+  "4556 QUARLES ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.911476,
+    "lng": -76.93536999999999
+  },
+  "50 FLORIDA AVE NE, WASHINGTON, DC, 20002": {
+    "lat": 38.9104987,
+    "lng": -77.0072356
+  },
+  "N CAPITOL ST NE &amp; FLORIDA AVE NE, WASHINGTON, DC, 20002": {
+    "lat": 38.9107766,
+    "lng": -77.0089777
+  },
+  "21 ATLANTIC ST SW, WASHINGTON, DC, 20032": {
+    "lat": 38.8317925,
+    "lng": -77.00849529999999
+  },
+  "66 ATLANTIC ST SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8314424,
+    "lng": -77.0059745
+  },
+  "5820 SOUTHERN AVE SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8877158,
+    "lng": -76.9166809
+  },
+  "5876 SOUTHERN AVE SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8884088,
+    "lng": -76.9162988
+  },
+  "2304 WOODRIDGE ST NE, WASHINGTON, DC, 20018": {
+    "lat": 38.9296867,
+    "lng": -76.9729016
+  },
+  "2300 WOODRIDGE ST NE, WASHINGTON, DC, 20018": {
+    "lat": 38.9295974,
+    "lng": -76.97306739999999
+  },
+  "1800 ANACOSTIA DR SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8726101,
+    "lng": -76.9831358
+  },
+  "700 12TH ST SE, WASHINGTON, DC, 20003": {
+    "lat": 38.8806774,
+    "lng": -76.9897002
+  },
+  "2348 AINGER PL SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8571135,
+    "lng": -76.9719468
+  },
+  "4328 3RD ST NW, WASHINGTON, DC, 20011": {
+    "lat": 38.9440521,
+    "lng": -77.0157303
+  },
+  "2528 SOUTH DAKOTA AVE NE, WASHINGTON, DC, 20018": {
+    "lat": 38.9245877,
+    "lng": -76.9647342
+  },
+  "1945 4TH ST NE, WASHINGTON, DC, 20002": {
+    "lat": 38.9166627,
+    "lng": -77.00028019999999
+  },
+  "111 MICHIGAN AVE NW, WASHINGTON, DC, 20010": {
+    "lat": 38.9271372,
+    "lng": -77.0145474
+  },
+  "1454 MONTANA AVE NE, WASHINGTON, DC, 20018": {
+    "lat": 38.9231541,
+    "lng": -76.9831889
+  },
+  "1494 DOUGLAS ST NE, WASHINGTON, DC, 20018": {
+    "lat": 38.9230421,
+    "lng": -76.98301699999999
+  },
+  "1508 MONTANA AVE NE, WASHINGTON, DC, 20018": {
+    "lat": 38.9225545,
+    "lng": -76.9824593
+  },
+  "112 EMERSON ST NW, WASHINGTON, DC, 20011": {
+    "lat": 38.9496196,
+    "lng": -77.0135339
+  },
+  "225 EMERSON ST NW, WASHINGTON, DC, 20011": {
+    "lat": 38.9504052,
+    "lng": -77.014889
+  },
+  "4912 NEW HAMPSHIRE AVE NW, WASHINGTON, DC, 20011": {
+    "lat": 38.9506129,
+    "lng": -77.0141022
+  },
+  "27 47TH ST SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8890215,
+    "lng": -76.9341318
+  },
+  "4635 E CAPITOL ST SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8895166,
+    "lng": -76.93493819999999
+  },
+  "4643 E CAPITOL ST SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8894739,
+    "lng": -76.9346868
+  },
+  "4515 DIX ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.89436329999999,
+    "lng": -76.9369432
+  },
+  "4517 CLAY ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.8936769,
+    "lng": -76.9369121
+  },
+  "4517 DIX ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.8943699,
+    "lng": -76.9368506
+  },
+  "1505 GALES ST NE, WASHINGTON, DC, 20002": {
+    "lat": 38.8985958,
+    "lng": -76.9831434
+  },
+  "1508 GALES ST NE, WASHINGTON, DC, 20002": {
+    "lat": 38.8988088,
+    "lng": -76.9828936
+  },
+  "1519 BENNING RD NE, WASHINGTON, DC, 20002": {
+    "lat": 38.899659,
+    "lng": -76.981933
+  },
+  "3301 B ST SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8873898,
+    "lng": -76.9587925
+  },
+  "3301 CROFFUT PL SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8865989,
+    "lng": -76.9594331
+  },
+  "3400 B ST SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8877938,
+    "lng": -76.957219
+  },
+  "3214 M L KING JR AVE SE, WASHINGTON, DC, 20032": {
+    "lat": 38.84639,
+    "lng": -76.996361
+  },
+  "3318 M L KING JR AVE SE, WASHINGTON, DC, 20032": {
+    "lat": 38.84639,
+    "lng": -76.996361
+  },
+  "3325 BROTHERS PL SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8433388,
+    "lng": -77.00298529999999
+  },
+  "1513 TANNER ST SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8471766,
+    "lng": -76.98176579999999
+  },
+  "1720 ALABAMA AVE SE, WASHINGTON, DC, 20020": {
+    "lat": 38.847683,
+    "lng": -76.979788
+  },
+  "CONGRESS PL SE &amp; 15TH PL SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8479205,
+    "lng": -76.9826622
+  },
+  "633 LONGFELLOW ST NW, WASHINGTON, DC, 20011": {
+    "lat": 38.9576542,
+    "lng": -77.0219912
+  },
+  "715 LONGFELLOW ST NW, WASHINGTON, DC, 20011": {
+    "lat": 38.95764459999999,
+    "lng": -77.0229698
+  },
+  "3802 2ND ST SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8359667,
+    "lng": -77.0025656
+  },
+  "211 MISSISSIPPI AVE SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8351056,
+    "lng": -77.00211759999999
+  },
+  "5055 11TH ST NE, WASHINGTON, DC, 20017": {
+    "lat": 38.95227999999999,
+    "lng": -76.99137
+  },
+  "5030 11TH ST NE, WASHINGTON, DC, 20017": {
+    "lat": 38.9511176,
+    "lng": -76.99195890000001
+  },
+  "3321 18TH PL SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8478938,
+    "lng": -76.977472
+  },
+  "1824 ALABAMA AVE SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8484862,
+    "lng": -76.97848859999999
+  },
+  "44 GALVESTON ST SW, WASHINGTON, DC, 20032": {
+    "lat": 38.8223705,
+    "lng": -77.00697140000001
+  },
+  "54 GALVESTON ST SW, WASHINGTON, DC, 20032": {
+    "lat": 38.8229658,
+    "lng": -77.0073366
+  },
+  "5361 BLAINE ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.8913168,
+    "lng": -76.9237814
+  },
+  "5316 BLAINE ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.89219170000001,
+    "lng": -76.9241514
+  },
+  "1357 NICHOLSON ST NW, WASHINGTON, DC, 20011": {
+    "lat": 38.9604177,
+    "lng": -77.0320399
+  },
+  "1369 NICHOLSON ST NW, WASHINGTON, DC, 20011": {
+    "lat": 38.9604177,
+    "lng": -77.0326297
+  },
+  "2339 PITTS PL SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8600425,
+    "lng": -76.9858167
+  },
+  "2344 PITTS PL SE, WASHINGTON, DC, 20020": {
+    "lat": 38.8593906,
+    "lng": -76.9854785
+  },
+  "4301 21ST ST NE, WASHINGTON, DC, 20018": {
+    "lat": 38.94196850000001,
+    "lng": -76.9749501
+  },
+  "4226 22ND ST NE, WASHINGTON, DC, 20018": {
+    "lat": 38.9415492,
+    "lng": -76.97443539999999
+  },
+  "3942 BLAINE ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.8920725,
+    "lng": -76.94878709999999
+  },
+  "3935 BLAINE ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.89170439999999,
+    "lng": -76.9491441
+  },
+  "843 21ST ST NE, WASHINGTON, DC, 20002": {
+    "lat": 38.901386,
+    "lng": -76.9738836
+  },
+  "809 21ST ST NE, WASHINGTON, DC, 20002": {
+    "lat": 38.90053169999999,
+    "lng": -76.9739659
+  },
+  "71 OGLETHORPE ST NW, WASHINGTON, DC, 20011": {
+    "lat": 38.9613695,
+    "lng": -77.00840989999999
+  },
+  "3622 ALABAMA AVE SE, WASHINGTON, DC, 20020": {
+    "lat": 38.86383259999999,
+    "lng": -76.95621229999999
+  },
+  "4660 MARTIN LUTHER KING JR AVE SW, WASHINGTON, DC, 20032": {
+    "lat": 38.8224728,
+    "lng": -77.0102179
+  },
+  "824 KENTUCKY AVE SE, WASHINGTON, DC, 20003": {
+    "lat": 38.87949649999999,
+    "lng": -76.98132389999999
+  },
+  "519 TRENTON ST SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8401884,
+    "lng": -76.998718
+  },
+  "3767 JAY ST NE, WASHINGTON, DC, 20019": {
+    "lat": 38.90338,
+    "lng": -76.94745
+  },
+  "3809 9TH ST SE, WASHINGTON, DC, 20032": {
+    "lat": 38.8341009,
+    "lng": -76.9938493
+  },
+  "5121 FITCH ST SE, WASHINGTON, DC, 20019": {
+    "lat": 38.8807068,
+    "lng": -76.9274902
+  },
+  "3735 KANAWHA ST NW, WASHINGTON, DC, 20015": {
+    "lat": 38.9604729,
+    "lng": -77.0716223
+  }
+}
