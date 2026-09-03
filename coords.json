@@ -1494,5 +1494,29 @@
   "300 37th ST, Washington, DC": {
     "lat": 38.8856045,
     "lng": -76.9527092
+  },
+  "13th and Iriving St. NE, Washington, DC": {
+    "lat": 38.9287115,
+    "lng": -76.9883804
+  },
+  "1741 Girard St., Washington, DC": {
+    "lat": 38.9265656,
+    "lng": -76.9800085
+  },
+  "5514 13th St NW, Washington, DC": {
+    "lat": 38.9567503,
+    "lng": -77.0299745
+  },
+  "64 Allison St NE, Washington, DC": {
+    "lat": 38.9467948,
+    "lng": -77.0069265
+  },
+  "1507 Isherwood St NE, Washington, DC": {
+    "lat": 38.8952796,
+    "lng": -76.9831963
+  },
+  "63 Tuckerman St NW, Washington, DC": {
+    "lat": 38.9678556,
+    "lng": -77.0107837
   }
 }
