@@ -1518,5 +1518,9 @@
   "63 Tuckerman St NW, Washington, DC": {
     "lat": 38.9678556,
     "lng": -77.0107837
+  },
+  "604 Rhode Island Ave NE, Washington, DC": {
+    "lat": 38.920916,
+    "lng": -76.9975481
   }
 }
