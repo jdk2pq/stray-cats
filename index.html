@@ -503,6 +503,20 @@
         <span class="legend-text"><strong>Unique call location</strong><span class="legend-sub">One dot per matched address; repeat calls are combined</span></span>
       </label>
     </div>
+
+    <div class="legend-group">
+      <div class="legend-group-label">Trapping addresses by year</div>
+      <label class="legend-row">
+        <input type="checkbox" id="year2025Toggle" onchange="renderHistoricalLayers()">
+        <span class="legend-swatch outline-circle" style="border-color:#0891b2"></span>
+        <span class="legend-text"><strong>2025 Trapping Addresses</strong><span class="legend-sub">One dot per address trapped in 2025</span></span>
+      </label>
+      <label class="legend-row">
+        <input type="checkbox" id="year2026Toggle" onchange="renderHistoricalLayers()">
+        <span class="legend-swatch outline-circle" style="border-color:#db2777"></span>
+        <span class="legend-text"><strong>2026 Trapping Addresses</strong><span class="legend-sub">One dot per address trapped in 2026</span></span>
+      </label>
+    </div>
   </div>
 </div>
 
@@ -514,6 +528,7 @@ let allRecords = [], filtered = [], coords = {};
 let map, markers = [], infoWindow, activeIdx = null;
 let selectedYears = new Set();
 let clusterData = null, clusterOverlays = [], reportMarkers = [];
+let historicalData = null, historical2025Markers = [], historical2026Markers = [];
 let showKittens = true;
 
 // ── PROGRESS ──
@@ -1066,6 +1081,72 @@ async function renderTrappingLayers() {
     const kinds = new Set(r.records.map(rec => rec.kind));
     return (showCase && kinds.has('case')) || (showCall && kinds.has('call'));
   }));
+}
+
+// ── HISTORICAL TRAPPING ADDRESSES (by year) ──
+// Loaded from historical-trapping.json, built from historical_data/2025.csv
+// and historical_data/2026.csv (see build-historical-trapping.js) — a manual,
+// one-off dataset, not part of the nightly Petango sync.
+async function ensureHistoricalData() {
+  if (historicalData) return historicalData;
+  try {
+    const res = await fetch('historical-trapping.json?v=' + Date.now());
+    if (!res.ok) throw new Error('not found');
+    historicalData = await res.json();
+    return historicalData;
+  } catch (e) {
+    toast('historical-trapping.json not found — run build-historical-trapping.js first.', 4000);
+    document.getElementById('year2025Toggle').checked = false;
+    document.getElementById('year2026Toggle').checked = false;
+    return null;
+  }
+}
+
+function clearHistoricalMarkers() {
+  historical2025Markers.forEach(m => { m.map = null; });
+  historical2026Markers.forEach(m => { m.map = null; });
+  historical2025Markers = [];
+  historical2026Markers = [];
+}
+
+// Plain dots — the source data is just a deduplicated address list with no
+// other fields, so a click only ever needs to surface the address itself.
+function renderHistoricalPoints(points, color, target) {
+  points.forEach(p => {
+    if (p.lat == null || p.lng == null) return;
+    const el = document.createElement('div');
+    el.style.cssText = `width:10px;height:10px;border-radius:50%;background:${color};border:2px solid #fff;box-shadow:0 0 2px rgba(0,0,0,0.4);`;
+    const marker = new google.maps.marker.AdvancedMarkerElement({
+      map,
+      position: { lat: p.lat, lng: p.lng },
+      content: el,
+      title: p.address,
+    });
+    marker.addListener('gmp-click', () => {
+      infoWindow.setContent(`
+        <div style="font-family:'DM Sans',sans-serif;font-size:12px;max-width:220px">
+          ${p.address}
+        </div>
+      `);
+      infoWindow.setPosition({ lat: p.lat, lng: p.lng });
+      infoWindow.open(map);
+    });
+    target.push(marker);
+  });
+}
+
+async function renderHistoricalLayers() {
+  clearHistoricalMarkers();
+
+  const show2025 = document.getElementById('year2025Toggle').checked;
+  const show2026 = document.getElementById('year2026Toggle').checked;
+  if (!show2025 && !show2026) return;
+
+  const data = await ensureHistoricalData();
+  if (!data) return;
+
+  if (show2025) renderHistoricalPoints(data.year2025, '#0891b2', historical2025Markers);
+  if (show2026) renderHistoricalPoints(data.year2026, '#db2777', historical2026Markers);
 }
 
 async function addDCMask() {
