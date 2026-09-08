@@ -1526,5 +1526,9 @@
   "270 37th Place, Washington, DC": {
     "lat": 38.8859012,
     "lng": -76.9511169
+  },
+  "2821 O St. SE, Washington, DC": {
+    "lat": 38.8727952,
+    "lng": -76.966638
   }
 }
