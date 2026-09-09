@@ -1530,5 +1530,13 @@
   "2821 O St. SE, Washington, DC": {
     "lat": 38.8727952,
     "lng": -76.966638
+  },
+  "3733 Massachusetts Ave SE, Washington, DC": {
+    "lat": 38.874036,
+    "lng": -76.9523014
+  },
+  "1907 savannah Pl se, Washington, DC": {
+    "lat": 38.848947,
+    "lng": -76.9763932
   }
 }
