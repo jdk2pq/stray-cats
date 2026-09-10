@@ -1538,5 +1538,21 @@
   "1907 savannah Pl se, Washington, DC": {
     "lat": 38.848947,
     "lng": -76.9763932
+  },
+  "1717 Franklin St NE, Washington, DC": {
+    "lat": 38.9253981,
+    "lng": -76.9798664
+  },
+  "3473 Holmead Place NW, Washington, DC": {
+    "lat": 38.933837,
+    "lng": -77.0305637
+  },
+  "2409 Rand Place NE, Washington, DC": {
+    "lat": 38.9131545,
+    "lng": -76.9715742
+  },
+  "8th St + A St SE, Washington, DC": {
+    "lat": 38.8950982,
+    "lng": -77.0363849
   }
 }
