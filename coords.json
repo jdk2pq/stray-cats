@@ -1563,5 +1563,18 @@
     "lat": 38.8791873,
     "lng": -76.9875568
   },
-  "Newton St NW &amp; Holmead Pl NW, Washington, DC": null
+  "Newton St NW &amp; Holmead Pl NW, Washington, DC": null,
+  "4014 Southern Ave SE, Washington, DC 20020, Washington, DC": {
+    "lat": 38.864108,
+    "lng": -76.946439
+  },
+  "1036 Cook Dr SE, Washington, DC": {
+    "lat": 38.8437623,
+    "lng": -76.9829581
+  },
+  "13th &amp; G st ne, Washington, DC": null,
+  "3501 New York Ave NE, Washington, DC": {
+    "lat": 38.9125368,
+    "lng": -76.9695548
+  }
 }
