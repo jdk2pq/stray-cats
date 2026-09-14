@@ -1576,5 +1576,21 @@
   "3501 New York Ave NE, Washington, DC": {
     "lat": 38.9125368,
     "lng": -76.9695548
+  },
+  "3414 Carpenter St se, Washington, DC": {
+    "lat": 38.8705996,
+    "lng": -76.9559103
+  },
+  "3rd St NW + Upshur St NW, Washington, DC": {
+    "lat": 38.9420958,
+    "lng": -77.0156113
+  },
+  "1336 Nicholson St NW, Washington, DC": {
+    "lat": 38.9600217,
+    "lng": -77.0315365
+  },
+  "5101 New Hampshire Avenue NW, Washington, DC": {
+    "lat": 38.9525003,
+    "lng": -77.0119075
   }
 }
