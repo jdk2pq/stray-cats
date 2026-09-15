@@ -1592,5 +1592,9 @@
   "5101 New Hampshire Avenue NW, Washington, DC": {
     "lat": 38.9525003,
     "lng": -77.0119075
+  },
+  "7909 Orchid St. NW, Washington, DC": {
+    "lat": 38.9876276,
+    "lng": -77.0388254
   }
 }
