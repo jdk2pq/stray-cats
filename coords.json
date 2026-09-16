@@ -1596,5 +1596,27 @@
   "7909 Orchid St. NW, Washington, DC": {
     "lat": 38.9876276,
     "lng": -77.0388254
+  },
+  "4625 Benning road SE Washington, 20019, Washington, DC": {
+    "lat": 38.8855128,
+    "lng": -76.9363615
+  },
+  "700 N st NW, Washington, DC": {
+    "lat": 38.9070657,
+    "lng": -77.0221469
+  },
+  "11th Street SE &amp; N Street SE, Washington, DC": null,
+  "1424 R st NW, Washington, DC": {
+    "lat": 38.912373,
+    "lng": -77.0332482
+  },
+  "30th St. SE and M Pl SE, Washington, DC": null,
+  "2628 10th st ne, Washington, DC": {
+    "lat": 38.9239312,
+    "lng": -76.9926534
+  },
+  "801 Taylor st NW, Washington, DC": {
+    "lat": 38.9410019,
+    "lng": -77.0239958
   }
 }
