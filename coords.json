@@ -1563,7 +1563,10 @@
     "lat": 38.8791873,
     "lng": -76.9875568
   },
-  "Newton St NW &amp; Holmead Pl NW, Washington, DC": null,
+  "Newton St NW &amp; Holmead Pl NW, Washington, DC": {
+    "lat": 38.932491,
+    "lng": -77.0308731
+  },
   "4014 Southern Ave SE, Washington, DC 20020, Washington, DC": {
     "lat": 38.864108,
     "lng": -76.946439
@@ -1572,7 +1575,10 @@
     "lat": 38.8437623,
     "lng": -76.9829581
   },
-  "13th &amp; G st ne, Washington, DC": null,
+  "13th &amp; G st ne, Washington, DC": {
+    "lat": 38.8989156,
+    "lng": -76.98831009999999
+  },
   "3501 New York Ave NE, Washington, DC": {
     "lat": 38.9125368,
     "lng": -76.9695548
@@ -1605,12 +1611,18 @@
     "lat": 38.9070657,
     "lng": -77.0221469
   },
-  "11th Street SE &amp; N Street SE, Washington, DC": null,
+  "11th Street SE &amp; N Street SE, Washington, DC": {
+    "lat": 38.8746375,
+    "lng": -76.99156409999999
+  },
   "1424 R st NW, Washington, DC": {
     "lat": 38.912373,
     "lng": -77.0332482
   },
-  "30th St. SE and M Pl SE, Washington, DC": null,
+  "30th St. SE and M Pl SE, Washington, DC": {
+    "lat": 38.8775532,
+    "lng": -76.9648016
+  },
   "2628 10th st ne, Washington, DC": {
     "lat": 38.9239312,
     "lng": -76.9926534
@@ -1619,7 +1631,10 @@
     "lat": 38.9410019,
     "lng": -77.0239958
   },
-  "Souther Ave SE, Washington, DC": null,
+  "Souther Ave SE, Washington, DC": {
+    "lat": 38.8554135,
+    "lng": -76.9574757
+  },
   "3013 Otis St NE, Washington, DC": {
     "lat": 38.9348932,
     "lng": -76.9655893
