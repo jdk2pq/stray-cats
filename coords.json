@@ -1618,5 +1618,14 @@
   "801 Taylor st NW, Washington, DC": {
     "lat": 38.9410019,
     "lng": -77.0239958
+  },
+  "Souther Ave SE, Washington, DC": null,
+  "3013 Otis St NE, Washington, DC": {
+    "lat": 38.9348932,
+    "lng": -76.9655893
+  },
+  "4800 East Capitol Street NE, Washington, DC": {
+    "lat": 38.8900648,
+    "lng": -76.9340436
   }
 }
