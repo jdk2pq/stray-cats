@@ -19902,7 +19902,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-06"
   },
   "61685599": {
@@ -19926,7 +19926,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-06"
   },
   "61686869": {
@@ -19950,7 +19950,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-07"
   },
   "61688954": {
@@ -19974,13 +19974,13 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-08"
   },
   "61696778": {
     "id": "61696778",
     "name": "Percival",
-    "breed": "Domestic Shorthair",
+    "breed": "Domestic Medium Hair",
     "breedSec": "Mix",
     "sex": "M",
     "ageMonths": 60,
@@ -19994,40 +19994,16 @@
     "colorSec": "White",
     "jurisdiction": "Washington, D.C. - SE",
     "spayedNeutered": "Yes",
-    "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
+    "photo": "https://g.petango.com/photos/2620/cf3842b1-d2b9-464e-bf71-0685bb0f3cee.jpg",
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-09"
   },
   "61697416": {
     "id": "61697416",
-    "name": "Noah",
-    "breed": "Domestic Shorthair",
-    "breedSec": "Mix",
-    "sex": "M",
-    "ageMonths": 1,
-    "foundDate": "2026-09-08",
-    "foundAddr": "1907 savannah Pl se",
-    "city": "Washington",
-    "state": "DC",
-    "fullAddr": "1907 savannah Pl se, Washington, DC",
-    "location": "Released",
-    "color": "Black",
-    "colorSec": "",
-    "jurisdiction": "Washington, D.C. - SE",
-    "spayedNeutered": "Yes",
-    "photo": "https://g.petango.com/photos/2620/a53a38b3-146b-4398-b2e8-26a3369bd5ce.jpg",
-    "size": "Small",
-    "possibleMother": null,
-    "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
-    "firstSeenDate": "2026-09-09"
-  },
-  "61697418": {
-    "id": "61697418",
-    "name": "Nova",
+    "name": "Lolly",
     "breed": "Domestic Shorthair",
     "breedSec": "Mix",
     "sex": "F",
@@ -20038,6 +20014,30 @@
     "state": "DC",
     "fullAddr": "1907 savannah Pl se, Washington, DC",
     "location": "DC - Stray Cat",
+    "color": "Black",
+    "colorSec": "",
+    "jurisdiction": "Washington, D.C. - SE",
+    "spayedNeutered": "Yes",
+    "photo": "https://g.petango.com/photos/2620/31a0e881-6895-4bbf-b5f8-2a0a8bd0766c.jpg",
+    "size": "Small",
+    "possibleMother": null,
+    "noAgeProvided": false,
+    "lastSeenDate": "2026-09-18",
+    "firstSeenDate": "2026-09-09"
+  },
+  "61697418": {
+    "id": "61697418",
+    "name": "Fozzie",
+    "breed": "Domestic Shorthair",
+    "breedSec": "Mix",
+    "sex": "M",
+    "ageMonths": 1,
+    "foundDate": "2026-09-08",
+    "foundAddr": "1907 savannah Pl se",
+    "city": "Washington",
+    "state": "DC",
+    "fullAddr": "1907 savannah Pl se, Washington, DC",
+    "location": "DC - Foster Home",
     "color": "Brown",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - SE",
@@ -20046,7 +20046,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-09"
   },
   "61697422": {
@@ -20061,7 +20061,7 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "1907 savannah Pl se, Washington, DC",
-    "location": "DC - Found My Feline",
+    "location": "Released",
     "color": "Black",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - SE",
@@ -20070,7 +20070,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-09"
   },
   "61697425": {
@@ -20094,7 +20094,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-09"
   },
   "61702772": {
@@ -20118,7 +20118,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-10"
   },
   "61704493": {
@@ -20142,7 +20142,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-10"
   },
   "61713438": {
@@ -20166,7 +20166,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-12"
   },
   "61713518": {
@@ -20186,11 +20186,11 @@
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - SE",
     "spayedNeutered": "No",
-    "photo": "https://g.petango.com/photos/2620/be1429ba-c19c-4a91-9089-8cfa72905e8e.jpg",
+    "photo": "https://g.petango.com/photos/2620/1f4092c4-88c1-470d-a94a-9ea66f7643dd.jpg",
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-12"
   },
   "61714739": {
@@ -20214,7 +20214,7 @@
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-12"
   },
   "61718273": {
@@ -20234,11 +20234,11 @@
     "colorSec": "Grey",
     "jurisdiction": "Washington, D.C. - NW",
     "spayedNeutered": "Yes",
-    "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
+    "photo": "https://g.petango.com/photos/2620/1a836f5f-7769-4831-a8f5-961a96dd9a64.jpg",
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-12"
   },
   "61719204": {
@@ -20262,7 +20262,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-13"
   },
   "61719348": {
@@ -20286,7 +20286,7 @@
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-13"
   },
   "61719353": {
@@ -20310,7 +20310,7 @@
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-13"
   },
   "61719614": {
@@ -20340,12 +20340,12 @@
       "ageMonths": 12,
       "sex": "F",
       "location": "DC - Stray Cat",
-      "photo": "https://g.petango.com/photos/2620/05e8cb2f-1781-4f02-a6bb-3f27a928ff98.jpg",
+      "photo": "https://g.petango.com/photos/2620/cd6e5f7a-3c10-4cfd-a326-87effd0e7085.jpg",
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-13"
   },
   "61719616": {
@@ -20375,12 +20375,12 @@
       "ageMonths": 12,
       "sex": "F",
       "location": "DC - Stray Cat",
-      "photo": "https://g.petango.com/photos/2620/05e8cb2f-1781-4f02-a6bb-3f27a928ff98.jpg",
+      "photo": "https://g.petango.com/photos/2620/cd6e5f7a-3c10-4cfd-a326-87effd0e7085.jpg",
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-13"
   },
   "61719626": {
@@ -20410,12 +20410,12 @@
       "ageMonths": 12,
       "sex": "F",
       "location": "DC - Stray Cat",
-      "photo": "https://g.petango.com/photos/2620/05e8cb2f-1781-4f02-a6bb-3f27a928ff98.jpg",
+      "photo": "https://g.petango.com/photos/2620/cd6e5f7a-3c10-4cfd-a326-87effd0e7085.jpg",
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-13"
   },
   "61719636": {
@@ -20445,12 +20445,12 @@
       "ageMonths": 12,
       "sex": "F",
       "location": "DC - Stray Cat",
-      "photo": "https://g.petango.com/photos/2620/05e8cb2f-1781-4f02-a6bb-3f27a928ff98.jpg",
+      "photo": "https://g.petango.com/photos/2620/cd6e5f7a-3c10-4cfd-a326-87effd0e7085.jpg",
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-13"
   },
   "61719655": {
@@ -20480,12 +20480,12 @@
       "ageMonths": 12,
       "sex": "F",
       "location": "DC - Stray Cat",
-      "photo": "https://g.petango.com/photos/2620/05e8cb2f-1781-4f02-a6bb-3f27a928ff98.jpg",
+      "photo": "https://g.petango.com/photos/2620/cd6e5f7a-3c10-4cfd-a326-87effd0e7085.jpg",
       "confidence": "likely",
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-13"
   },
   "61719776": {
@@ -20505,11 +20505,11 @@
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NE",
     "spayedNeutered": "Yes",
-    "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
+    "photo": "https://g.petango.com/photos/2620/b5f46771-084a-4a34-aaf0-a96f4fcfe49c.jpg",
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-13"
   },
   "61720926": {
@@ -20533,7 +20533,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-13"
   },
   "61720974": {
@@ -20557,7 +20557,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-13"
   },
   "61720978": {
@@ -20581,7 +20581,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-13"
   },
   "61721016": {
@@ -20605,7 +20605,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-13"
   },
   "61723153": {
@@ -20620,7 +20620,7 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "3414 Carpenter St se, Washington, DC",
-    "location": "DC - Stray Cat",
+    "location": "DC - Meow &amp; Forever",
     "color": "Black",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - SE",
@@ -20640,7 +20640,7 @@
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-14"
   },
   "61723154": {
@@ -20675,7 +20675,7 @@
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-14"
   },
   "61723161": {
@@ -20710,7 +20710,7 @@
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-14"
   },
   "61723170": {
@@ -20745,7 +20745,7 @@
       "note": "Same-day same-address adult female. Inferred, not confirmed."
     },
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-14"
   },
   "61723563": {
@@ -20769,7 +20769,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-14"
   },
   "61724219": {
@@ -20789,11 +20789,11 @@
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NW",
     "spayedNeutered": "Yes",
-    "photo": "https://g.petango.com/photos/2620/974b6f9d-ced8-4ecc-85db-cafa6652d6d4.jpg",
+    "photo": "https://g.petango.com/photos/2620/469c0a8c-3c58-4f94-873c-fd6895029fe4.jpg",
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-14"
   },
   "61724279": {
@@ -20813,11 +20813,11 @@
     "colorSec": "Orange",
     "jurisdiction": "Washington, D.C. - NW",
     "spayedNeutered": "Yes",
-    "photo": "https://g.petango.com/photos/2620/a68d470f-8b28-414c-9442-1e957d40df92.jpg",
+    "photo": "https://g.petango.com/photos/2620/b48e5410-31b9-4279-b1a7-ca34cc655940.jpg",
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-14"
   },
   "61724287": {
@@ -20837,11 +20837,11 @@
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NW",
     "spayedNeutered": "Yes",
-    "photo": "https://g.petango.com/photos/2620/9c0d3a83-5733-4e54-bdce-29c99d74648d.jpg",
+    "photo": "https://g.petango.com/photos/2620/bfc8b871-5634-4dab-96e4-692fa9859f85.jpg",
     "size": "Large",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-14"
   },
   "61724304": {
@@ -20865,7 +20865,7 @@
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-14"
   },
   "61724308": {
@@ -20885,11 +20885,11 @@
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NW",
     "spayedNeutered": "Yes",
-    "photo": "https://g.petango.com/photos/2620/66b00143-9349-4cca-b276-ff76cd2a5818.jpg",
+    "photo": "https://g.petango.com/photos/2620/5f7b0e42-e2e1-4597-8986-4dfd6f377d2a.jpg",
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-14"
   },
   "61724744": {
@@ -20913,7 +20913,7 @@
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-14"
   },
   "61729582": {
@@ -20937,7 +20937,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-15"
   },
   "61733528": {
@@ -20961,7 +20961,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-16"
   },
   "61733539": {
@@ -20985,7 +20985,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-16"
   },
   "61733547": {
@@ -21009,7 +21009,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-16"
   },
   "61733552": {
@@ -21033,7 +21033,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-16"
   },
   "61733557": {
@@ -21057,7 +21057,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-16"
   },
   "61735016": {
@@ -21081,7 +21081,7 @@
     "size": "Large",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-16"
   },
   "61736194": {
@@ -21090,7 +21090,7 @@
     "breed": "Domestic Shorthair",
     "breedSec": "Mix",
     "sex": "M",
-    "ageMonths": 0,
+    "ageMonths": 1,
     "foundDate": "2026-09-15",
     "foundAddr": "11th Street SE &amp; N Street SE",
     "city": "Washington",
@@ -21100,12 +21100,12 @@
     "color": "Black",
     "colorSec": "White",
     "jurisdiction": "Washington, D.C. - SE",
-    "spayedNeutered": "No",
-    "photo": "https://g.petango.com/photos/2620/62cf588f-4723-4299-ad5a-584b00bffb04.jpg",
+    "spayedNeutered": "Yes",
+    "photo": "https://g.petango.com/photos/2620/44e8af37-b2ad-4923-9431-ca8e724a01df.jpg",
     "size": "Small",
     "possibleMother": null,
-    "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "noAgeProvided": false,
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-16"
   },
   "61738218": {
@@ -21125,11 +21125,11 @@
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NW",
     "spayedNeutered": "Yes",
-    "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
+    "photo": "https://g.petango.com/photos/2620/12a350a7-1043-413d-846d-95f9b5f04c22.jpg",
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": false,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-16"
   },
   "61738258": {
@@ -21138,7 +21138,7 @@
     "breed": "Domestic Shorthair",
     "breedSec": "Mix",
     "sex": "F",
-    "ageMonths": 0,
+    "ageMonths": 36,
     "foundDate": "2026-09-15",
     "foundAddr": "30th St. SE and M Pl SE",
     "city": "Washington",
@@ -21148,12 +21148,12 @@
     "color": "Grey",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - SE",
-    "spayedNeutered": "No",
+    "spayedNeutered": "Yes",
     "photo": "https://g.petango.com/photos/2620/318c6686-0f9c-41cb-9292-61aaecb3fb4d.jpg",
     "size": "Medium",
     "possibleMother": null,
-    "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "noAgeProvided": false,
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-16"
   },
   "61738270": {
@@ -21177,7 +21177,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-16"
   },
   "61738395": {
@@ -21201,7 +21201,7 @@
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-16"
   },
   "61738398": {
@@ -21225,7 +21225,7 @@
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-16"
   },
   "61740147": {
@@ -21249,7 +21249,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-17"
   },
   "61742003": {
@@ -21264,7 +21264,7 @@
     "city": "Washington",
     "state": "DC",
     "fullAddr": "3013 Otis St NE, Washington, DC",
-    "location": "DC - Surrender",
+    "location": "DC - ICU",
     "color": "Brown",
     "colorSec": "",
     "jurisdiction": "Washington, D.C. - NE",
@@ -21273,7 +21273,7 @@
     "size": "Small",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-17"
   },
   "61745682": {
@@ -21297,7 +21297,55 @@
     "size": "Medium",
     "possibleMother": null,
     "noAgeProvided": true,
-    "lastSeenDate": "2026-09-17",
+    "lastSeenDate": "2026-09-18",
     "firstSeenDate": "2026-09-17"
+  },
+  "61748449": {
+    "id": "61748449",
+    "name": "Richard",
+    "breed": "Domestic Shorthair",
+    "breedSec": "Mix",
+    "sex": "M",
+    "ageMonths": 0,
+    "foundDate": "2026-09-17",
+    "foundAddr": "4 dc village lane",
+    "city": "Washington",
+    "state": "DC",
+    "fullAddr": "4 dc village lane, Washington, DC",
+    "location": "Released",
+    "color": "White",
+    "colorSec": "Grey",
+    "jurisdiction": "Washington, D.C. - SW",
+    "spayedNeutered": "No",
+    "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
+    "size": "Small",
+    "possibleMother": null,
+    "noAgeProvided": true,
+    "lastSeenDate": "2026-09-18",
+    "firstSeenDate": "2026-09-18"
+  },
+  "61752353": {
+    "id": "61752353",
+    "name": "Lil Bits",
+    "breed": "Domestic Shorthair",
+    "breedSec": "Mix",
+    "sex": "U",
+    "ageMonths": 0,
+    "foundDate": "2026-09-17",
+    "foundAddr": "4801 Texas Ave SE",
+    "city": "Washington",
+    "state": "DC",
+    "fullAddr": "4801 Texas Ave SE, Washington, DC",
+    "location": "DC - Surrender",
+    "color": "Black",
+    "colorSec": "",
+    "jurisdiction": "Washington, D.C. - SE",
+    "spayedNeutered": "No",
+    "photo": "https://g.petango.com/shared/Photo-Not-Available-cat.gif",
+    "size": "Small",
+    "possibleMother": null,
+    "noAgeProvided": true,
+    "lastSeenDate": "2026-09-18",
+    "firstSeenDate": "2026-09-18"
   }
 }
