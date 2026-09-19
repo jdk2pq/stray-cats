@@ -1650,5 +1650,25 @@
   "4801 Texas Ave SE, Washington, DC": {
     "lat": 38.8886343,
     "lng": -76.9390667
+  },
+  "3301 Wheeler Rd SE, Washington, DC": {
+    "lat": 38.8417368,
+    "lng": -76.9940597
+  },
+  "5722 4th St NW, Washington, DC": {
+    "lat": 38.9596588,
+    "lng": -77.0183027
+  },
+  "1800 Kendall St NE, Washington, DC": {
+    "lat": 38.911159,
+    "lng": -76.985953
+  },
+  "1719 Holbrook ST NE, Washington, DC": {
+    "lat": 38.9072453,
+    "lng": -76.9805639
+  },
+  "232 56th Street NE, Washington, DC": {
+    "lat": 38.8921276,
+    "lng": -76.921669
   }
 }
