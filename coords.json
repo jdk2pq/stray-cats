@@ -1670,5 +1670,21 @@
   "232 56th Street NE, Washington, DC": {
     "lat": 38.8921276,
     "lng": -76.921669
+  },
+  "1416 Perry Pl NW, Washington, DC": {
+    "lat": 38.9363302,
+    "lng": -77.0336486
+  },
+  "400 H St NE, Washington, DC": {
+    "lat": 38.9004718,
+    "lng": -77.0003807
+  },
+  "315 Gallatin St NW, Washington, DC": {
+    "lat": 38.9523696,
+    "lng": -77.0166085
+  },
+  "1359 Congress Street SE, Washington, DC": {
+    "lat": 38.8431735,
+    "lng": -76.985228
   }
 }
