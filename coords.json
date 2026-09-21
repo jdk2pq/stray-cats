@@ -1686,5 +1686,30 @@
   "1359 Congress Street SE, Washington, DC": {
     "lat": 38.8431735,
     "lng": -76.985228
+  },
+  "119 40th Street NE Washington, 20019, Washington, DC": {
+    "lat": 38.8915031,
+    "lng": -76.9470064
+  },
+  "3129 Buena Vista Terrace SE, Washington, DC": {
+    "lat": 38.8511525,
+    "lng": -76.9658479
+  },
+  "828 Yuma St SE, Washington, DC": {
+    "lat": 38.8321705,
+    "lng": -76.9936002
+  },
+  "3100 Bueno Vista Terrace SE, Washington, DC": null,
+  "3549 10th St NW, Washington, DC": {
+    "lat": 38.9339821,
+    "lng": -77.0270081
+  },
+  "4938 1st St NW, Washington, DC": {
+    "lat": 38.9507906,
+    "lng": -77.0126938
+  },
+  "14th and Colorado, Washington, DC": {
+    "lat": 38.9564398,
+    "lng": -77.0329493
   }
 }
