@@ -1711,5 +1711,25 @@
   "14th and Colorado, Washington, DC": {
     "lat": 38.9564398,
     "lng": -77.0329493
+  },
+  "5611 7th St. NW, Washington, DC": {
+    "lat": 38.9578828,
+    "lng": -77.0221304
+  },
+  "200 V st NW, Washington, DC": {
+    "lat": 38.918566,
+    "lng": -77.014831
+  },
+  "1920 Trenton Place SE Washington, 20020, Washington, DC": {
+    "lat": 38.8454335,
+    "lng": -76.9756137
+  },
+  "Gales St NE, Washington, DC": {
+    "lat": 38.8983056,
+    "lng": -76.9807802
+  },
+  "4211 Foote Street NE, Washington, DC": {
+    "lat": 38.8973199,
+    "lng": -76.941718
   }
 }
