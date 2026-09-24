@@ -1731,5 +1731,13 @@
   "4211 Foote Street NE, Washington, DC": {
     "lat": 38.8973199,
     "lng": -76.941718
+  },
+  "1754 41st Pl SE, Washington, DC": {
+    "lat": 38.8678542,
+    "lng": -76.9445301
+  },
+  "5720 4th St NW, Washington, DC": {
+    "lat": 38.959593,
+    "lng": -77.0183031
   }
 }
