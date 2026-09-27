@@ -1747,5 +1747,9 @@
   "3301 Wheeler RD SE, Washington, DC": {
     "lat": 38.8417368,
     "lng": -76.9940597
+  },
+  "5325 Bass Pl, Washington, DC": {
+    "lat": 38.885114,
+    "lng": -76.9250684
   }
 }
