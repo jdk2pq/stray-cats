@@ -1751,5 +1751,17 @@
   "5325 Bass Pl, Washington, DC": {
     "lat": 38.885114,
     "lng": -76.9250684
+  },
+  "1217 Valley Avenue SE, Washington, DC": {
+    "lat": 38.8372891,
+    "lng": -76.9896887
+  },
+  "1516 Kenilworth Avenue NE, Washington, DC": {
+    "lat": 38.9104048,
+    "lng": -76.9361721
+  },
+  "5524 Hunt Place NE, Washington, DC": {
+    "lat": 38.9015558,
+    "lng": -76.9216919
   }
 }
