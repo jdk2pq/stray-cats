@@ -1699,7 +1699,10 @@
     "lat": 38.8321705,
     "lng": -76.9936002
   },
-  "3100 Bueno Vista Terrace SE, Washington, DC": null,
+  "3100 Bueno Vista Terrace SE, Washington, DC": {
+    "lat": 38.85234579999999,
+    "lng": -76.9654415
+  },
   "3549 10th St NW, Washington, DC": {
     "lat": 38.9339821,
     "lng": -77.0270081
@@ -1768,9 +1771,18 @@
     "lat": 38.8960042,
     "lng": -77.0229708
   },
-  "Near Dukem Restaurant U St., Washington, DC": null,
-  "Bus Lot Across from BVSPCA, Washington, DC": null,
-  "alleyway of 14th st NW, Washington, DC": null,
+  "Near Dukem Restaurant U St., Washington, DC": {
+    "lat": 38.9168121,
+    "lng": -77.0278451
+  },
+  "Bus Lot Across from BVSPCA, Washington, DC": {
+    "lat": 38.9072873,
+    "lng": -77.0369274
+  },
+  "alleyway of 14th st NW, Washington, DC": {
+    "lat": 38.9390843,
+    "lng": -77.0327322
+  },
   "14 P Street NW, Washington, DC": {
     "lat": 38.9095563,
     "lng": -77.010094
