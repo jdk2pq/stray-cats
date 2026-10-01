@@ -1786,5 +1786,14 @@
   "14 P Street NW, Washington, DC": {
     "lat": 38.9095563,
     "lng": -77.010094
+  },
+  "1317 Forst Stevens Dr NW, Washington, DC": null,
+  "1834 Kendall St NE, Washington, DC": {
+    "lat": 38.9118973,
+    "lng": -76.9864157
+  },
+  "6100 14th Street NW, Washington, DC": {
+    "lat": 38.9643643,
+    "lng": -77.0336832
   }
 }
