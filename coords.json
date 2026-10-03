@@ -1795,5 +1795,9 @@
   "6100 14th Street NW, Washington, DC": {
     "lat": 38.9643643,
     "lng": -77.0336832
+  },
+  "5357 Central Ave SE, Washington, DC": {
+    "lat": 38.886738,
+    "lng": -76.924436
   }
 }
