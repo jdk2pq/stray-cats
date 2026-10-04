@@ -1799,5 +1799,9 @@
   "5357 Central Ave SE, Washington, DC": {
     "lat": 38.886738,
     "lng": -76.924436
+  },
+  "4 DC Village Lane SW, DC": {
+    "lat": 38.8129265,
+    "lng": -77.0143223
   }
 }
