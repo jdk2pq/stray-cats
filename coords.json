@@ -1787,7 +1787,10 @@
     "lat": 38.9095563,
     "lng": -77.010094
   },
-  "1317 Forst Stevens Dr NW, Washington, DC": null,
+  "1317 Forst Stevens Dr NW, Washington, DC": {
+    "lat": 38.9646782,
+    "lng": -77.0310619
+  },
   "1834 Kendall St NE, Washington, DC": {
     "lat": 38.9118973,
     "lng": -76.9864157
