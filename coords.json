@@ -1806,5 +1806,9 @@
   "4 DC Village Lane SW, DC": {
     "lat": 38.8129265,
     "lng": -77.0143223
+  },
+  "3939 S Capitol St SW, Washington, DC": {
+    "lat": 38.8316173,
+    "lng": -77.00832
   }
 }
