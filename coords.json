@@ -1810,5 +1810,17 @@
   "3939 S Capitol St SW, Washington, DC": {
     "lat": 38.8316173,
     "lng": -77.00832
+  },
+  "1220 Howison Pl SW, Washington, DC": {
+    "lat": 38.8758831,
+    "lng": -77.0112198
+  },
+  "1525 tanner st SE, Washington, DC": {
+    "lat": 38.8473197,
+    "lng": -76.9812586
+  },
+  "318 Farragut Street NW, Washington, DC": {
+    "lat": 38.9508677,
+    "lng": -77.0166822
   }
 }
