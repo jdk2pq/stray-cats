@@ -1836,5 +1836,25 @@
   "5060 Kimi Gray Ct SE, Washington, DC": {
     "lat": 38.88262,
     "lng": -76.9314047
+  },
+  "708 Eastern Ave NE, Washington, DC": {
+    "lat": 38.9446169,
+    "lng": -76.9754549
+  },
+  "3405 8th St NE, Washington, DC": {
+    "lat": 38.9316218,
+    "lng": -76.9946698
+  },
+  "4932 1st St NW, Washington, DC": {
+    "lat": 38.950661,
+    "lng": -77.0127872
+  },
+  "4407 Grant Street NE, Washington, DC": {
+    "lat": 38.8981586,
+    "lng": -76.9386909
+  },
+  "1648 Park Rd NW, Washington, DC": {
+    "lat": 38.9319759,
+    "lng": -77.0378838
   }
 }
