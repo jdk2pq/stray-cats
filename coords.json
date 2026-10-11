@@ -1831,8 +1831,14 @@
     "lat": 38.8473197,
     "lng": -76.9812556
   },
-  "2300 Block of Green STSE, Washington, DC": null,
-  "Anacostia East River Trail SE, Washington, DC": null,
+  "2300 Block of Green STSE, Washington, DC": {
+    "lat": 38.8625517,
+    "lng": -76.9817499
+  },
+  "Anacostia East River Trail SE, Washington, DC": {
+    "lat": 38.9072873,
+    "lng": -77.0369274
+  },
   "5060 Kimi Gray Ct SE, Washington, DC": {
     "lat": 38.88262,
     "lng": -76.9314047
@@ -1857,7 +1863,10 @@
     "lat": 38.9319759,
     "lng": -77.0378838
   },
-  "3534 East Capital Street NE, Washington, DC": null,
+  "3534 East Capital Street NE, Washington, DC": {
+    "lat": 38.8901322,
+    "lng": -76.9544109
+  },
   "Branch Ave SE, Washington, DC": {
     "lat": 38.8609749,
     "lng": -76.9588692
