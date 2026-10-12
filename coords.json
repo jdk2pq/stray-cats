@@ -1878,5 +1878,13 @@
   "1803 Monroe St NE, Washington, DC": {
     "lat": 38.9328843,
     "lng": -76.979248
+  },
+  "838 21st St. NE, Washington, DC": {
+    "lat": 38.9012561,
+    "lng": -76.9744096
+  },
+  "Galveston St. SW, Washington, DC": {
+    "lat": 38.8235992,
+    "lng": -77.0089107
   }
 }
