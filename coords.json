@@ -1886,5 +1886,13 @@
   "Galveston St. SW, Washington, DC": {
     "lat": 38.8235992,
     "lng": -77.0089107
+  },
+  "2123 15th street NW Washington, 20009, Washington, DC": {
+    "lat": 38.9187731,
+    "lng": -77.0342777
+  },
+  "2341 24th street SE Washington, 20003, Washington, DC": {
+    "lat": 38.8612632,
+    "lng": -76.9721769
   }
 }
