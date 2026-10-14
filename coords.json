@@ -1894,5 +1894,12 @@
   "2341 24th street SE Washington, 20003, Washington, DC": {
     "lat": 38.8612632,
     "lng": -76.9721769
-  }
+  },
+  "1st St. and New York Ave NW, Washington, DC": null,
+  "C st &amp; Kentucky ave SE, Washington, DC": null,
+  "4937 1st st NW, Washington, DC": {
+    "lat": 38.9505968,
+    "lng": -77.0122813
+  },
+  "207 53rd stt SE, Washington, DC": null
 }
