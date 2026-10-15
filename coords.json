@@ -1901,5 +1901,17 @@
     "lat": 38.9505968,
     "lng": -77.0122813
   },
-  "207 53rd stt SE, Washington, DC": null
+  "207 53rd stt SE, Washington, DC": null,
+  "250 57th Place NE Washington, 20019, Washington, DC": {
+    "lat": 38.8927137,
+    "lng": -76.9188505
+  },
+  "2444 Elvans Rd SE, Washington, DC": {
+    "lat": 38.8535921,
+    "lng": -76.9876384
+  },
+  "63 Tuckerman Street NW, Washington, DC": {
+    "lat": 38.9678556,
+    "lng": -77.0107837
+  }
 }
