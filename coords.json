@@ -1913,5 +1913,19 @@
   "63 Tuckerman Street NW, Washington, DC": {
     "lat": 38.9678556,
     "lng": -77.0107837
+  },
+  "Abandoned 4 DC Village Ln SW, Washington, DC": null,
+  "17 58th Street SE Washington, 20019, Washington, DC": {
+    "lat": 38.8892096,
+    "lng": -76.9178721
+  },
+  "Florida Ave and Gallaudet University, Washington, DC": null,
+  "736 Brandywine Street SE Washington, 20020, Washington, DC": {
+    "lat": 38.8302992,
+    "lng": -76.9945647
+  },
+  "1907 Minnesota Ave SE, Washington, DC": {
+    "lat": 38.8701604,
+    "lng": -76.9768983
   }
 }
