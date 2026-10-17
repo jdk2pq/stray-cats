@@ -1927,5 +1927,25 @@
   "1907 Minnesota Ave SE, Washington, DC": {
     "lat": 38.8701604,
     "lng": -76.9768983
+  },
+  "Tewkesbury Pl NW, Washington, DC": {
+    "lat": 38.9679334,
+    "lng": -77.0235673
+  },
+  "12th + D St SE, Washington, DC": {
+    "lat": 38.8850745,
+    "lng": -77.0053872
+  },
+  "1902 Minnesota Ave SE, Washington, DC": {
+    "lat": 38.8703027,
+    "lng": -76.977275
+  },
+  "5336 B St SE, Washington, DC": {
+    "lat": 38.8860148,
+    "lng": -76.9243711
+  },
+  "200 Rhode Island Ave NE, Washington, DC": {
+    "lat": 38.9191768,
+    "lng": -77.0032733
   }
 }
