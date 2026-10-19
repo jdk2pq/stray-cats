@@ -1948,5 +1948,17 @@
     "lat": 38.9191768,
     "lng": -77.0032733
   },
-  "Emerson and 13 Place NE, Washington, DC": null
+  "Emerson and 13 Place NE, Washington, DC": null,
+  "8th St. NE, Washington, DC": {
+    "lat": 38.9419868,
+    "lng": -76.9942295
+  },
+  "327 Upshur St NW, Washington, DC": {
+    "lat": 38.9423499,
+    "lng": -77.0164332
+  },
+  "2579 Rhode Island Ave NE, Washington, DC": {
+    "lat": 38.9319955,
+    "lng": -76.969454
+  }
 }
