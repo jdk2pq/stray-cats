@@ -1960,5 +1960,17 @@
   "2579 Rhode Island Ave NE, Washington, DC": {
     "lat": 38.9319955,
     "lng": -76.969454
+  },
+  "5803 14th St. NW, Washington, DC": {
+    "lat": 38.9604217,
+    "lng": -77.033317
+  },
+  "2304 Woodridge Street NE, Washington, DC": {
+    "lat": 38.9296805,
+    "lng": -76.9728924
+  },
+  "227 S st NW, Washington, DC": {
+    "lat": 38.914165,
+    "lng": -77.0153721
   }
 }
