@@ -1895,13 +1895,22 @@
     "lat": 38.8612632,
     "lng": -76.9721769
   },
-  "1st St. and New York Ave NW, Washington, DC": null,
-  "C st &amp; Kentucky ave SE, Washington, DC": null,
+  "1st St. and New York Ave NW, Washington, DC": {
+    "lat": 38.9063321,
+    "lng": -77.0121691
+  },
+  "C st &amp; Kentucky ave SE, Washington, DC": {
+    "lat": 38.8841038,
+    "lng": -76.9855178
+  },
   "4937 1st st NW, Washington, DC": {
     "lat": 38.9505968,
     "lng": -77.0122813
   },
-  "207 53rd stt SE, Washington, DC": null,
+  "207 53rd stt SE, Washington, DC": {
+    "lat": 38.8858092,
+    "lng": -76.9261767
+  },
   "250 57th Place NE Washington, 20019, Washington, DC": {
     "lat": 38.8927137,
     "lng": -76.9188505
@@ -1914,12 +1923,18 @@
     "lat": 38.9678556,
     "lng": -77.0107837
   },
-  "Abandoned 4 DC Village Ln SW, Washington, DC": null,
+  "Abandoned 4 DC Village Ln SW, Washington, DC": {
+    "lat": 38.8128517,
+    "lng": -77.01427489999999
+  },
   "17 58th Street SE Washington, 20019, Washington, DC": {
     "lat": 38.8892096,
     "lng": -76.9178721
   },
-  "Florida Ave and Gallaudet University, Washington, DC": null,
+  "Florida Ave and Gallaudet University, Washington, DC": {
+    "lat": 38.908422,
+    "lng": -76.99238749999999
+  },
   "736 Brandywine Street SE Washington, 20020, Washington, DC": {
     "lat": 38.8302992,
     "lng": -76.9945647
@@ -1948,7 +1963,10 @@
     "lat": 38.9191768,
     "lng": -77.0032733
   },
-  "Emerson and 13 Place NE, Washington, DC": null,
+  "Emerson and 13 Place NE, Washington, DC": {
+    "lat": 38.9502912,
+    "lng": -76.987625
+  },
   "8th St. NE, Washington, DC": {
     "lat": 38.9419868,
     "lng": -76.9942295
@@ -1985,5 +2003,8 @@
     "lat": 38.831622,
     "lng": -76.9962803
   },
-  "Behind 1307 Taylor St. NW, Washington, DC": null
+  "Behind 1307 Taylor St. NW, Washington, DC": {
+    "lat": 38.9410004,
+    "lng": -77.0301052
+  }
 }
