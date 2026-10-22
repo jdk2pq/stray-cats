@@ -2006,5 +2006,22 @@
   "Behind 1307 Taylor St. NW, Washington, DC": {
     "lat": 38.9410004,
     "lng": -77.0301052
-  }
+  },
+  "3800 14th St NW, Washington, DC": {
+    "lat": 38.9382248,
+    "lng": -77.0335199
+  },
+  "545 8th St SE, Washington, DC": {
+    "lat": 38.8814931,
+    "lng": -76.9951678
+  },
+  "1313 COlumbia rd NW, Washington, DC": {
+    "lat": 38.927743,
+    "lng": -77.0316085
+  },
+  "2572 Naylor Rd SE, Washington, DC": {
+    "lat": 38.8639515,
+    "lng": -76.9693766
+  },
+  "Lincoln Rd SE, Washington, DC": null
 }
