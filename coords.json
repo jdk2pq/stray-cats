@@ -2023,5 +2023,10 @@
     "lat": 38.8639515,
     "lng": -76.9693766
   },
-  "Lincoln Rd SE, Washington, DC": null
+  "Lincoln Rd SE, Washington, DC": null,
+  "1311 taylor st, Washington, DC": {
+    "lat": 38.9405254,
+    "lng": -76.98651
+  },
+  "Florida Ave + 3rd St NE, Washington, DC": null
 }
