@@ -2028,5 +2028,17 @@
     "lat": 38.9405254,
     "lng": -76.98651
   },
-  "Florida Ave + 3rd St NE, Washington, DC": null
+  "Florida Ave + 3rd St NE, Washington, DC": null,
+  "190 36th St NE, Washington, DC": {
+    "lat": 38.8925522,
+    "lng": -76.9524309
+  },
+  "121 Victor St NE, Washington, DC": {
+    "lat": 38.9432932,
+    "lng": -77.005001
+  },
+  "3518 11th St NW, Washington, DC": {
+    "lat": 38.9331664,
+    "lng": -77.0287744
+  }
 }
