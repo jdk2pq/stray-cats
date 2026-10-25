@@ -2040,5 +2040,13 @@
   "3518 11th St NW, Washington, DC": {
     "lat": 38.9331664,
     "lng": -77.0287744
+  },
+  "Dubois Pl SE, Washington, DC": {
+    "lat": 38.8856996,
+    "lng": -76.942468
+  },
+  "233 Farragut St NW, Washington, DC": {
+    "lat": 38.9513766,
+    "lng": -77.014666
   }
 }
