@@ -2048,5 +2048,13 @@
   "233 Farragut St NW, Washington, DC": {
     "lat": 38.9513766,
     "lng": -77.014666
+  },
+  "1626 Q SE, Washington, DC": {
+    "lat": 38.8860052,
+    "lng": -76.9747768
+  },
+  "4114 Stanley St SE, Washington, DC": {
+    "lat": 38.872035,
+    "lng": -76.9379381
   }
 }
