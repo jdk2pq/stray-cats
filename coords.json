@@ -2056,5 +2056,13 @@
   "4114 Stanley St SE, Washington, DC": {
     "lat": 38.872035,
     "lng": -76.9379381
+  },
+  "400 Taylor Street NE, Washington, DC": {
+    "lat": 38.9410448,
+    "lng": -77.0019658
+  },
+  "1311 Delaware Ave SW, Washington, DC": {
+    "lat": 38.8734347,
+    "lng": -77.015448
   }
 }
