@@ -2072,5 +2072,17 @@
   "2702 31st Street SE, Washington, DC": {
     "lat": 38.8568813,
     "lng": -76.9622729
+  },
+  "4740 Benning Road SE, Washington, DC": {
+    "lat": 38.8828425,
+    "lng": -76.9328259
+  },
+  "2305 Rhode Island Avenue NE, Washington, DC": {
+    "lat": 38.9300647,
+    "lng": -76.9731324
+  },
+  "5225 D street SE 20019, Washington, DC": {
+    "lat": 38.8833863,
+    "lng": -76.9273425
   }
 }
