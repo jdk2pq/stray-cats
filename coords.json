@@ -2084,5 +2084,9 @@
   "5225 D street SE 20019, Washington, DC": {
     "lat": 38.8833863,
     "lng": -76.9273425
+  },
+  "Rhode Island Ave NE, Washington, DC": {
+    "lat": 38.9285469,
+    "lng": -76.9772658
   }
 }
