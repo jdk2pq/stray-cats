@@ -2102,5 +2102,9 @@
   "1649 W Street SE, Washington, DC": {
     "lat": 38.8627669,
     "lng": -76.9814264
+  },
+  "4016 Wheeler Road SE Washington, 20032, Washington, DC": {
+    "lat": 38.8346233,
+    "lng": -76.9907447
   }
 }
