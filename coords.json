@@ -2106,5 +2106,23 @@
   "4016 Wheeler Road SE Washington, 20032, Washington, DC": {
     "lat": 38.8346233,
     "lng": -76.9907447
+  },
+  "4510 2nd Street NE Washington, 20011, Washington, DC": {
+    "lat": 38.9443537,
+    "lng": -77.0039238
+  },
+  "3523 Jay Street NE 203 Washington, 20019, Washington, DC": null,
+  "2nd and Gallatin Street NW, Washington, DC": null,
+  "1830 I Street NE, Washington, DC": {
+    "lat": 38.9019109,
+    "lng": -76.9768319
+  },
+  "1612 Olive St NE, Washington, DC": {
+    "lat": 38.910872,
+    "lng": -76.9335144
+  },
+  "719 Gresham Place NW, Washington, DC": {
+    "lat": 38.9267312,
+    "lng": -77.0235094
   }
 }
