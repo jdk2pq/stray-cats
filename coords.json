@@ -2128,5 +2128,21 @@
   "625 Brandywine Street SE Washington, 20032, Washington, DC": {
     "lat": 38.8298882,
     "lng": -76.9976504
+  },
+  "139 Joliet Street SW, Washington, DC": {
+    "lat": 38.8212981,
+    "lng": -77.0065659
+  },
+  "3802 2nd Street, Washington, DC": {
+    "lat": 38.8359622,
+    "lng": -77.0026003
+  },
+  "21 Atlantic Street SE, Washington, DC": {
+    "lat": 38.8310868,
+    "lng": -77.0066223
+  },
+  "919 Evarts ST, Washington, DC": {
+    "lat": 38.9243373,
+    "lng": -76.9929624
   }
 }
