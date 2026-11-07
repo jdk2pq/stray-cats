@@ -2144,5 +2144,29 @@
   "919 Evarts ST, Washington, DC": {
     "lat": 38.9243373,
     "lng": -76.9929624
+  },
+  "42 53rd Place SE, Washington, DC": {
+    "lat": 38.8883376,
+    "lng": -76.9244117
+  },
+  "2321 4th Street NE, Washington, DC": {
+    "lat": 38.9206735,
+    "lng": -77.0003116
+  },
+  "919 Evarts St NE, Washington, DC": {
+    "lat": 38.9243373,
+    "lng": -76.9929624
+  },
+  "1301 Allison St NW, Washington, DC": {
+    "lat": 38.9452512,
+    "lng": -77.0301395
+  },
+  "1313 Taylor St NW, Washington, DC": {
+    "lat": 38.9409774,
+    "lng": -77.0302816
+  },
+  "4 Dc Village Ln SW, Washington, DC": {
+    "lat": 38.8129265,
+    "lng": -77.0143223
   }
 }
