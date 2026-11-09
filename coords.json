@@ -2168,5 +2168,21 @@
   "4 Dc Village Ln SW, Washington, DC": {
     "lat": 38.8129265,
     "lng": -77.0143223
+  },
+  "3909 Q Street SE, Washington, DC": {
+    "lat": 38.8679179,
+    "lng": -76.9470727
+  },
+  "4272 7th Street SE, Washington, DC": {
+    "lat": 38.8279247,
+    "lng": -76.9967585
+  },
+  "1500 Mississippi Avenue SE, Washington, DC": {
+    "lat": 38.841461,
+    "lng": -76.9840132
+  },
+  "4421 6th Place NE , # Washington, DC 20017, Washington, DC": {
+    "lat": 38.9436028,
+    "lng": -76.9972774
   }
 }
