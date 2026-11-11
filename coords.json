@@ -2188,5 +2188,9 @@
   "4826 Benning Road SE Washington, 20019, Washington, DC": {
     "lat": 38.8803398,
     "lng": -76.9314124
+  },
+  "102 35th Street NE, Washington, DC": {
+    "lat": 38.8908752,
+    "lng": -76.9552115
   }
 }
