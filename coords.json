@@ -2192,5 +2192,14 @@
   "102 35th Street NE, Washington, DC": {
     "lat": 38.8908752,
     "lng": -76.9552115
+  },
+  "2424 Elvans Road SE, Washington, DC": null,
+  "5007 D St SE, Washington, DC": {
+    "lat": 38.8837117,
+    "lng": -76.9301985
+  },
+  "7222 Blair Rd NW, Washington, DC": {
+    "lat": 38.9781666,
+    "lng": -77.0220507
   }
 }
