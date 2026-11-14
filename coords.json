@@ -2205,5 +2205,21 @@
   "174 36th St NE, Washington, DC": {
     "lat": 38.8922449,
     "lng": -76.9527007
+  },
+  "71 Oglethorpe street NW, Washington, DC": {
+    "lat": 38.9613643,
+    "lng": -77.008389
+  },
+  "Roxanna Rd NW, Washington, DC": {
+    "lat": 38.989447,
+    "lng": -77.038414
+  },
+  "Massachusetts Ave SE, Washington, DC": {
+    "lat": 38.888666,
+    "lng": -76.987424
+  },
+  "229 Brookley Ave SW, Washington, DC": {
+    "lat": 38.8430474,
+    "lng": -77.0120069
   }
 }
