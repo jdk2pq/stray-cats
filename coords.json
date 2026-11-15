@@ -2221,5 +2221,9 @@
   "229 Brookley Ave SW, Washington, DC": {
     "lat": 38.8430474,
     "lng": -77.0120069
+  },
+  "5010 A Street SE, Washington, DC": {
+    "lat": 38.8882086,
+    "lng": -76.9294684
   }
 }
