@@ -2225,5 +2225,9 @@
   "5010 A Street SE, Washington, DC": {
     "lat": 38.8882086,
     "lng": -76.9294684
+  },
+  "1018 51st Street NE, Washington, DC": {
+    "lat": 38.9042571,
+    "lng": -76.926481
   }
 }
