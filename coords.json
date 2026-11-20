@@ -2242,5 +2242,17 @@
   "6006 Eads Street NE, Washington, DC": {
     "lat": 38.8959965,
     "lng": -76.9144999
+  },
+  "5229 Central Avenue SE": {
+    "lat": 38.8876386,
+    "lng": -76.9261903
+  },
+  "22 Burns Street NE, Washington, DC": {
+    "lat": 38.8905329,
+    "lng": -76.9506139
+  },
+  "3343 Martin Luther King Jr Avenue SE, Washington, DC": {
+    "lat": 38.8420626,
+    "lng": -77.0032973
   }
 }
