@@ -2111,8 +2111,14 @@
     "lat": 38.9443537,
     "lng": -77.0039238
   },
-  "3523 Jay Street NE 203 Washington, 20019, Washington, DC": null,
-  "2nd and Gallatin Street NW, Washington, DC": null,
+  "3523 Jay Street NE 203 Washington, 20019, Washington, DC": {
+    "lat": 38.9062866,
+    "lng": -76.95012419999999
+  },
+  "2nd and Gallatin Street NW, Washington, DC": {
+    "lat": 38.9522872,
+    "lng": -77.01346579999999
+  },
   "1830 I Street NE, Washington, DC": {
     "lat": 38.9019109,
     "lng": -76.9768319
@@ -2193,7 +2199,10 @@
     "lat": 38.8908752,
     "lng": -76.9552115
   },
-  "2424 Elvans Road SE, Washington, DC": null,
+  "2424 Elvans Road SE, Washington, DC": {
+    "lat": 38.8542447,
+    "lng": -76.9858027
+  },
   "5007 D St SE, Washington, DC": {
     "lat": 38.8837117,
     "lng": -76.9301985
@@ -2238,7 +2247,10 @@
     "lat": 38.9501603,
     "lng": -77.0085222
   },
-  "Garage of 2334 E Capitol St NE, Washington, DC": null,
+  "Garage of 2334 E Capitol St NE, Washington, DC": {
+    "lat": 38.8899188,
+    "lng": -76.95362999999999
+  },
   "6006 Eads Street NE, Washington, DC": {
     "lat": 38.8959965,
     "lng": -76.9144999
