@@ -2270,5 +2270,13 @@
   "1338 Quincy Street NW, Washington, DC": {
     "lat": 38.9374367,
     "lng": -77.0309695
+  },
+  "Danbury St SE, Washington, DC": {
+    "lat": 38.8277953,
+    "lng": -77.0067757
+  },
+  "4275 Foote St NE, Washington, DC": {
+    "lat": 38.897263,
+    "lng": -76.9394635
   }
 }
