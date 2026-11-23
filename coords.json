@@ -2278,5 +2278,13 @@
   "4275 Foote St NE, Washington, DC": {
     "lat": 38.897263,
     "lng": -76.9394635
+  },
+  "22 Burns Street SE, Washington, DC": {
+    "lat": 38.8776134,
+    "lng": -76.9402054
+  },
+  "1325 2nd Street NE Washington, 20002, Washington, DC": {
+    "lat": 38.9078073,
+    "lng": -77.0031965
   }
 }
