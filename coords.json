@@ -2286,5 +2286,25 @@
   "1325 2nd Street NE Washington, 20002, Washington, DC": {
     "lat": 38.9078073,
     "lng": -77.0031965
+  },
+  "48 53rd Place SE, Washington, DC": {
+    "lat": 38.8881361,
+    "lng": -76.9243503
+  },
+  "3518 11th Street NW Washington, 20010, Washington, DC": {
+    "lat": 38.9331664,
+    "lng": -77.0287744
+  },
+  "1313 Emerson St NW, Washington, DC": {
+    "lat": 38.9499363,
+    "lng": -77.0310462
+  },
+  "1113 21st Street NE, Washington, DC": {
+    "lat": 38.9048491,
+    "lng": -76.9738763
+  },
+  "840 50th Place NE, Washington, DC": {
+    "lat": 38.9013412,
+    "lng": -76.9281218
   }
 }
