@@ -2306,5 +2306,18 @@
   "840 50th Place NE, Washington, DC": {
     "lat": 38.9013412,
     "lng": -76.9281218
+  },
+  "900 G Street NE, Washington, DC": {
+    "lat": 38.8992461,
+    "lng": -76.9940304
+  },
+  "MBT Trail @ Ft Totten, Washington, DC": null,
+  "1350 E Street SE, Washington, DC": {
+    "lat": 38.882921,
+    "lng": -76.986548
+  },
+  "3641 Martin Luther king Jr avenue SE, Washington, DC": {
+    "lat": 38.8388752,
+    "lng": -77.0054981
   }
 }
