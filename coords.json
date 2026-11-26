@@ -2319,5 +2319,14 @@
   "3641 Martin Luther king Jr avenue SE, Washington, DC": {
     "lat": 38.8388752,
     "lng": -77.0054981
+  },
+  "1232 3rd Street NE Washington, 20002, Washington, DC": {
+    "lat": 38.9064278,
+    "lng": -77.0022622
+  },
+  "4220 Gorman St Alley, Washington, DC": null,
+  "711 32nd St SE Washington, 20019, Washington, DC": {
+    "lat": 38.87977,
+    "lng": -76.9617129
   }
 }
